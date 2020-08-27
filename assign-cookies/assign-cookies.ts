@@ -16,3 +16,9 @@ function findContentChildren(g: number[], s: number[]): number {
 
   return count;
 }
+
+// testing the function
+console.log(findContentChildren([1, 2, 3], [1, 1])); // 1
+console.log(findContentChildren([1, 2], [1, 2, 3])); // 2
+console.log(findContentChildren([1, 2, 3], [3])); // 1
+console.log(findContentChildren([1, 2, 3], [1, 2, 3])); // 3
