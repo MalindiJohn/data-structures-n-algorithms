@@ -22,3 +22,9 @@ console.log(nums1); // expected [1, 4, 1, 5, 1, 6]
 const nums2 = [1, 3, 2, 2, 3, 1];
 wiggleSort(nums2);
 console.log(nums2); // expected [2, 3, 1, 3, 1, 2]
+const nums3 = [1, 3, 2, 2, 3];
+wiggleSort(nums3);
+console.log(nums3); // expected [2, 3, 1, 3, 2]
+const nums4 = [1, 3, 2, 2, 3, 1, 3];
+wiggleSort(nums4);
+console.log(nums4); // expected [2, 3, 1, 3, 1, 3, 2]
