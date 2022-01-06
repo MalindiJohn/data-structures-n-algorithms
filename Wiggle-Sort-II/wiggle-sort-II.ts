@@ -39,3 +39,15 @@ console.log(nums5); // expected [1, 3, 1, 3, 1, 3, 2, 2]
 const nums6 = [1, 3, 2, 2, 3, 1, 3, 1, 3];
 wiggleSort(nums6);
 console.log(nums6); // expected [1, 3, 1, 3, 1, 3, 1, 3, 2]
+
+const nums7 = [1, 3, 2, 2, 3, 1, 3, 1, 3, 1];
+wiggleSort(nums7);
+console.log(nums7); // expected [1, 3, 1, 3, 1, 3, 1, 3, 1, 2]
+
+const nums8 = [1, 3, 2, 2, 3, 1, 3, 1, 3, 1, 3];
+wiggleSort(nums8);
+console.log(nums8); // expected [1, 3, 1, 3, 1, 3, 1, 3, 1, 3, 2]
+
+const nums9 = [1, 3, 2, 2, 3, 1, 3, 1, 3, 1, 3, 1];
+wiggleSort(nums9);
+console.log(nums9); // expected [1, 3, 1, 3, 1, 3, 1, 3, 1, 3, 1, 2]
