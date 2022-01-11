@@ -13,3 +13,12 @@ var wiggleSort = function(nums) {
     }
     
 };
+
+// testing the function
+const nums = [1, 5, 1, 1, 6, 4];
+wiggleSort(nums);
+console.log(nums); // [1, 6, 1, 5, 1, 4]
+
+const nums2 = [1, 3, 2, 2, 3, 1];
+wiggleSort(nums2);
+console.log(nums2); // [2, 3, 1, 3, 1, 2]
