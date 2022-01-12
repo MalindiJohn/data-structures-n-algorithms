@@ -22,3 +22,7 @@ console.log(nums); // [1, 6, 1, 5, 1, 4]
 const nums2 = [1, 3, 2, 2, 3, 1];
 wiggleSort(nums2);
 console.log(nums2); // [2, 3, 1, 3, 1, 2]
+
+const nums3 = [1, 1, 2, 1, 2, 2, 1];
+wiggleSort(nums3);
+console.log(nums3); // [1, 2, 1, 2, 1, 2, 1]
