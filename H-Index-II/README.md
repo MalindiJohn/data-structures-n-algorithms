@@ -6,7 +6,7 @@ According to the definition of h-index on Wikipedia: The h-index is defined as t
 
 You must write an algorithm that runs in logarithmic time.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input: citations = [0,1,3,5,6]
@@ -16,14 +16,14 @@ Output: 3
 **Explanation**: [0,1,3,5,6] means the researcher has 5 papers in total and each of them had received 0, 1, 3, 5, 6 citations respectively.
 Since the researcher has 3 papers with at least 3 citations each and the remaining two with no more than 3 citations each, their h-index is 3.
 
-## Example 2:
+## Example 2
 
 ```bash
 Input: citations = [1,2,100]
 Output: 2
 ```
 
-## Constraints:
+## Constraints
 
 n == citations.length
 1 <= n <= 105
