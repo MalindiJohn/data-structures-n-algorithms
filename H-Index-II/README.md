@@ -25,7 +25,7 @@ Output: 2
 
 ## Constraints
 
-n == citations.length
-1 <= n <= 105
-0 <= citations[i] <= 1000
-citations is sorted in ascending order.
+- n == citations.length
+- 1 <= n <= 105
+- 0 <= citations[i] <= 1000
+- citations is sorted in ascending order.
