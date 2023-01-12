@@ -18,3 +18,8 @@ function hIndex(citations: number[]): number {
     return n - left;
 
 };
+
+// testing the function
+console.log(hIndex([0, 1, 3, 5, 6])); // expected output : 3
+console.log(hIndex([0, 1, 3, 5, 6, 7])); // expected output : 4
+console.log(hIndex([0, 1, 3, 5, 6, 7, 8])); // expected output : 4
