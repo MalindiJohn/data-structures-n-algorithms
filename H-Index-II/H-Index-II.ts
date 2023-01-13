@@ -23,3 +23,13 @@ function hIndex(citations: number[]): number {
 console.log(hIndex([0, 1, 3, 5, 6])); // expected output : 3
 console.log(hIndex([0, 1, 3, 5, 6, 7])); // expected output : 4
 console.log(hIndex([0, 1, 3, 5, 6, 7, 8])); // expected output : 4
+console.log(hIndex([0, 1, 3, 5, 6, 7, 8, 9])); // expected output : 5
+console.log(hIndex([0, 1, 3, 5, 6, 7, 8, 9, 10])); // expected output : 5
+console.log(hIndex([0, 1, 3, 5, 6, 7, 8, 9, 10, 11])); // expected output : 6
+console.log(hIndex([0, 1, 3, 5, 6, 7, 8, 9, 10, 11, 12])); // expected output : 6
+console.log(hIndex([0, 1, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13])); // expected output : 7
+console.log(hIndex([0, 1, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14])); // expected output : 7
+console.log(hIndex([0, 1, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])); // expected output : 8
+console.log(hIndex([0, 1, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16])); // expected output : 8
+console.log(hIndex([0, 1, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])); // expected output : 9
+console.log(hIndex([0, 1, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18])); // expected output : 9
