@@ -30,3 +30,20 @@ console.log(hIndex(citations)); // 1
 
 citations = [1, 3, 1, 1];
 console.log(hIndex(citations)); // 1
+
+citations = [1, 3, 1, 1, 1];
+console.log(hIndex(citations)); // 1
+
+citations = [1, 3, 1, 1, 1, 1];
+console.log(hIndex(citations)); // 1
+
+citations = [1, 3, 1, 1, 1, 1, 1];
+console.log(hIndex(citations)); // 1
+
+citations = [1, 3, 1, 1, 1, 1, 1, 1];
+console.log(hIndex(citations)); // 1
+
+citations = [1, 3, 1, 1, 1, 1, 1, 1, 1];
+console.log(hIndex(citations)); // 1
+
+// Path: H-Index-II/H-Index-II.js
