@@ -20,7 +20,7 @@ Output: [0]
 
 ## Constraints
 
-1 <= nums.length <= 104
--231 <= nums[i] <= 231 - 1
+- `1 <= nums.length <= 104`
+- `-231 <= nums[i] <= 231 - 1`
 
 **Follow up:** Could you minimize the total number of operations done?
