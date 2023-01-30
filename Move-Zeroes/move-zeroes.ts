@@ -18,3 +18,12 @@ function moveZeroes(nums: number[]): void {
     }
 
 };
+
+// testing the function
+let arr: number[] = [0, 1, 0, 3, 12];
+moveZeroes(arr);
+console.log(arr); // expected output : [1,3,12,0,0]
+
+arr = [0];
+moveZeroes(arr);
+console.log(arr); // expected output : [0]
