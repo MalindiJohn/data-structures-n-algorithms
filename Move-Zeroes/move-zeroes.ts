@@ -27,3 +27,47 @@ console.log(arr); // expected output : [1,3,12,0,0]
 arr = [0];
 moveZeroes(arr);
 console.log(arr); // expected output : [0]
+
+arr = [1];
+moveZeroes(arr);
+console.log(arr); // expected output : [1]
+
+arr = [1, 0];
+moveZeroes(arr);
+console.log(arr); // expected output : [1,0]
+
+arr = [0, 1];
+moveZeroes(arr);
+console.log(arr); // expected output : [1,0]
+
+arr = [1, 0, 1];
+moveZeroes(arr);
+console.log(arr); // expected output : [1,1,0]
+
+arr = [1, 0, 1, 0];
+moveZeroes(arr);
+console.log(arr); // expected output : [1,1,0,0]
+
+arr = [1, 0, 0, 1];
+moveZeroes(arr);
+console.log(arr); // expected output : [1,1,0,0]
+
+arr = [0, 1, 0, 1];
+moveZeroes(arr);
+console.log(arr); // expected output : [1,1,0,0]
+
+arr = [0, 1, 0, 1, 0];
+moveZeroes(arr);
+console.log(arr); // expected output : [1,1,0,0,0]
+
+arr = [0, 0, 0, 0, 1];
+moveZeroes(arr);
+console.log(arr); // expected output : [1,0,0,0,0]
+
+arr = [1, 0, 0, 0, 0];
+moveZeroes(arr);
+console.log(arr); // expected output : [1,0,0,0,0]
+
+arr = [0, 0, 0, 0, 0];
+moveZeroes(arr);
+console.log(arr); // expected output : [0,0,0,0,0]
