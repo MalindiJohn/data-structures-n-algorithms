@@ -16,3 +16,12 @@ var moveZeroes = function(nums) {
     }
     
 };
+
+// testing the function
+let nums = [0, 1, 0, 3, 12];
+moveZeroes(nums);
+console.log(nums); // [1, 3, 12, 0, 0]
+
+nums = [0, 0, 0, 0, 0];
+moveZeroes(nums);
+console.log(nums); // [0, 0, 0, 0, 0]
