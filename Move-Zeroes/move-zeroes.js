@@ -25,3 +25,47 @@ console.log(nums); // [1, 3, 12, 0, 0]
 nums = [0, 0, 0, 0, 0];
 moveZeroes(nums);
 console.log(nums); // [0, 0, 0, 0, 0]
+
+nums = [1, 2, 3, 4, 5];
+moveZeroes(nums);
+console.log(nums); // [1, 2, 3, 4, 5]
+
+nums = [1, 2, 3, 4, 5, 0];
+moveZeroes(nums);
+console.log(nums); // [1, 2, 3, 4, 5, 0]
+
+nums = [1, 2, 3, 4, 5, 0, 0];
+moveZeroes(nums);
+console.log(nums); // [1, 2, 3, 4, 5, 0, 0]
+
+nums = [1, 2, 3, 4, 5, 0, 0, 0];
+moveZeroes(nums);
+console.log(nums); // [1, 2, 3, 4, 5, 0, 0, 0]
+
+nums = [1, 2, 3, 4, 5, 0, 0, 0, 0];
+moveZeroes(nums);
+console.log(nums); // [1, 2, 3, 4, 5, 0, 0, 0, 0]
+
+nums = [1, 2, 3, 4, 5, 0, 0, 0, 0, 0];
+moveZeroes(nums);
+console.log(nums); // [1, 2, 3, 4, 5, 0, 0, 0, 0, 0]
+
+nums = [1, 2, 3, 4, 5, 0, 0, 0, 0, 0, 0];
+moveZeroes(nums);
+console.log(nums); // [1, 2, 3, 4, 5, 0, 0, 0, 0, 0, 0]
+
+nums = [1, 2, 3, 4, 5, 0, 0, 0, 0, 0, 0, 0];
+moveZeroes(nums);
+console.log(nums); // [1, 2, 3, 4, 5, 0, 0, 0, 0, 0, 0, 0]
+
+nums = [1, 2, 3, 4, 5, 0, 0, 0, 0, 0, 0, 0, 0];
+moveZeroes(nums);
+console.log(nums); // [1, 2, 3, 4, 5, 0, 0, 0, 0, 0, 0, 0, 0]
+
+nums = [1, 2, 3, 4, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+moveZeroes(nums);
+console.log(nums); // [1, 2, 3, 4, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+nums = [1, 2, 3, 4, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+moveZeroes(nums);
+console.log(nums); // [1, 2, 3, 4, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
