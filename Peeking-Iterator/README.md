@@ -30,9 +30,9 @@ peekingIterator.hasNext(); // return False
 
 ## Constraints:
 
-1 <= nums.length <= 1000
-1 <= nums[i] <= 1000
-All the calls to next and peek are valid.
-At most 1000 calls will be made to next, hasNext, and peek.
+- 1 <= nums.length <= 1000
+- 1 <= nums[i] <= 1000
+- All the calls to next and peek are valid.
+- At most 1000 calls will be made to next, hasNext, and peek.
 
 **Follow up:** How would you extend your design to be generic and work with all types, not just integer?
