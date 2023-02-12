@@ -10,7 +10,7 @@ boolean hasNext() Returns true if there are still elements in the array.
 int peek() Returns the next element in the array without moving the pointer.
 Note: Each language may have a different implementation of the constructor and Iterator, but they all support the int next() and boolean hasNext() functions.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input
@@ -28,10 +28,10 @@ peekingIterator.next();    // return 2, the pointer moves to the next element [1
 peekingIterator.next();    // return 3, the pointer moves to the next element [1,2,3]
 peekingIterator.hasNext(); // return False
 
-## Constraints:
+## Constraints
 
-- 1 <= nums.length <= 1000
-- 1 <= nums[i] <= 1000
+- `1 <= nums.length <= 1000`
+- `1 <= nums[i] <= 1000`
 - All the calls to next and peek are valid.
 - At most 1000 calls will be made to next, hasNext, and peek.
 
