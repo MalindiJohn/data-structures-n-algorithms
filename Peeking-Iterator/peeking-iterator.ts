@@ -9,19 +9,34 @@
  */
 
 class PeekingIterator {
+
+    private iterator: Iterator;
+    private nextItem: number | null;
+
     constructor(iterator: Iterator) {
+
+        this.iterator = iterator;
+        this.nextItem = this.iterator.hasNext() ? this.iterator.next() : null;
 
     }
 
     peek(): number {
 
+        return this.nextItem;
+
     }
 
     next(): number {
 
+        let ret = this.nextItem;
+        this.nextItem = this.iterator.hasNext() ? this.iterator.next() : null;
+        return ret;
+
     }
 
     hasNext(): boolean {
+
+        return this.nextItem !== null;
 
     }
 }
