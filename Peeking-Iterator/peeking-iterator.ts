@@ -48,3 +48,11 @@ class PeekingIterator {
  * var param_2 = obj.next()
  * var param_3 = obj.hasNext()
  */
+
+// testing the function
+let iterator = new PeekingIterator(new Iterator([1, 2, 3]));
+console.log(iterator.peek()); // 1
+console.log(iterator.next()); // 1
+console.log(iterator.next()); // 2
+console.log(iterator.next()); // 3
+console.log(iterator.hasNext()); // false
