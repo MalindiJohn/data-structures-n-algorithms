@@ -56,3 +56,4 @@ console.log(iterator.next()); // 1
 console.log(iterator.next()); // 2
 console.log(iterator.next()); // 3
 console.log(iterator.hasNext()); // false
+
