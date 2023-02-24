@@ -21,13 +21,15 @@ var PeekingIterator = function(iterator) {
     
     this.iterator = iterator;
     this.nextItem = this.iterator.hasNext() ? this.iterator.next() : null;
-    
+
 };
 
 /**
  * @return {number}
  */
 PeekingIterator.prototype.peek = function() {
+    
+    return this.nextItem;
     
 };
 
