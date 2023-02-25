@@ -30,13 +30,17 @@ var PeekingIterator = function(iterator) {
 PeekingIterator.prototype.peek = function() {
     
     return this.nextItem;
-    
+
 };
 
 /**
  * @return {number}
  */
 PeekingIterator.prototype.next = function() {
+
+    let ret = this.nextItem;
+    this.nextItem = this.iterator.hasNext() ? this.iterator.next() : null;
+    return ret;
     
 };
 
