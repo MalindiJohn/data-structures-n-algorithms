@@ -48,6 +48,8 @@ PeekingIterator.prototype.next = function() {
  * @return {boolean}
  */
 PeekingIterator.prototype.hasNext = function() {
+
+    return this.nextItem !== null;
     
 };
 
