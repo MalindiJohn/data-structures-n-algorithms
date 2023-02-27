@@ -60,3 +60,16 @@ PeekingIterator.prototype.hasNext = function() {
  * var param_2 = obj.next()
  * var param_3 = obj.hasNext()
  */
+
+
+// testing the function
+let arr = [1, 2, 3];
+let obj = new PeekingIterator(arr);
+console.log(obj.peek()); // 1
+console.log(obj.next()); // 1
+console.log(obj.peek()); // 2
+console.log(obj.next()); // 2
+console.log(obj.next()); // 3
+console.log(obj.hasNext()); // false
+console.log(obj.next()); // null
+console.log(obj.hasNext()); // false
