@@ -1,10 +1,10 @@
 # Find the Duplicate Number
 
-Given an array of integers nums containing n + 1 integers where each integer is in the range [1, n] inclusive.
+Given an array of integers `nums` containing `n + 1` integers where each integer is in the range `[1, n]` inclusive.
 
-There is only one repeated number in nums, return this repeated number.
+There is only one repeated number in `nums`, return this repeated number.
 
-You must solve the problem without modifying the array nums and uses only constant extra space.
+You must solve the problem without modifying the array `nums` and uses only constant extra space.
 
 ## Example 1
 
@@ -36,5 +36,5 @@ Output: 3
 
 **Follow up:**
 
-How can we prove that at least one duplicate number must exist in nums?
-Can you solve the problem in linear runtime complexity?
+- How can we prove that at least one duplicate number must exist in `nums`?
+- Can you solve the problem in linear runtime complexity?
