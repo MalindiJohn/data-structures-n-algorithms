@@ -22,3 +22,10 @@ var findDuplicate = function(nums) {
     return slow;
     
 };
+
+// testing the function
+let nums = [1, 3, 4, 2, 2];
+console.log(findDuplicate(nums)); // 2
+
+nums = [3, 1, 3, 4, 2];
+console.log(findDuplicate(nums)); // 3
