@@ -26,7 +26,7 @@ numArray.sumRange(0, 5); // return (-2) + 0 + 3 + (-5) + 2 + (-1) = -3
 
 ## Constraints
 
-- 1 <= nums.length <= 104
-- -105 <= nums[i] <= 105
-- 0 <= left <= right < nums.length
+- `1 <= nums.length <= 104`
+- `-105 <= nums[i] <= 105`
+- `0 <= left <= right < nums.length`
 - At most 104 calls will be made to sumRange.
