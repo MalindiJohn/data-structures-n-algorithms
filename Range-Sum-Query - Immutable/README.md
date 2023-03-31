@@ -20,14 +20,14 @@ Output
 ```
 
 **Explanation**
-NumArray numArray = new NumArray([-2, 0, 3, -5, 2, -1]);
+`NumArray numArray = new NumArray([-2, 0, 3, -5, 2, -1]);
 numArray.sumRange(0, 2); // return (-2) + 0 + 3 = 1
 numArray.sumRange(2, 5); // return 3 + (-5) + 2 + (-1) = -1
-numArray.sumRange(0, 5); // return (-2) + 0 + 3 + (-5) + 2 + (-1) = -3
+numArray.sumRange(0, 5); // return (-2) + 0 + 3 + (-5) + 2 + (-1) = -3`
 
 ## Constraints
 
 - `1 <= nums.length <= 104`
 - `-105 <= nums[i] <= 105`
 - `0 <= left <= right < nums.length`
-- At most 104 calls will be made to sumRange.
+- At most `104` calls will be made to `sumRange`.
