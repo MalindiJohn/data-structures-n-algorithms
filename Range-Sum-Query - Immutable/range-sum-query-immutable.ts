@@ -1,4 +1,7 @@
 class NumArray {
+
+    private sums: number[];
+
     constructor(nums: number[]) {
 
     }
