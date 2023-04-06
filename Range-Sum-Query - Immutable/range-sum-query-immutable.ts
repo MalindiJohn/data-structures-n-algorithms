@@ -13,6 +13,8 @@ class NumArray {
 
     sumRange(left: number, right: number): number {
 
+        return this.sums[right + 1] - this.sums[left];
+
     }
 }
 
