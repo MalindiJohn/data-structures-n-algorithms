@@ -23,3 +23,8 @@ class NumArray {
  * var obj = new NumArray(nums)
  * var param_1 = obj.sumRange(left,right)
  */
+
+// testing the function
+let numArray = new NumArray([-2, 0, 3, -5, 2, -1]);
+console.log(numArray.sumRange(0, 2)); // 1
+console.log(numArray.sumRange(2, 5)); // -1
