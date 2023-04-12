@@ -2,6 +2,8 @@
  * @param {number[]} nums
  */
 var NumArray = function(nums) {
+
+    this.nums = nums;
     
 };
 
