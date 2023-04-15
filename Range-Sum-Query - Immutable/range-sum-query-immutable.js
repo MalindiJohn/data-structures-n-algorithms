@@ -36,3 +36,15 @@ let obj = new NumArray(nums);
 console.log(obj.sumRange(0, 2)); // 1
 console.log(obj.sumRange(2, 5)); // -1
 console.log(obj.sumRange(0, 5)); // -3
+console.log(obj.sumRange(0, 0)); // -2
+console.log(obj.sumRange(2, 2)); // 3
+console.log(obj.sumRange(5, 5)); // -1
+console.log(obj.sumRange(0, 5)); // -3
+console.log(obj.sumRange(0, 0)); // -2
+console.log(obj.sumRange(2, 2)); // 3
+console.log(obj.sumRange(5, 5)); // -1
+console.log(obj.sumRange(0, 5)); // -3
+console.log(obj.sumRange(0, 0)); // -2
+console.log(obj.sumRange(2, 2)); // 3
+console.log(obj.sumRange(5, 5)); // -1
+console.log(obj.sumRange(0, 5)); // -3
