@@ -1,9 +1,9 @@
 # Range Sum Query - Mutable
 
-Given an integer array nums, handle multiple queries of the following types:
+Given an integer array `nums`, handle multiple queries of the following types:
 
-Update the value of an element in nums.
-Calculate the sum of the elements of nums between indices left and right inclusive where left <= right.
+- Update the value of an element in nums.
+- Calculate the sum of the elements of nums between indices left and right inclusive where left <= right.
 Implement the NumArray class:
 
 NumArray(int[] nums) Initializes the object with the integer array nums.
@@ -21,10 +21,10 @@ Output
 ```
 
 **Explanation**
-NumArray numArray = new NumArray([1, 3, 5]);
+`NumArray numArray = new NumArray([1, 3, 5]);
 numArray.sumRange(0, 2); // return 1 + 3 + 5 = 9
 numArray.update(1, 2);   // nums = [1, 2, 5]
-numArray.sumRange(0, 2); // return 1 + 2 + 5 = 8
+numArray.sumRange(0, 2); // return 1 + 2 + 5 = 8`
 
 ## Constraints
 
