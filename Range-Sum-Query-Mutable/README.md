@@ -29,9 +29,9 @@ numArray.sumRange(0, 2); // return 1 + 2 + 5 = 8`
 
 ## Constraints
 
-- 1 <= nums.length <= 3 * 104
-- -100 <= nums[i] <= 100
-- 0 <= index < nums.length
-- -100 <= val <= 100
-- 0 <= left <= right < nums.length
-- At most 3 * 104 calls will be made to update and sumRange.
+- `1 <= nums.length <= 3 * 104`
+- `-100 <= nums[i] <= 100`
+- `0 <= index < nums.length`
+- `-100 <= val <= 100`
+- `0 <= left <= right < nums.length`
+- At most `3 * 104` calls will be made to `update` and `sumRange`.
