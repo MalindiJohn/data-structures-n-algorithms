@@ -1,4 +1,9 @@
 class NumArray {
+
+    // define properties
+    private segmentTree: number[];
+    private n: number;
+
     constructor(nums: number[]) {
 
     }
