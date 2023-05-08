@@ -28,6 +28,8 @@ class NumArray {
 
     update(index: number, val: number): void {
 
+        this.updateTree(0, this.n - 1, index, val, 0);
+
     }
 
     sumRange(left: number, right: number): number {
