@@ -32,6 +32,23 @@ class NumArray {
 
     }
 
+    private updateTree(start: number, end: number, idx: number, val: number, index: number): void {
+        if (start === end) {
+            this.segmentTree[index] = val;
+            return;
+        }
+        let mid = Math.floor((start + end) / 2);
+        if (idx <= mid) {
+            // If the index to be updated is in the left child, update the left child.
+            this.updateTree(start, mid, idx, val, 2 * index + 1);
+        } else {
+            // Otherwise, update the right child.
+            this.updateTree(mid + 1, end, idx, val, 2 * index + 2);
+        }
+        // After updating the child, update the current node's value.
+        this.segmentTree[index] = this.segmentTree[2 * index + 1] + this.segmentTree[2 * index + 2];
+    }
+
     sumRange(left: number, right: number): number {
 
     }
