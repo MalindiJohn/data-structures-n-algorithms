@@ -51,6 +51,8 @@ class NumArray {
 
     sumRange(left: number, right: number): number {
 
+        return this.queryRange(0, this.n - 1, left, right, 0);
+
     }
 }
 
