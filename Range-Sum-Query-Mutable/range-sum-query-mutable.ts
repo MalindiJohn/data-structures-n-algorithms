@@ -54,6 +54,21 @@ class NumArray {
         return this.queryRange(0, this.n - 1, left, right, 0);
 
     }
+
+    private queryRange(start: number, end: number, left: number, right: number, index: number): number {
+        if (left > end || right < start) {
+            // If the range represented by a node is completely outside the given range.
+            return 0;
+        }
+        if (left <= start && end <= right) {
+            // If the range represented by a node is completely inside the given range.
+            return this.segmentTree[index];
+        }
+        // If the range represented by a node is partially inside and partially outside the given range.
+        let mid = Math.floor((start + end) / 2);
+        return this.queryRange(start, mid, left, right, 2 * index + 1) +
+            this.queryRange(mid + 1, end, left, right, 2 * index + 2);
+    }
 }
 
 /**
