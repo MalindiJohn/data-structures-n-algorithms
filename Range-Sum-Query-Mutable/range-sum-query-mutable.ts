@@ -77,3 +77,9 @@ class NumArray {
  * obj.update(index,val)
  * var param_2 = obj.sumRange(left,right)
  */
+
+// testing the function
+let numArray = new NumArray([1, 3, 5]);
+console.log(numArray.sumRange(0, 2)); // returns 9
+numArray.update(1, 2);
+console.log(numArray.sumRange(0, 2)); // returns 8
