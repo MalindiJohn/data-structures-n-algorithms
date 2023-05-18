@@ -2,6 +2,12 @@
  * @param {number[]} nums
  */
 var NumArray = function(nums) {
+
+    this.nums = nums;
+    this.bit = new Array(nums.length + 1).fill(0);
+    for (let i = 0; i < nums.length; i++) {
+        this.init(i, nums[i]);
+    }
     
 };
 
