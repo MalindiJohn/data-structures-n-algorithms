@@ -11,6 +11,14 @@ var NumArray = function(nums) {
     
 };
 
+NumArray.prototype.init = function(index, val) {
+    index++; // BIT is 1-indexed
+    while (index < this.bit.length) {
+        this.bit[index] += val;
+        index += index & (-index); // Move to the next index to update
+    }
+};
+
 /** 
  * @param {number} index 
  * @param {number} val
