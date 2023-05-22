@@ -25,6 +25,14 @@ NumArray.prototype.init = function(index, val) {
  * @return {void}
  */
 NumArray.prototype.update = function(index, val) {
+
+    const diff = val - this.nums[index];
+    this.nums[index] = val;
+    index++; // BIT is 1-indexed
+    while (index < this.bit.length) {
+        this.bit[index] += diff;
+        index += index & (-index); // Move to the next index to update
+    }
     
 };
 
