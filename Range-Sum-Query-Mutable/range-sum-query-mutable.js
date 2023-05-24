@@ -51,6 +51,8 @@ NumArray.prototype.sum = function(index) {
  * @return {number}
  */
 NumArray.prototype.sumRange = function(left, right) {
+
+    return this.sum(right + 1) - this.sum(left);
     
 };
 
