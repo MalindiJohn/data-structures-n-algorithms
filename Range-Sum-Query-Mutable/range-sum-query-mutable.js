@@ -62,3 +62,10 @@ NumArray.prototype.sumRange = function(left, right) {
  * obj.update(index,val)
  * var param_2 = obj.sumRange(left,right)
  */
+
+// testing the function
+const nums = [1, 3, 5];
+const numArray = new NumArray(nums);
+console.log(numArray.sumRange(0, 2)); // returns 9
+numArray.update(1, 2);
+console.log(numArray.sumRange(0, 2)); // returns 8
