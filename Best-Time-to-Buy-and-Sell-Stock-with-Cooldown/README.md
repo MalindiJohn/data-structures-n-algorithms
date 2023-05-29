@@ -14,7 +14,7 @@ Input: prices = [1,2,3,0,2]
 Output: 3
 ```
 
-**Explanation:** transactions = [buy, sell, cooldown, buy, sell]
+**Explanation:** `transactions = [buy, sell, cooldown, buy, sell]`
 
 ## Example 2
 
@@ -25,5 +25,5 @@ Output: 0
 
 ## Constraints
 
-1 <= prices.length <= 5000
-0 <= prices[i] <= 1000
+- `1 <= prices.length <= 5000`
+- `0 <= prices[i] <= 1000`
