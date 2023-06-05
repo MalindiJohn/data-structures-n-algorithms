@@ -13,3 +13,8 @@ function maxProfit(prices: number[]): number {
     return dp[n - 1][0];
 
 };
+
+// testing the function
+console.log(maxProfit([1, 2, 3, 0, 2])); // 3
+console.log(maxProfit([1])); // 0
+console.log(maxProfit([1, 2])); // 1
