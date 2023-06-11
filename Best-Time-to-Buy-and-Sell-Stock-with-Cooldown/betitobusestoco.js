@@ -22,3 +22,8 @@ var maxProfit = function(prices) {
     return dp[n - 1];
     
 };
+
+// testing the function
+console.log(maxProfit([1,2,3,0,2])); // 3
+console.log(maxProfit([1])); // 0
+console.log(maxProfit([1,2])); // 1
