@@ -6,7 +6,7 @@ If you burst the ith balloon, you will get nums[i - 1] * nums[i] * nums[i + 1] c
 
 Return the maximum coins you can collect by bursting the balloons wisely.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input: nums = [3,1,5,8]
@@ -17,14 +17,14 @@ Output: 167
 nums = [3,1,5,8] --> [3,5,8] --> [3,8] --> [8] --> []
 coins =  3*1*5    +   3*5*8   +  1*3*8  + 1*8*1 = 167
 
-## Example 2:
+## Example 2
 
 ```bash
 Input: nums = [1,5]
 Output: 10
 ```
 
-## Constraints:
+## Constraints
 
 n == nums.length
 1 <= n <= 300
