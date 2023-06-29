@@ -20,3 +20,8 @@ function maxCoins(nums: number[]): number {
     return dp[0][n - 1];
 
 };
+
+function getValue(nums: number[], i: number): number {
+    if (i < 0 || i >= nums.length) return 1;
+    return nums[i];
+}
