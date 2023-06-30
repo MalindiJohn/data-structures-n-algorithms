@@ -25,3 +25,8 @@ function getValue(nums: number[], i: number): number {
     if (i < 0 || i >= nums.length) return 1;
     return nums[i];
 }
+
+// testing the function
+console.log(maxCoins([3, 1, 5, 8])); // 167
+console.log(maxCoins([1, 5])); // 10
+console.log(maxCoins([1])); // 1
