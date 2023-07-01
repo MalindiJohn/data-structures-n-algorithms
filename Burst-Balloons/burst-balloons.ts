@@ -30,3 +30,11 @@ function getValue(nums: number[], i: number): number {
 console.log(maxCoins([3, 1, 5, 8])); // 167
 console.log(maxCoins([1, 5])); // 10
 console.log(maxCoins([1])); // 1
+console.log(maxCoins([1, 2, 3])); // 12
+console.log(maxCoins([3, 1, 5, 8])); // 167
+console.log(maxCoins([1, 5, 8, 1])); // 65
+console.log(maxCoins([1, 5, 8, 1, 1])); // 70
+console.log(maxCoins([1, 5, 8, 1, 1, 1])); // 75
+console.log(maxCoins([1, 5, 8, 1, 1, 1, 1])); // 80
+console.log(maxCoins([1, 5, 8, 1, 1, 1, 1, 1])); // 85
+console.log(maxCoins([1, 5, 8, 1, 1, 1, 1, 1, 1])); // 90
