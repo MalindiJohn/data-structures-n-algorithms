@@ -24,3 +24,8 @@ var maxCoins = function(nums) {
     return dp[0][n - 1];
     
 };
+
+// testing the function
+console.log(maxCoins([3,1,5,8])); // 167
+console.log(maxCoins([1,5])); // 10
+console.log(maxCoins([1])); // 1
