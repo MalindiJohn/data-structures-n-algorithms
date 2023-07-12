@@ -29,3 +29,12 @@ var maxCoins = function(nums) {
 console.log(maxCoins([3,1,5,8])); // 167
 console.log(maxCoins([1,5])); // 10
 console.log(maxCoins([1])); // 1
+console.log(maxCoins([1,2])); // 4
+console.log(maxCoins([1,2,3])); // 12
+console.log(maxCoins([1,2,3,4])); // 30
+console.log(maxCoins([1,2,3,4,5])); // 60
+console.log(maxCoins([7,1,5,3,6,4])); // 758
+console.log(maxCoins([7,6,4,3,1])); // 139
+console.log(maxCoins([1,3,2,8,4,9])); // 444
+console.log(maxCoins([3,3,5,0,0,3,1,4])); // 400
+console.log(maxCoins([1,2,4,2,5,7,2,4,9,0])); // 1080
