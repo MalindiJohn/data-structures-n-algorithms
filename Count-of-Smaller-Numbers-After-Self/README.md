@@ -10,10 +10,10 @@ Output: [2,1,1,0]
 ```
 
 **Explanation:**
-To the right of 5 there are 2 smaller elements (2 and 1).
+`To the right of 5 there are 2 smaller elements (2 and 1).
 To the right of 2 there is only 1 smaller element (1).
 To the right of 6 there is 1 smaller element (1).
-To the right of 1 there is 0 smaller element.
+To the right of 1 there is 0 smaller element.`
 
 ## Example 2
 
@@ -31,5 +31,5 @@ Output: [0,0]
 
 ## Constraints
 
-1 <= nums.length <= 105
--104 <= nums[i] <= 104
+- `1 <= nums.length <= 105`
+- `-104 <= nums[i] <= 104`
