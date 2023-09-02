@@ -24,3 +24,8 @@ function binarySearch(sorted: number[], target: number): number {
     }
     return left;
 }
+
+// testing the function
+console.log(countSmaller([5, 2, 6, 1])); // [2, 1, 1, 0]
+console.log(countSmaller([-1])); // [0]
+console.log(countSmaller([-1, -1])); // [0, 0]
