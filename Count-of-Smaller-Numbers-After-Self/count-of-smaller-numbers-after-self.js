@@ -31,3 +31,8 @@ function binarySearch(arr, target) {
     }
     return left;
 }
+
+// testing the function
+console.log(countSmaller([5,2,6,1])); // [2,1,1,0]
+console.log(countSmaller([-1])); // [0]
+console.log(countSmaller([-1,-1])); // [0,0]
