@@ -32,5 +32,5 @@ Output: 0
 ## Constraints
 
 - `2 <= words.length <= 1000`
-- 1 <= words[i].length <= 1000
-- words[i] consists only of lowercase English letters.
+- `1 <= words[i].length <= 1000`
+- `words[i]` consists only of lowercase English letters.
