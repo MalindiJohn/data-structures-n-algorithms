@@ -9,7 +9,7 @@ Input: words = ["abcw","baz","foo","bar","xtfn","abcdef"]
 Output: 16
 ```
 
-**Explanation:** The two words can be "abcw", "xtfn".
+**Explanation:** `The two words can be "abcw", "xtfn".`
 
 ## Example 2
 
@@ -18,7 +18,7 @@ Input: words = ["a","ab","abc","d","cd","bcd","abcd"]
 Output: 4
 ```
 
-**Explanation:** The two words can be "ab", "cd".
+**Explanation:** `The two words can be "ab", "cd".`
 
 ## Example 3
 
@@ -27,7 +27,7 @@ Input: words = ["a","aa","aaa","aaaa"]
 Output: 0
 ```
 
-**Explanation:** No such pair of words.
+**Explanation:** `No such pair of words.`
 
 ## Constraints
 
