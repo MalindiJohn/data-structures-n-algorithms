@@ -24,3 +24,8 @@ function maxProduct(words: string[]): number {
     return maxVal;
 
 };
+
+// testing the function
+console.log(maxProduct(["abcw", "baz", "foo", "bar", "xtfn", "abcdef"])); // expected 16
+console.log(maxProduct(["a", "ab", "abc", "d", "cd", "bcd", "abcd"])); // expected 4
+console.log(maxProduct(["a", "aa", "aaa", "aaaa"])); // expected 0
