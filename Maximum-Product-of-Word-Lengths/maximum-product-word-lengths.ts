@@ -29,3 +29,12 @@ function maxProduct(words: string[]): number {
 console.log(maxProduct(["abcw", "baz", "foo", "bar", "xtfn", "abcdef"])); // expected 16
 console.log(maxProduct(["a", "ab", "abc", "d", "cd", "bcd", "abcd"])); // expected 4
 console.log(maxProduct(["a", "aa", "aaa", "aaaa"])); // expected 0
+console.log(maxProduct(["a", "ab", "abc", "abcd", "abcde", "abcdef"])); // expected 0
+console.log(maxProduct(["a", "ab", "abc", "abcd", "abcde", "abcdef", "abcdefg"])); // expected 0
+console.log(maxProduct(["a", "ab", "abc", "abcd", "abcde", "abcdef", "abcdefg", "abcdefgh"])); // expected 0
+console.log(maxProduct(["a", "ab", "abc", "abcd", "abcde", "abcdef", "abcdefg", "abcdefgh", "abcdefghi"])); // expected 0
+console.log(maxProduct(["a", "ab", "abc", "abcd", "abcde", "abcdef", "abcdefg", "abcdefgh", "abcdefghi", "abcdefghij"])); // expected 0
+console.log(maxProduct(["a", "ab", "abc", "abcd", "abcde", "abcdef", "abcdefg", "abcdefgh", "abcdefghi", "abcdefghij", "abcdefghijk"])); // expected 0
+console.log(maxProduct(["a", "ab", "abc", "abcd", "abcde", "abcdef", "abcdefg", "abcdefgh", "abcdefghi", "abcdefghij", "abcdefghijk", "abcdefghijkl"])); // expected 0
+console.log(maxProduct(["a", "ab", "abc", "abcd", "abcde", "abcdef", "abcdefg", "abcdefgh", "abcdefghi", "abcdefghij", "abcdefghijk", "abcdefghijkl", "abcdefghijklm"])); // expected 0
+console.log(maxProduct(["a", "ab", "abc", "abcd", "abcde", "abcdef", "abcdefg", "abcdefgh", "abcdefghi", "abcdefghij", "abcdefghijk", "abcdefghijkl", "abcdefghijklm", "abcdefghijklmn"])); // expected 0
