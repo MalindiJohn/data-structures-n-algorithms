@@ -24,3 +24,10 @@ var maxProduct = function(words) {
     return max;
     
 };
+
+// testing the function
+const words = ["abcw","baz","foo","bar","xtfn","abcdef"];
+console.log(maxProduct(words)); // 16
+
+const words2 = ["a","ab","abc","d","cd","bcd","abcd"];
+console.log(maxProduct(words2)); // 4
