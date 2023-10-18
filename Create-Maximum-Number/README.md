@@ -27,7 +27,7 @@ Input: nums1 = [3,9], nums2 = [8,9], k = 3
 Output: [9,8,9]
 ```
 
-Constraints:
+## Constraints:
 
 m == nums1.length
 n == nums2.length
