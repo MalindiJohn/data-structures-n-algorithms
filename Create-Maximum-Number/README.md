@@ -29,8 +29,8 @@ Output: [9,8,9]
 
 ## Constraints
 
-m == nums1.length
-n == nums2.length
-1 <= m, n <= 500
-0 <= nums1[i], nums2[i] <= 9
-1 <= k <= m + n
+- `m == nums1.length`
+- `n == nums2.length`
+- 1 <= m, n <= 500
+- 0 <= nums1[i], nums2[i] <= 9
+- 1 <= k <= m + n
