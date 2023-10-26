@@ -10,3 +10,17 @@ function maxNumber(nums1: number[], nums2: number[], k: number): number[] {
     return res;
 
 };
+
+function maxArray(nums: number[], k: number): number[] {
+    const n = nums.length;
+    const stack = [];
+    let drop = n - k;
+    for (let num of nums) {
+        while (drop && stack.length && stack[stack.length - 1] < num) {
+            stack.pop();
+            drop--;
+        }
+        stack.push(num);
+    }
+    return stack.slice(0, k);
+}
