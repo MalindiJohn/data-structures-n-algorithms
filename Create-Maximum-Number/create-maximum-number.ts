@@ -24,3 +24,12 @@ function maxArray(nums: number[], k: number): number[] {
     }
     return stack.slice(0, k);
 }
+
+function merge(nums1: number[], nums2: number[]): number[] {
+    const res = [];
+    let i = 0, j = 0;
+    while (i < nums1.length || j < nums2.length) {
+        res.push(compare(nums1, i, nums2, j) > 0 ? nums1[i++] : nums2[j++]);
+    }
+    return res;
+}
