@@ -33,3 +33,14 @@ function merge(nums1: number[], nums2: number[]): number[] {
     }
     return res;
 }
+
+function compare(nums1: number[], i: number, nums2: number[], j: number): number {
+    const n = nums1.length, m = nums2.length;
+    while (i < n && j < m) {
+        const diff = nums1[i++] - nums2[j++];
+        if (diff) {
+            return diff;
+        }
+    }
+    return (n - i) - (m - j);
+}
