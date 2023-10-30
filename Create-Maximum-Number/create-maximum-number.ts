@@ -49,3 +49,7 @@ function compare(nums1: number[], i: number, nums2: number[], j: number): number
 console.log(maxNumber([3, 4, 6, 5], [9, 1, 2, 5, 8, 3], 5)); // expected [9, 8, 6, 5, 3]
 console.log(maxNumber([6, 7], [6, 0, 4], 5)); // expected [6, 7, 6, 0, 4]
 console.log(maxNumber([3, 9], [8, 9], 3)); // expected [9, 8, 9]
+console.log(maxNumber([6, 7], [6, 0, 4], 2)); // expected [7, 6]
+console.log(maxNumber([3, 9], [8, 9], 1)); // expected [9]
+console.log(maxNumber([3, 9], [8, 9], 2)); // expected [9, 9]
+console.log(maxNumber([3, 9], [8, 9], 3)); // expected [9, 8, 9]
