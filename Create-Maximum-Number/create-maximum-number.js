@@ -5,5 +5,16 @@
  * @return {number[]}
  */
 var maxNumber = function(nums1, nums2, k) {
+
+    let res = new Array(k).fill(0);
+
+    for (let i = Math.max(0, k - nums2.length); i <= k && i <= nums1.length; i++) {
+        let candidate = merge(maxArray(nums1, i), maxArray(nums2, k - i), k);
+        if (greater(candidate, 0, res, 0)) {
+            res = candidate;
+        }
+    }
+
+    return res;
     
 };
