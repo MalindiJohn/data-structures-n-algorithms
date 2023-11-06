@@ -18,3 +18,16 @@ var maxNumber = function(nums1, nums2, k) {
     return res;
     
 };
+
+function maxArray(nums, k) {
+    let res = [];
+    let drop = nums.length - k;
+    for (let num of nums) {
+        while (drop && res.length && res[res.length - 1] < num) {
+            res.pop();
+            drop--;
+        }
+        res.push(num);
+    }
+    return res.slice(0, k);
+}
