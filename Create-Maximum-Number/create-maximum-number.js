@@ -31,3 +31,12 @@ function maxArray(nums, k) {
     }
     return res.slice(0, k);
 }
+
+function merge(nums1, nums2, k) {
+    let res = [];
+    while (nums1.length + nums2.length) {
+        let max = greater(nums1, 0, nums2, 0) ? nums1 : nums2;
+        res.push(max.shift());
+    }
+    return res;
+}
