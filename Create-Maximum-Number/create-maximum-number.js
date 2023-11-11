@@ -48,3 +48,9 @@ function greater(nums1, i, nums2, j) {
     }
     return j === nums2.length || (i < nums1.length && nums1[i] > nums2[j]);
 }
+
+// testing the function
+const nums1 = [3, 4, 6, 5];
+const nums2 = [9, 1, 2, 5, 8, 3];
+const k = 5;
+console.log(maxNumber(nums1, nums2, k)); // [9, 8, 6, 5, 3]
