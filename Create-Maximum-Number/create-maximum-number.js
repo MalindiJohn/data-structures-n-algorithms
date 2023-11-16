@@ -84,3 +84,18 @@ const nums13 = [3, 9, 9, 3, 9, 7, 9, 7, 0];
 const nums14 = [3, 3, 8, 6, 5, 9, 1];
 const k7 = 6;
 console.log(maxNumber(nums13, nums14, k7)); // [9, 9, 9, 9, 8, 9]
+
+const nums15 = [6, 7, 5];
+const nums16 = [4, 8, 1];
+const k8 = 3;
+console.log(maxNumber(nums15, nums16, k8)); // [8, 7, 5]
+
+const nums17 = [3, 9, 9, 3, 9, 7, 9, 7, 0];
+const nums18 = [3, 3, 8, 6, 5, 9, 1];
+const k9 = 6;
+console.log(maxNumber(nums17, nums18, k9)); // [9, 9, 9, 9, 8, 9]
+
+const nums19 = [6, 7, 5];
+const nums20 = [4, 8, 1];
+const k10 = 3;
+console.log(maxNumber(nums19, nums20, k10)); // [8, 7, 5]
