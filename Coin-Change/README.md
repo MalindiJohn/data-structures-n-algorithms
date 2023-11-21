@@ -15,15 +15,19 @@ Output: 3
 
 **Explanation:** 11 = 5 + 5 + 1
 
-Example 2:
+## Example 2:
 
+```bash
 Input: coins = [2], amount = 3
 Output: -1
-Example 3:
+```
 
+## Example 3:
+
+```bash
 Input: coins = [1], amount = 0
 Output: 0
- 
+```
 
 Constraints:
 
