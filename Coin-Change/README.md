@@ -6,7 +6,7 @@ Return the fewest number of coins that you need to make up that amount. If that 
 
 You may assume that you have an infinite number of each kind of coin.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input: coins = [1,2,5], amount = 11
@@ -15,7 +15,7 @@ Output: 3
 
 **Explanation:** 11 = 5 + 5 + 1
 
-## Example 2:
+## Example 2
 
 ```bash
 Input: coins = [2], amount = 3
@@ -29,7 +29,7 @@ Input: coins = [1], amount = 0
 Output: 0
 ```
 
-Constraints:
+## Constraints:
 
 1 <= coins.length <= 12
 1 <= coins[i] <= 231 - 1
