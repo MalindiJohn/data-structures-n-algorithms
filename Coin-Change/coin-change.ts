@@ -14,3 +14,8 @@ function coinChange(coins: number[], amount: number): number {
     return dp[amount] === Infinity ? -1 : dp[amount];
 
 };
+
+// testing the function
+console.log(coinChange([1, 2, 5], 11)); // expected 3
+console.log(coinChange([2], 3)); // expected -1
+console.log(coinChange([1], 0)); // expected 0
