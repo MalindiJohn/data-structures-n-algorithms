@@ -19,3 +19,7 @@ function coinChange(coins: number[], amount: number): number {
 console.log(coinChange([1, 2, 5], 11)); // expected 3
 console.log(coinChange([2], 3)); // expected -1
 console.log(coinChange([1], 0)); // expected 0
+console.log(coinChange([1], 1)); // expected 1
+console.log(coinChange([1], 2)); // expected 2
+console.log(coinChange([1, 2], 3)); // expected 2
+console.log(coinChange([1, 2], 4)); // expected 2
