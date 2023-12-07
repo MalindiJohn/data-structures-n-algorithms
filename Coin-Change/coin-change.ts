@@ -23,3 +23,8 @@ console.log(coinChange([1], 1)); // expected 1
 console.log(coinChange([1], 2)); // expected 2
 console.log(coinChange([1, 2], 3)); // expected 2
 console.log(coinChange([1, 2], 4)); // expected 2
+console.log(coinChange([1, 2], 5)); // expected 3
+console.log(coinChange([1, 2], 6)); // expected 3
+console.log(coinChange([1, 2], 7)); // expected 4
+console.log(coinChange([1, 2], 8)); // expected 4
+console.log(coinChange([1, 2], 9)); // expected 5
