@@ -17,3 +17,12 @@ var coinChange = function(coins, amount) {
     return dp[amount] === Infinity ? -1 : dp[amount];
     
 };
+
+// testing the function
+const coins = [1, 2, 5];
+const amount = 11;
+console.log(coinChange(coins, amount)); // 3
+
+const coins2 = [2];
+const amount2 = 3;
+console.log(coinChange(coins2, amount2)); // -1
