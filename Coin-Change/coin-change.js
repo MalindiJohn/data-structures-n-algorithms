@@ -34,3 +34,11 @@ console.log(coinChange(coins3, amount3)); // 0
 const coins4 = [1];
 const amount4 = 1;
 console.log(coinChange(coins4, amount4)); // 1
+
+const coins5 = [1];
+const amount5 = 2;
+console.log(coinChange(coins5, amount5)); // 2
+
+const coins6 = [1, 2, 5];
+const amount6 = 100;
+console.log(coinChange(coins6, amount6)); // 20
