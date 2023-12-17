@@ -42,3 +42,11 @@ console.log(coinChange(coins5, amount5)); // 2
 const coins6 = [1, 2, 5];
 const amount6 = 100;
 console.log(coinChange(coins6, amount6)); // 20
+
+const coins7 = [186, 419, 83, 408];
+const amount7 = 6249;
+console.log(coinChange(coins7, amount7)); // 20
+
+const coins8 = [2, 5, 10, 1];
+const amount8 = 27;
+console.log(coinChange(coins8, amount8)); // 4
