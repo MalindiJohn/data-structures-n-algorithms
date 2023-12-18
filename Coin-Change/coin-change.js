@@ -50,3 +50,11 @@ console.log(coinChange(coins7, amount7)); // 20
 const coins8 = [2, 5, 10, 1];
 const amount8 = 27;
 console.log(coinChange(coins8, amount8)); // 4
+
+const coins9 = [1, 2, 5];
+const amount9 = 100;
+console.log(coinChange(coins9, amount9)); // 20
+
+const coins10 = [1, 2, 5];
+const amount10 = 100;
+console.log(coinChange(coins10, amount10)); // 20
