@@ -22,8 +22,8 @@ Output: [2,3,1,3,1,2]
 
 ## Constraints:
 
-1 <= nums.length <= 5 * 104
-0 <= nums[i] <= 5000
-It is guaranteed that there will be an answer for the given input nums.
+- `1 <= nums.length <= 5 * 104`
+- `0 <= nums[i] <= 5000`
+- It is guaranteed that there will be an answer for the given input nums.
 
-**Follow Up:** Can you do it in O(n) time and/or in-place with O(1) extra space?
+**Follow Up:** Can you do it in `O(n)` time and/or in-place with `O(1)` extra space?
