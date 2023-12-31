@@ -14,3 +14,11 @@ function wiggleSort(nums: number[]): void {
     }
 
 };
+
+// testing the function
+const nums1 = [1, 5, 1, 1, 6, 4];
+wiggleSort(nums1);
+console.log(nums1); // expected [1, 4, 1, 5, 1, 6]
+const nums2 = [1, 3, 2, 2, 3, 1];
+wiggleSort(nums2);
+console.log(nums2); // expected [2, 3, 1, 3, 1, 2]
