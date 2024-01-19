@@ -46,3 +46,20 @@ function majorityElement(nums: number[]): number[] {
     return result;
 
 };
+
+// testing the function
+console.log(majorityElement([3, 2, 3])); // expected [3]
+console.log(majorityElement([1])); // expected [1]
+console.log(majorityElement([1, 2])); // expected [1, 2]
+console.log(majorityElement([1, 2, 3])); // expected []
+console.log(majorityElement([1, 2, 3, 4])); // expected []
+console.log(majorityElement([1, 2, 3, 1])); // expected [1]
+console.log(majorityElement([1, 2, 3, 1, 2])); // expected [1, 2]
+console.log(majorityElement([1, 2, 3, 1, 2, 3])); // expected [1, 2, 3]
+console.log(majorityElement([1, 2, 3, 1, 2, 3, 1])); // expected [1]
+console.log(majorityElement([1, 2, 3, 1, 2, 3, 1, 2])); // expected [1, 2]
+console.log(majorityElement([1, 2, 3, 1, 2, 3, 1, 2, 3])); // expected [1, 2, 3]
+console.log(majorityElement([1, 2, 3, 1, 2, 3, 1, 2, 3, 1])); // expected [1]
+console.log(majorityElement([1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2])); // expected [1, 2]
+console.log(majorityElement([1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3])); // expected [1, 2, 3]
+console.log(majorityElement([1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1])); // expected [1]
