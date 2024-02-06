@@ -1,19 +1,17 @@
-Sliding Window Maximum
-Hard
-Topics
-Companies
-Hint
+# Sliding Window Maximum
+
 You are given an array of integers nums, there is a sliding window of size k which is moving from the very left of the array to the very right. You can only see the k numbers in the window. Each time the sliding window moves right by one position.
 
 Return the max sliding window.
 
- 
+## Example 1:
 
-Example 1:
-
+```bash
 Input: nums = [1,3,-1,-3,5,3,6,7], k = 3
 Output: [3,3,5,5,6,7]
-Explanation: 
+```
+
+**Explanation**: 
 Window position                Max
 ---------------               -----
 [1  3  -1] -3  5  3  6  7       3
@@ -22,13 +20,15 @@ Window position                Max
  1  3  -1 [-3  5  3] 6  7       5
  1  3  -1  -3 [5  3  6] 7       6
  1  3  -1  -3  5 [3  6  7]      7
-Example 2:
 
+## Example 2:
+
+```bash
 Input: nums = [1], k = 1
 Output: [1]
- 
+```
 
-Constraints:
+## Constraints:
 
 1 <= nums.length <= 105
 -104 <= nums[i] <= 104
