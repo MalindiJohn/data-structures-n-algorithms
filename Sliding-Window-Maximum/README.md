@@ -4,7 +4,7 @@ You are given an array of integers nums, there is a sliding window of size k whi
 
 Return the max sliding window.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input: nums = [1,3,-1,-3,5,3,6,7], k = 3
@@ -21,15 +21,15 @@ Window position                Max
  1  3  -1  -3 [5  3  6] 7       6
  1  3  -1  -3  5 [3  6  7]      7
 
-## Example 2:
+## Example 2
 
 ```bash
 Input: nums = [1], k = 1
 Output: [1]
 ```
 
-## Constraints:
+## Constraints
 
-1 <= nums.length <= 105
--104 <= nums[i] <= 104
-1 <= k <= nums.length
+- `1 <= nums.length <= 105`
+- `-104 <= nums[i] <= 104`
+- `1 <= k <= nums.length`
