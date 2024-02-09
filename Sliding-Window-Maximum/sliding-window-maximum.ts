@@ -21,3 +21,20 @@ function maxSlidingWindow(nums: number[], k: number): number[] {
     return result;
 
 };
+
+// testing the function
+console.log(maxSlidingWindow([1, 3, -1, -3, 5, 3, 6, 7], 3)); // expected output : [3,3,5,5,6,7]
+console.log(maxSlidingWindow([1], 1)); // expected output : [1]
+console.log(maxSlidingWindow([1, -1], 1)); // expected output : [1,-1]
+console.log(maxSlidingWindow([9, 11], 2)); // expected output : [11]
+console.log(maxSlidingWindow([4, -2], 2)); // expected output : [4]
+console.log(maxSlidingWindow([7, 2, 4], 2)); // expected output : [7,4]
+console.log(maxSlidingWindow([1, 3, 1, 2, 0, 5], 3)); // expected output : [3,3,2,5]
+console.log(maxSlidingWindow([1, 3, 1, 2, 0, 5], 1)); // expected output : [1,3,1,2,0,5]
+console.log(maxSlidingWindow([1, 3, 1, 2, 0, 5], 6)); // expected output : [5]
+console.log(maxSlidingWindow([1, 3, 1, 2, 0, 5], 0)); // expected output : []
+console.log(maxSlidingWindow([], 0)); // expected output : []
+console.log(maxSlidingWindow([], 1)); // expected output : []
+console.log(maxSlidingWindow([1, 2, 3, 4, 5, 6, 7], 1)); // expected output : [1,2,3,4,5,6,7]
+console.log(maxSlidingWindow([1, 2, 3, 4, 5, 6, 7], 7)); // expected output : [7]
+console.log(maxSlidingWindow([1, 2, 3, 4, 5, 6, 7], 3)); // expected output : [3,4,5,6,7]
