@@ -12,28 +12,28 @@ Given an array of integers nums, find the next permutation of nums.
 
 The replacement must be in place and use only constant extra memory.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input: nums = [1,2,3]
 Output: [1,3,2]
 ```
 
-## Example 2:
+## Example 2
 
 ```bash
 Input: nums = [3,2,1]
 Output: [1,2,3]
 ```
 
-## Example 3:
+## Example 3
 
 ```bash
 Input: nums = [1,1,5]
 Output: [1,5,1]
 ```
 
-## Constraints:
+## Constraints
 
 `1 <= nums.length <= 100`
 `0 <= nums[i] <= 100`
