@@ -7,7 +7,7 @@ Implement KthLargest class:
 KthLargest(int k, int[] nums) Initializes the object with the integer k and the stream of integers nums.
 int add(int val) Appends the integer val to the stream and returns the element representing the kth largest element in the stream.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input
@@ -27,7 +27,7 @@ kthLargest.add(9);   // return 8
 kthLargest.add(4);   // return 8`
 ```
 
-## Constraints:
+## Constraints
 
 `1 <= k <= 104`
 `0 <= nums.length <= 104`
