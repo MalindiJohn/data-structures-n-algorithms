@@ -4,21 +4,21 @@ Given the root of a binary search tree and the lowest and highest boundaries as 
 
 Return the root of the trimmed binary search tree. Note that the root may change depending on the given bounds.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input: root = [1,0,2], low = 1, high = 2
 Output: [1,null,2]
 ```
 
-## Example 2:
+## Example 2
 
 ```bash
 Input: root = [3,0,4,null,2,null,null,1], low = 1, high = 3
 Output: [3,2,null,1]
 ```
 
-## Constraints:
+## Constraints
 
 The number of nodes in the tree is in the `range [1, 104]`.
 `0 <= Node.val <= 104`
