@@ -12,3 +12,6 @@ var singleNumber = function(nums) {
     return seenOnce;
     
 };
+
+console.log(singleNumber([2,2,3,2])); // 3
+console.log(singleNumber([0,1,0,1,0,1,99])); // 99
