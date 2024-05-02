@@ -33,3 +33,7 @@ var copyRandomList = function(head) {
     return map.get(head);
     
 };
+
+console.log(copyRandomList([7,null,13,0,11,4,10,2,1,0])); // [7,null,13,0,11,4,10,2,1,0]
+console.log(copyRandomList([1,2])); // [1,2]
+console.log(copyRandomList([1])); // [1]
