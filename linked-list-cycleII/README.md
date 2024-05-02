@@ -6,7 +6,7 @@ There is a cycle in a linked list if there is some node in the list that can be 
 
 Do not modify the linked list.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input: head = [3,2,0,-4], pos = 1
@@ -15,7 +15,7 @@ Output: tail connects to node index 1
 
 `Explanation`: There is a cycle in the linked list, where tail connects to the second node.
 
-## Example 2:
+## Example 2
 
 ```bash
 Input: head = [1,2], pos = 0
@@ -24,7 +24,7 @@ Output: tail connects to node index 0
 
 `Explanation`: There is a cycle in the linked list, where tail connects to the first node.
 
-## Example 3:
+## Example 3
 
 ```bash
 Input: head = [1], pos = -1
@@ -33,8 +33,7 @@ Output: no cycle
 
 `Explanation`: There is no cycle in the linked list.
 
-
-## Constraints:
+## Constraints
 
 The number of the nodes in the list is in the range [0, 104].
 `-105 <= Node.val <= 105`
