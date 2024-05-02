@@ -34,3 +34,7 @@ var detectCycle = function(head) {
     return null;
     
 };
+
+console.log(detectCycle([3,2,0,-4])); // [2]
+console.log(detectCycle([1,2])); // [null]
+console.log(detectCycle([1])); // [null]
