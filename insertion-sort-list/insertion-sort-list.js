@@ -36,3 +36,6 @@ var insertionSortList = function(head) {
     
 };
 
+//test the function
+console.log(insertionSortList([4,2,1,3])); // [1,2,3,4]
+console.log(insertionSortList([-1,5,3,4,0])); // [-1,0,3,4,5]
