@@ -9,7 +9,7 @@ int get(int key) Return the value of the key if the key exists, otherwise return
 void put(int key, int value) Update the value of the key if the key exists. Otherwise, add the key-value pair to the cache. If the number of keys exceeds the capacity from this operation, evict the least recently used key.
 The functions get and put must each run in O(1) average time complexity.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input
@@ -20,6 +20,7 @@ Output
 ```
 
 `Explanation`
+
 ```bash
 LRUCache lRUCache = new LRUCache(2);
 lRUCache.put(1, 1); // cache is {1=1}
@@ -33,7 +34,7 @@ lRUCache.get(3);    // return 3
 lRUCache.get(4);    // return 4
 ```
 
-## Constraints:
+## Constraints
 
 `1 <= capacity <= 3000`
 `0 <= key <= 104`
