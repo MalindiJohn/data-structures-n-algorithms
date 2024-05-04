@@ -35,3 +35,8 @@ var sortList = function(head) {
     return dummy.next;
     
 };
+
+//testing the function
+console.log(sortList([4,2,1,3])); // [1,2,3,4]
+console.log(sortList([-1,5,3,4,0])); // [-1,0,3,4,5]
+console.log(sortList([])); //
