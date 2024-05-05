@@ -8,28 +8,28 @@ If multiple answers are possible, return any of them.
 
 It is guaranteed that the length of the answer string is less than 104 for all the given inputs.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input: numerator = 1, denominator = 2
 Output: "0.5"
 ```
 
-## Example 2:
+## Example 2
 
 ```bash
 Input: numerator = 2, denominator = 1
 Output: "2"
 ```
 
-## Example 3:
+## Example 3
 
 ```bash
 Input: numerator = 4, denominator = 333
 Output: "0.(012)"
 ```
 
-## Constraints:
+## Constraints
 
 -231 <= numerator, denominator <= 231 - 1
 denominator != 0
