@@ -13,3 +13,7 @@ var largestNumber = function(nums) {
     return sorted.join('');
     
 };
+
+//testing the function
+console.log(largestNumber([10,2])); // "210"
+console.log(largestNumber([3,30,34,5,9])); // "9534330"
