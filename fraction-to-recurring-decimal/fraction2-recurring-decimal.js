@@ -45,3 +45,8 @@ var fractionToDecimal = function(numerator, denominator) {
     return result;
     
 };
+
+//testing the function
+console.log(fractionToDecimal(1, 2)); // "0.5"
+console.log(fractionToDecimal(2, 1)); // "2"
+console.log(fractionToDecimal(2, 3)); // "0.(6)"
