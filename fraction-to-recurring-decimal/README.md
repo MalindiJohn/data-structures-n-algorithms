@@ -31,5 +31,5 @@ Output: "0.(012)"
 
 ## Constraints
 
--231 <= numerator, denominator <= 231 - 1
-denominator != 0
+`-231 <= numerator, denominator <= 231 - 1`
+`denominator != 0`
