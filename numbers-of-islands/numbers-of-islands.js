@@ -20,7 +20,7 @@ var numIslands = function(grid) {
 };
 
 function dfs(grid, i, j) {
-    //write comments in english
+    
     //if i or j is out of bounds or the current cell is water, return
     if (i < 0 || j < 0 || i >= grid.length || j >= grid[0].length || grid[i][j] === '0') {
         return;
