@@ -26,3 +26,26 @@ var canFinish = function(numCourses, prerequisites) {
     return true;
     
 };
+
+function isCyclic(node, adjList, visited, recStack) {
+    if (recStack[node]) {
+        return true;
+    }
+    
+    if (visited[node]) {
+        return false;
+    }
+    
+    visited[node] = true;
+    recStack[node] = true;
+    
+    for (let i = 0; i < adjList[node].length; i++) {
+        if (isCyclic(adjList[node][i], adjList, visited, recStack)) {
+            return true;
+        }
+    }
+    
+    recStack[node] = false;
+    
+    return false;
+}
