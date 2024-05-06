@@ -69,3 +69,10 @@ Trie.prototype.startsWith = function(prefix) {
  * var param_2 = obj.search(word)
  * var param_3 = obj.startsWith(prefix)
  */
+
+// testing the function
+let trie = new Trie();
+trie.insert("apple");
+console.log(trie.search("apple")); // returns true
+console.log(trie.search("app")); // returns false
+console.log(trie.startsWith("app")); // returns true
