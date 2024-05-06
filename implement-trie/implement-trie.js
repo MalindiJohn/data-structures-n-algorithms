@@ -24,3 +24,22 @@ Trie.prototype.insert = function(word) {
     
 };
 
+/** 
+ * @param {string} word
+ * @return {boolean}
+ */
+Trie.prototype.search = function(word) {
+
+    let node = this.root;
+    
+    for (let i = 0; i < word.length; i++) {
+        if (!node[word[i]]) {
+            return false;
+        }
+        node = node[word[i]];
+    }
+    
+    return node.isEnd ? true : false;
+    
+};
+
