@@ -49,3 +49,8 @@ function isCyclic(node, adjList, visited, recStack) {
     
     return false;
 }
+
+// testing the function
+console.log(canFinish(2, [[1,0]])); // expected true
+console.log(canFinish(3, [[1,0],[2,1]])); // expected true
+console.log(canFinish(4, [[1,0],[2,1],[3,2],[1,3]])); // expected false
