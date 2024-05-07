@@ -17,6 +17,7 @@ var rob = function(nums) {
 };
 
 function robHouses(nums) {
+
     var dp = [0, nums[0]];
 
     for (var i = 1; i < nums.length; i++) {
@@ -24,6 +25,7 @@ function robHouses(nums) {
     }
 
     return dp[dp.length - 1];
+    
 }
 
 // testing the function
