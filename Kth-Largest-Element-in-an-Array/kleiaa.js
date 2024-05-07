@@ -51,3 +51,12 @@ function swap(arr, i, j) {
     arr[i] = arr[j];
     arr[j] = temp;
 }
+
+// testing the function
+console.log(findKthLargest([3,2,1,5,6,4], 2)); // expected 5
+console.log(findKthLargest([3,2,3,1,2,4,5,5,6], 4)); // expected 4
+console.log(findKthLargest([1], 1)); // expected 1
+console.log(findKthLargest([1,2], 2)); // expected 1
+console.log(findKthLargest([1,2,3], 3)); // expected 1
+console.log(findKthLargest([1,2,3,4], 4)); // expected 1
+console.log(findKthLargest([1,2,3,4], 1)); // expected 4
