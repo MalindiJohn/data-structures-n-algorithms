@@ -25,5 +25,9 @@ function quickSelect(nums, left, right, k) {
     } else {
         return quickSelect(nums, pivotIndex + 1, right, k);
     }
-    
+
+}
+
+function partition(nums, left, right, pivotIndex) {
+   
 }
