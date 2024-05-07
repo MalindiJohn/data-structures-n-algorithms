@@ -41,3 +41,11 @@ var findOrder = function(numCourses, prerequisites) {
     return result.length === numCourses ? result : [];
     
 };
+
+// testing the function
+console.log(findOrder(2, [[1,0]])); // expected [0,1]
+console.log(findOrder(4, [[1,0],[2,0],[3,1],[3,2]])); // expected [0,1,2,3]
+console.log(findOrder(1, [])); // expected [0]
+console.log(findOrder(3, [[1,0],[2,0]])); // expected [0,1,2]
+console.log(findOrder(3, [[1,0],[2,1],[2,0]])); // expected [0,1,2]
+console.log(findOrder(4, [[1,0],[2,1],[3,2],[1,3]])); // expected []
