@@ -16,6 +16,16 @@ var rob = function(nums) {
     
 };
 
+function robHouses(nums) {
+    var dp = [0, nums[0]];
+
+    for (var i = 1; i < nums.length; i++) {
+        dp[i + 1] = Math.max(dp[i], dp[i - 1] + nums[i]);
+    }
+
+    return dp[dp.length - 1];
+}
+
 // testing the function
 console.log(rob([2,3,2])); // expected 3
 console.log(rob([1,2,3,1])); // expected 4
