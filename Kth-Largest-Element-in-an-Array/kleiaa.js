@@ -45,3 +45,7 @@ function partition(nums, left, right, pivotIndex) {
     
     return storeIndex;
 }
+
+function swap(arr, i, j) {
+    
+}
