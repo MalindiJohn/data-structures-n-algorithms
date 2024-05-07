@@ -29,5 +29,19 @@ function quickSelect(nums, left, right, k) {
 }
 
 function partition(nums, left, right, pivotIndex) {
-   
+    let pivot = nums[pivotIndex];
+    swap(nums, pivotIndex, right);
+    
+    let storeIndex = left;
+    
+    for (let i = left; i < right; i++) {
+        if (nums[i] > pivot) {
+            swap(nums, i, storeIndex);
+            storeIndex++;
+        }
+    }
+    
+    swap(nums, storeIndex, right);
+    
+    return storeIndex;
 }
