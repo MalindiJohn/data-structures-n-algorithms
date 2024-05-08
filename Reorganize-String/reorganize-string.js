@@ -53,3 +53,9 @@ var reorganizeString = function(s) {
 console.log(reorganizeString("aab")); // expected "aba"
 console.log(reorganizeString("aaab")); // expected ""
 console.log(reorganizeString("vvvlooo")); // expected "looovvv
+console.log(reorganizeString("aaaa")); // expected "aa"
+console.log(reorganizeString("a")); // expected "a"
+console.log(reorganizeString("")); // expected ""
+console.log(reorganizeString("aa")); // expected "aa"
+console.log(reorganizeString("aaa")); // expected "aa"
+console.log(reorganizeString("aaaa")); // expected "aa"
