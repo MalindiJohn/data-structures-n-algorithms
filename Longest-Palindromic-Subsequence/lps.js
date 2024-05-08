@@ -25,3 +25,8 @@ var longestPalindromeSubseq = function(s) {
     return dp[0][n - 1];
     
 };
+
+// testing the function
+console.log(longestPalindromeSubseq("bbbab")); // expected 4
+console.log(longestPalindromeSubseq("cbbd")); // expected 2
+console.log(longestPalindromeSubseq("a")); // expected 1
