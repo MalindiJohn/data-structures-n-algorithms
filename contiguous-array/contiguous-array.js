@@ -27,3 +27,14 @@ var findMaxLength = function(nums) {
 console.log(findMaxLength([0,1])); // expected 2
 console.log(findMaxLength([0,1,0])); // expected 2
 console.log(findMaxLength([0,1,0,1])); // expected 4
+console.log(findMaxLength([0,1,0,1,0])); // expected 4
+console.log(findMaxLength([0,1,0,1,0,1])); // expected 6
+console.log(findMaxLength([0,1,0,1,0,1,0])); // expected 6
+console.log(findMaxLength([0,1,0,1,0,1,0,1])); // expected 8
+console.log(findMaxLength([0,1,0,1,0,1,0,1,0])); // expected 8
+console.log(findMaxLength([0,1,0,1,0,1,0,1,0,1])); // expected 10
+console.log(findMaxLength([0,1,0,1,0,1,0,1,0,1,0])); // expected 10
+console.log(findMaxLength([0,1,0,1,0,1,0,1,0,1,0,1])); // expected 12
+console.log(findMaxLength([0,1,0,1,0,1,0,1,0,1,0,1,0])); // expected 12
+console.log(findMaxLength([0,1,0,1,0,1,0,1,0,1,0,1,0,1])); // expected 14
+console.log(findMaxLength([0,1,0,1,0,1,0,1,0,1,0,1,0,1,0])); // expected 14
