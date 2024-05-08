@@ -22,3 +22,8 @@ var findMaxLength = function(nums) {
     return max;
     
 };
+
+// testing the function
+console.log(findMaxLength([0,1])); // expected 2
+console.log(findMaxLength([0,1,0])); // expected 2
+console.log(findMaxLength([0,1,0,1])); // expected 4
