@@ -46,5 +46,10 @@ var reorganizeString = function(s) {
     }
     
     return result.join('');
-    
+
 };
+
+// testing the function
+console.log(reorganizeString("aab")); // expected "aba"
+console.log(reorganizeString("aaab")); // expected ""
+console.log(reorganizeString("vvvlooo")); // expected "looovvv
