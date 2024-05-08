@@ -60,3 +60,11 @@ console.log(findKthLargest([1,2], 2)); // expected 1
 console.log(findKthLargest([1,2,3], 3)); // expected 1
 console.log(findKthLargest([1,2,3,4], 4)); // expected 1
 console.log(findKthLargest([1,2,3,4], 1)); // expected 4
+console.log(findKthLargest([1,2,3,4], 2)); // expected 3
+console.log(findKthLargest([1,2,3,4], 3)); // expected 2
+console.log(findKthLargest([1,2,3,4], 5)); // expected 1
+console.log(findKthLargest([1,2,3,4], 0)); // expected 4
+console.log(findKthLargest([1,2,3,4], -1)); // expected 4
+console.log(findKthLargest([1,2,3,4], -2)); // expected 4
+console.log(findKthLargest([1,2,3,4], -3)); // expected 4
+console.log(findKthLargest([1,2,3,4], -4)); // expected 4
