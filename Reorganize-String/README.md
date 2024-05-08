@@ -4,21 +4,21 @@ Given a string s, rearrange the characters of s so that any two adjacent charact
 
 Return any possible rearrangement of s or return "" if not possible.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input: s = "aab"
 Output: "aba"
 ```
 
-## Example 2:
+## Example 2
 
 ```bash
 Input: s = "aaab"
 Output: ""
 ```
 
-## Constraints:
+## Constraints
 
 `1 <= s.length <= 500`
 s consists of lowercase English letters.
