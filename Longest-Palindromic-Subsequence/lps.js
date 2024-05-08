@@ -30,3 +30,9 @@ var longestPalindromeSubseq = function(s) {
 console.log(longestPalindromeSubseq("bbbab")); // expected 4
 console.log(longestPalindromeSubseq("cbbd")); // expected 2
 console.log(longestPalindromeSubseq("a")); // expected 1
+console.log(longestPalindromeSubseq("ac")); // expected 1
+console.log(longestPalindromeSubseq("")); // expected 0
+console.log(longestPalindromeSubseq("ab")); // expected 1
+console.log(longestPalindromeSubseq("aa")); // expected 2
+console.log(longestPalindromeSubseq("aaa")); // expected 3
+console.log(longestPalindromeSubseq("aaaa")); // expected 4
