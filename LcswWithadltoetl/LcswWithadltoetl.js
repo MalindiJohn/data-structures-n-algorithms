@@ -41,3 +41,13 @@ var longestSubarray = function(nums, limit) {
 console.log(longestSubarray([8,2,4,7], 4)); // expected 2
 console.log(longestSubarray([10,1,2,4,7,2], 5)); // expected 4
 console.log(longestSubarray([4,2,2,2,4,4,2,2], 0)); // expected 3
+console.log(longestSubarray([4,8,5,1,7,9], 6)); // expected 3
+console.log(longestSubarray([24,12,71,33,5,87,10,11,3,58,2,97,97,36,32,13,14,68,19,100], 19)); // expected 5
+console.log(longestSubarray([8], 10)); // expected 1
+console.log(longestSubarray([8,2], 10)); // expected 2
+console.log(longestSubarray([8,2,4], 10)); // expected 3
+console.log(longestSubarray([8,2,4,7], 10)); // expected 4
+console.log(longestSubarray([8,2,4,7,1], 10)); // expected 5
+console.log(longestSubarray([8,2,4,7,1,3], 10)); // expected 6
+console.log(longestSubarray([8,2,4,7,1,3,5], 10)); // expected 7
+console.log(longestSubarray([8,2,4,7,1,3,5,6], 10)); // expected 8
