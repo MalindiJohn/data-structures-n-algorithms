@@ -39,4 +39,15 @@ var gameOfLife = function(board) {
 let board = [[0,1,0],[0,0,1],[1,1,1],[0,0,0]];
 gameOfLife(board);
 console.log(board); // should print [[0,0,0],[1,0,1],[0,1,1],[0,1,0]]
+board = [[1,1],[1,0]];
+gameOfLife(board);
+console.log(board); // should print [[1,1],[1,1]]
+board = [[1,1],[1,1]];
+gameOfLife([[1,1],[1,1]]); // should throw an error
+board = [[1,1],[1,1]];
+try{
+    gameOfLife(board);
+}catch(err){
+    console.log(err);
+}
 
