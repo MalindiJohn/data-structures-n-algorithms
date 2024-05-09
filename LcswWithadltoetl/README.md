@@ -32,7 +32,7 @@ Input: nums = [10,1,2,4,7,2], limit = 5
 Output: 4 
 ```
 
-`Explanation`: The subarray [2,4,7,2] is the longest since the maximum absolute diff is |2-7| = 5 <= 5.
+`Explanation`: The subarray `[2,4,7,2]` is the longest since the maximum absolute diff is `|2-7| = 5 <= 5`.
 
 ## Example 3
 
