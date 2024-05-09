@@ -39,5 +39,11 @@ function dfs(board, row, col) {
     
 }
 
+function countMines(board, row, col) {
+    
+   
+    
+}
+
 
 
