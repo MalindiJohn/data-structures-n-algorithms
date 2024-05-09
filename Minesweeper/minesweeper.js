@@ -55,5 +55,12 @@ function countMines(board, row, col) {
     
 }
 
+// testing the function
+console.log(updateBoard([['E', 'E', 'E', 'E', 'E'],['E', 'E', 'M', 'E', 'E'],['E', 'E', 'E', 'E', 'E'],['E', 'E', 'E', 'E', 'E']], [3, 0]));
+// expected [['B', '1', 'E', '1', 'B'],['B', '1', 'M', '1', 'B'],['B', '1', '1', '1', 'B'],['B', 'B', 'B', 'B', 'B']]
+console.log(updateBoard([['B', '1', 'E', '1', 'B'],['B', '1', 'M', '1', 'B'],['B', '1', '1', '1', 'B'],['B', 'B', 'B', 'B', 'B']], [1, 2]));
+
+
+
 
 
