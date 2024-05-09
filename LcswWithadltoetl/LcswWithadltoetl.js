@@ -36,3 +36,8 @@ var longestSubarray = function(nums, limit) {
     
     return res;
 };
+
+// testing the function
+console.log(longestSubarray([8,2,4,7], 4)); // expected 2
+console.log(longestSubarray([10,1,2,4,7,2], 5)); // expected 4
+console.log(longestSubarray([4,2,2,2,4,4,2,2], 0)); // expected 3
