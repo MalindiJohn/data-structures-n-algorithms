@@ -33,6 +33,10 @@ var gameOfLife = function(board) {
         }
     }
 
-    
-    
 };
+
+// testing the function
+let board = [[0,1,0],[0,0,1],[1,1,1],[0,0,0]];
+gameOfLife(board);
+console.log(board); // should print [[0,0,0],[1,0,1],[0,1,1],[0,1,0]]
+
