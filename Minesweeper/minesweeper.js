@@ -17,3 +17,12 @@ var updateBoard = function(board, click) {
     return board;
     
 };
+
+function dfs(board, row, col) {
+    
+    
+    
+}
+
+
+
