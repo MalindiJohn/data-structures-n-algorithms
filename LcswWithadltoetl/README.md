@@ -2,14 +2,15 @@
 
 Given an array of integers nums and an integer limit, return the size of the longest non-empty subarray such that the absolute difference between any two elements of this subarray is less than or equal to limit.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input: nums = [8,2,4,7], limit = 4
 Output: 2 
 ```
 
-`Explanation`: All subarrays are: 
+`Explanation`: All subarrays are
+
 ```bash
 [8] with maximum absolute diff |8-8| = 0 <= 4.
 [8,2] with maximum absolute diff |8-2| = 6 > 4. 
@@ -24,7 +25,7 @@ Output: 2
 Therefore, the size of the longest subarray is 2.
 ```
 
-## Example 2:
+## Example 2
 
 ```bash
 Input: nums = [10,1,2,4,7,2], limit = 5
@@ -33,14 +34,14 @@ Output: 4
 
 `Explanation`: The subarray [2,4,7,2] is the longest since the maximum absolute diff is |2-7| = 5 <= 5.
 
-## Example 3:
+## Example 3
 
 ```bash
 Input: nums = [4,2,2,2,4,4,2,2], limit = 0
 Output: 3
 ```
 
-## Constraints:
+## Constraints
 
 `1 <= nums.length <= 105`
 `1 <= nums[i] <= 109`
