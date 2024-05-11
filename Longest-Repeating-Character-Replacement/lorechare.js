@@ -29,3 +29,11 @@ var characterReplacement = function(s, k) {
 console.log(characterReplacement("ABAB", 2)); // Output: 4
 console.log(characterReplacement("AABABBA", 1)); // Output: 4
 console.log(characterReplacement("AABABBA", 2)); // Output: 6
+console.log(characterReplacement("AABABBA", 3)); // Output: 7
+console.log(characterReplacement("AABABBA", 4)); // Output: 7
+console.log(characterReplacement("AABABBA", 5)); // Output: 7
+console.log(characterReplacement("AABABBA", 6)); // Output: 7
+console.log(characterReplacement("AABABBA", 7)); // Output: 7
+console.log(characterReplacement("AABABBA", 8)); // Output: 7
+console.log(characterReplacement("AABABBA", 9)); // Output: 7
+console.log(characterReplacement("AABABBA", 10)); // Output: 7
