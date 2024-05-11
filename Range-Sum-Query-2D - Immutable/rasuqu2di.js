@@ -37,6 +37,18 @@ var NumMatrix = function(matrix) {
  */
 NumMatrix.prototype.sumRegion = function(row1, col1, row2, col2) {
     
+    let sum = this.dp[row2][col2];
+    if (row1 > 0) {
+        sum -= this.dp[row1 - 1][col2];
+    }
+    if (col1 > 0) {
+        sum -= this.dp[row2][col1 - 1];
+    }
+    if (row1 > 0 && col1 > 0) {
+        sum += this.dp[row1 - 1][col1 - 1];
+    }
+    
+    return sum;
 };
 
 /** 
