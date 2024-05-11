@@ -19,3 +19,8 @@ var lengthOfLIS = function(nums) {
     return max;
     
 };
+
+// Testing the function
+console.log(lengthOfLIS([10,9,2,5,3,7,101,18])); // Output: 4
+console.log(lengthOfLIS([0,1,0,3,2,3])); // Output: 4
+console.log(lengthOfLIS([7,7,7,7,7,7,7])); // Output: 1
