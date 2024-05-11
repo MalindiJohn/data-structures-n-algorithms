@@ -7,21 +7,21 @@ An integer a is closer to x than an integer b if:
 |a - x| < |b - x|, or
 |a - x| == |b - x| and a < b
 
-## Example 1:
+## Example 1
 
 ```bash
 Input: arr = [1,2,3,4,5], k = 4, x = 3
 Output: [1,2,3,4]
 ```
 
-## Example 2:
+## Example 2
 
 ```bash
 Input: arr = [1,2,3,4,5], k = 4, x = -1
 Output: [1,2,3,4]
 ```
 
-## Constraints:
+## Constraints
 
 `1 <= k <= arr.length`
 `1 <= arr.length <= 104`
