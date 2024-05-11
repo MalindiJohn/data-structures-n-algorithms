@@ -21,3 +21,8 @@ var findClosestElements = function(arr, k, x) {
     return arr.slice(left, left + k);
     
 };
+
+// Testing the function
+console.log(findClosestElements([1,2,3,4,5], 4, 3)); // Output: [1,2,3,4]
+console.log(findClosestElements([1,2,3,4,5], 4, -1)); // Output: [1,2,3,4]
+console.log(findClosestElements([1,2,3,4,5], 4, 10)); // Output: [2,3,4,5]
