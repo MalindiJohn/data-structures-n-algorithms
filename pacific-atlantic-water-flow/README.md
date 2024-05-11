@@ -8,7 +8,7 @@ The island receives a lot of rain, and the rain water can flow to neighboring ce
 
 Return a 2D list of grid coordinates result where result[i] = [ri, ci] denotes that rain water can flow from cell (ri, ci) to both the Pacific and Atlantic oceans.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input: heights = [[1,2,2,3,5],[3,2,3,4,4],[2,4,5,3,1],[6,7,1,4,5],[5,1,1,2,4]]
@@ -36,7 +36,7 @@ Output: [[0,4],[1,3],[1,4],[2,2],[3,0],[3,1],[4,0]]
 
 Note that there are other possible paths for these cells to flow to the Pacific and Atlantic oceans.
 
-## Example 2:
+## Example 2
 
 ```bash
 Input: heights = [[1]]
@@ -45,7 +45,7 @@ Output: [[0,0]]
 
 `Explanation`: The water can flow from the only cell to the Pacific and Atlantic oceans.
 
-## Constraints:
+## Constraints
 
 `m == heights.length`
 `n == heights[r].length`
