@@ -26,3 +26,8 @@ var sumSubarrayMins = function(arr) {
     return result;
     
 };
+
+// Testing the function
+console.log(sumSubarrayMins([3,1,2,4])); // Output: 17
+console.log(sumSubarrayMins([11,81,94,43,3])); // Output: 444
+console.log(sumSubarrayMins([1,2,3,4,5])); // Output: 50
