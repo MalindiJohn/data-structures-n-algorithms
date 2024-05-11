@@ -22,5 +22,10 @@ var characterReplacement = function(s, k) {
     }
     
     return right - left;
-    
+
 };
+
+// Testing the function
+console.log(characterReplacement("ABAB", 2)); // Output: 4
+console.log(characterReplacement("AABABBA", 1)); // Output: 4
+console.log(characterReplacement("AABABBA", 2)); // Output: 6
