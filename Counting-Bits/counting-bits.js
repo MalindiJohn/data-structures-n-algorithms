@@ -13,3 +13,8 @@ var countBits = function(n) {
     return dp;
     
 };
+
+// Testing the function
+console.log(countBits(2)); // Output: [0,1,1]
+console.log(countBits(5)); // Output: [0,1,1,2,1,2]
+console.log(countBits(10)); // Output: [0,1,1,2,1,2,2,3,1,2,2]
