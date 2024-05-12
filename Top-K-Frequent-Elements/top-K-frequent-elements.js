@@ -24,3 +24,8 @@ var topKFrequent = function(nums, k) {
     return result;
     
 };
+
+// Testing the function
+console.log(topKFrequent([1,1,1,2,2,3], 2)); // Output: [1,2]
+console.log(topKFrequent([1], 1)); // Output: [1]
+console.log(topKFrequent([1,2], 2)); // Output: [1,2]
