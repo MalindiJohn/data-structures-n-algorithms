@@ -11,10 +11,12 @@
  */
 var oddEvenList = function(head) {
 
+    //check if the head is null 
     if (!head) {
         return null;
     }
     
+    //define the odd, even and even head
     let odd = head;
     let even = head.next;
     let evenHead = even;
