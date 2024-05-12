@@ -31,3 +31,20 @@ var fourSumCount = function(nums1, nums2, nums3, nums4) {
 // Testing the function
 console.log(fourSumCount([1,2], [-2,-1], [-1,2], [0,2])); // Output: 2
 console.log(fourSumCount([0], [0], [0], [0])); // Output: 1
+console.log(fourSumCount([1,1,1,1,1], [1,1,1,1,1], [1,1,1,1,1], [1,1,1,1,1])); // Output: 625
+console.log(fourSumCount([1,1,1,1,1], [1,1,1,1,1], [1,1,1,1,1], [1,1,1,1,2])); // Output: 625
+console.log(fourSumCount([1,1,1,1,1], [1,1,1,1,1], [1,1,1,1,1], [1,1,1,2,2])); // Output: 625
+console.log(fourSumCount([1,1,1,1,1], [1,1,1,1,1], [1,1,1,1,1], [1,1,2,2,2])); // Output: 625
+console.log(fourSumCount([1,1,1,1,1], [1,1,1,1,1], [1,1,1,1,1], [1,2,2,2,2])); // Output: 625
+console.log(fourSumCount([1,1,1,1,1], [1,1,1,1,1], [1,1,1,1,1], [2,2,2,2,2])); // Output: 625
+console.log(fourSumCount([1,1,1,1,1], [1,1,1,1,1], [1,1,1,1,2], [1,1,1,1,2])); // Output: 625
+console.log(fourSumCount([1,1,1,1,1], [1,1,1,1,1], [1,1,1,1,2], [1,1,1,2,2])); // Output: 625
+console.log(fourSumCount([1,1,1,1,1], [1,1,1,1,1], [1,1,1,1,2], [1,1,2,2,2])); // Output: 625
+console.log(fourSumCount([1,1,1,1,1], [1,1,1,1,1], [1,1,1,2,2], [1,1,1,2,2])); // Output: 625
+console.log(fourSumCount([1,1,1,1,1], [1,1,1,1,1], [1,1,1,2,2], [1,1,2,2,2])); // Output: 625
+console.log(fourSumCount([1,1,1,1,1], [1,1,1,1,1], [1,1,2,2,2], [1,1,2,2,2])); // Output: 625
+console.log(fourSumCount([1,1,1,1,1], [1,1,1,1,1], [1,1,2,2,2], [1,2,2,2,2])); // Output: 625
+console.log(fourSumCount([1,1,1,1,1], [1,1,1,1,1], [1,2,2,2,2], [1,2,2,2,2])); // Output: 625
+console.log(fourSumCount([1,1,1,1,1], [1,1,1,1,1], [2,2,2,2,2], [2,2,2,2,2])); // Output: 625
+console.log(fourSumCount([1,1,1,1,1], [1,1,1,1,2], [1,1,1,1,2], [1,1,1,1,2])); // Output: 625
+console.log(fourSumCount([1,1,1,1,1], [1,1,1,1,2], [1,1,1,1,2], [1,1,1,2,2])); // Output: 625
