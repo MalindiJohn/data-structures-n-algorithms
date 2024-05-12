@@ -27,3 +27,7 @@ var fourSumCount = function(nums1, nums2, nums3, nums4) {
     return count;
     
 };
+
+// Testing the function
+console.log(fourSumCount([1,2], [-2,-1], [-1,2], [0,2])); // Output: 2
+console.log(fourSumCount([0], [0], [0], [0])); // Output: 1
