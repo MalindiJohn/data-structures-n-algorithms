@@ -5,7 +5,7 @@ Given four integer arrays nums1, nums2, nums3, and nums4 all of length n, return
 0 <= i, j, k, l < n
 nums1[i] + nums2[j] + nums3[k] + nums4[l] == 0
 
-## Example 1:
+## Example 1
 
 ```bash
 Input: nums1 = [1,2], nums2 = [-2,-1], nums3 = [-1,2], nums4 = [0,2]
@@ -20,14 +20,14 @@ The two tuples are:
 2. (1, 1, 0, 0) -> nums1[1] + nums2[1] + nums3[0] + nums4[0] = 2 + (-1) + (-1) + 0 = 0
 ```
 
-## Example 2:
+## Example 2
 
 ```bash
 Input: nums1 = [0], nums2 = [0], nums3 = [0], nums4 = [0]
 Output: 1
 ```
 
-## Constraints:
+## Constraints
 
 `n == nums1.length`
 `n == nums2.length`
