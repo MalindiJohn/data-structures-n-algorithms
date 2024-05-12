@@ -1,6 +1,6 @@
 # Top K Frequent Elements
 
-Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order.
+Given an integer `array nums` and an `integer k`, return the `k` most frequent elements. You may return the answer in any order.
 
 ## Example 1
 
@@ -20,9 +20,9 @@ Output: [1]
 
 `1 <= nums.length <= 105`
 `-104 <= nums[i] <= 104`
-k is in the range [1, the number of unique elements in the array].
+`k` is in the `range [1, the number of unique elements in the array]`.
 It is guaranteed that the answer is unique.
 
 ## Follow up
 
-Your algorithm's time complexity must be better than O(n log n), where n is the array's size.
+Your algorithm's time complexity must be better than `O(n log n)`, where n is the array's size.
