@@ -1,5 +1,11 @@
 
 var Twitter = function() {
+
+    this.tweets = [];
+    this.followers = [];
+    this.following = [];
+    this.feed = [];
+    this.tweetId = 0;
     
 };
 
