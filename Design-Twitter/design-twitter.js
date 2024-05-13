@@ -87,6 +87,14 @@ Twitter.prototype.follow = function(followerId, followeeId) {
  * @return {void}
  */
 Twitter.prototype.unfollow = function(followerId, followeeId) {
+
+    if (this.followers[followerId]) {
+        this.followers[followerId] = this.followers[followerId].filter(follower => follower !== followeeId);
+    }
+    
+    if (this.following[followeeId]) {
+        this.following[followeeId] = this.following[followeeId].filter(followee => followee !== followerId);
+    }
     
 };
 
