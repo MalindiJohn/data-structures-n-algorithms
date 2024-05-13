@@ -39,3 +39,15 @@ twitter.getNewsFeed(1);  // User 1's news feed should return a list with 1 tweet
 `0 <= tweetId <= 104`
 All the tweets have unique IDs.
 At most `3 * 104` calls will be made to `postTweet`, `getNewsFeed`, `follow`, and `unfollow`.
+
+## Test Case
+
+`Case 1`
+
+```bash
+Input
+["Twitter","postTweet","getNewsFeed","follow","postTweet","getNewsFeed","unfollow","getNewsFeed"]
+[[],[1,5],[1],[1,2],[2,6],[1],[1,2],[1]]
+Expected
+[null,null,[5],null,null,[6,5],null,[5]]
+```
