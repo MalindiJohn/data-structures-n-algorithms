@@ -32,7 +32,7 @@ KthLargest.prototype.add = function(val) {
  * var param_1 = obj.add(val)
  */
 
- class MinHeap {
+class MinHeap {
     constructor() {
         this.heap = [];
     }
@@ -94,3 +94,17 @@ KthLargest.prototype.add = function(val) {
 
 console.log(KthLargest(3, [4,5,8,2])); // 4
 console.log(KthLargest(3, [4,5,8,2])); // 5
+console.log(KthLargest(3, [4,5,8,2])); // 5
+console.log(KthLargest(3, [4,5,8,2])); // 8
+console.log(KthLargest(3, [4,5,8,2])); // 8
+console.log(KthLargest(3, [4,5,8,2])); // 8
+console.log(KthLargest(3, [4,5,8,2])); // 8
+console.log(KthLargest(3, [4,5,8,2])); // 8
+console.log(KthLargest(3, [4,5,8,2])); // 8
+console.log(KthLargest(3, [4,5,8,2])); // 8
+console.log(KthLargest(3, [4,5,8,2])); // 8
+console.log(KthLargest(3, [4,5,8,2])); // 8
+console.log(KthLargest(3, [4,5,8,2])); // 8
+console.log(KthLargest(3, [4,5,8,2])); // 8
+console.log(KthLargest(3, [4,5,8,2])); // 8
+console.log(KthLargest(3, [4,5,8,2])); // 8
