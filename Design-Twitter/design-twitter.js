@@ -4,8 +4,6 @@ var Twitter = function() {
     this.tweets = [];
     this.followers = [];
     this.following = [];
-    this.feed = [];
-    this.tweetId = 0;
     
 };
 
@@ -16,7 +14,11 @@ var Twitter = function() {
  */
 Twitter.prototype.postTweet = function(userId, tweetId) {
 
-    this.tweets.push({ userId, tweetId });
+    if (!this.tweets[userId]) {
+        this.tweets[userId] = [];
+    }
+    
+    this.tweets[userId].push(tweetId);
     
     if (!this.followers[userId]) {
         this.followers[userId] = [];
@@ -26,13 +28,8 @@ Twitter.prototype.postTweet = function(userId, tweetId) {
         this.following[userId] = [];
     }
     
-    if (!this.feed[userId]) {
-        this.feed[userId] = [];
-    }
-    
-    this.feed[userId].push(tweetId);
-    
-    this.tweetId++;
+    this.followers[userId].push(userId);
+    this.following[userId].push(userId);
     
 };
 
@@ -44,15 +41,15 @@ Twitter.prototype.getNewsFeed = function(userId) {
 
     const result = [];
     
-    if (this.feed[userId]) {
-        result.push(...this.feed[userId]);
+    if (!this.following[userId]) {
+        return result;
     }
     
-    if (this.followers[userId]) {
-        for (const follower of this.followers[userId]) {
-            if (this.feed[follower]) {
-                result.push(...this.feed[follower]);
-            }
+    for (let i = 0; i < this.following[userId].length; i++) {
+        const followingId = this.following[userId][i];
+        
+        if (this.tweets[followingId]) {
+            result.push(...this.tweets[followingId]);
         }
     }
     
@@ -71,13 +68,12 @@ Twitter.prototype.follow = function(followerId, followeeId) {
         this.followers[followerId] = [];
     }
     
-    this.followers[followerId].push(followeeId);
-    
-    if (!this.following[followeeId]) {
-        this.following[followeeId] = [];
+    if (!this.following[followerId]) {
+        this.following[followerId] = [];
     }
     
-    this.following[followeeId].push(followerId);
+    this.followers[followerId].push(followeeId);
+    this.following[followerId].push(followeeId);
     
 };
 
@@ -89,11 +85,11 @@ Twitter.prototype.follow = function(followerId, followeeId) {
 Twitter.prototype.unfollow = function(followerId, followeeId) {
 
     if (this.followers[followerId]) {
-        this.followers[followerId] = this.followers[followerId].filter(follower => follower !== followeeId);
+        this.followers[followerId] = this.followers[followerId].filter(id => id !== followeeId);
     }
     
-    if (this.following[followeeId]) {
-        this.following[followeeId] = this.following[followeeId].filter(followee => followee !== followerId);
+    if (this.following[followerId]) {
+        this.following[followerId] = this.following[followerId].filter(id => id !== followeeId);
     }
     
 };
@@ -106,3 +102,8 @@ Twitter.prototype.unfollow = function(followerId, followeeId) {
  * obj.follow(followerId,followeeId)
  * obj.unfollow(followerId,followeeId)
  */
+
+// Output
+// [null,null,[5],null,null,[5,6],null,[5]]
+// Expected
+// [null,null,[5],null,null,[6,5],null,[5]]
