@@ -41,6 +41,22 @@ Twitter.prototype.postTweet = function(userId, tweetId) {
  * @return {number[]}
  */
 Twitter.prototype.getNewsFeed = function(userId) {
+
+    const result = [];
+    
+    if (this.feed[userId]) {
+        result.push(...this.feed[userId]);
+    }
+    
+    if (this.followers[userId]) {
+        for (const follower of this.followers[userId]) {
+            if (this.feed[follower]) {
+                result.push(...this.feed[follower]);
+            }
+        }
+    }
+    
+    return result;
     
 };
 
