@@ -10,7 +10,7 @@ List<Integer> getNewsFeed(int userId) Retrieves the 10 most recent tweet IDs in 
 void follow(int followerId, int followeeId) The user with ID followerId started following the user with ID followeeId.
 void unfollow(int followerId, int followeeId) The user with ID followerId started unfollowing the user with ID followeeId.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input
@@ -33,7 +33,7 @@ twitter.unfollow(1, 2);  // User 1 unfollows user 2.
 twitter.getNewsFeed(1);  // User 1's news feed should return a list with 1 tweet id -> [5], since user 1 is no longer following user 2.
 ```
 
-## Constraints:
+## Constraints
 
 `1 <= userId, followerId, followeeId <= 500`
 `0 <= tweetId <= 104`
