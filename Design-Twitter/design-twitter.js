@@ -15,6 +15,24 @@ var Twitter = function() {
  * @return {void}
  */
 Twitter.prototype.postTweet = function(userId, tweetId) {
+
+    this.tweets.push({ userId, tweetId });
+    
+    if (!this.followers[userId]) {
+        this.followers[userId] = [];
+    }
+    
+    if (!this.following[userId]) {
+        this.following[userId] = [];
+    }
+    
+    if (!this.feed[userId]) {
+        this.feed[userId] = [];
+    }
+    
+    this.feed[userId].push(tweetId);
+    
+    this.tweetId++;
     
 };
 
