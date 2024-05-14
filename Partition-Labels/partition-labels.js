@@ -21,3 +21,8 @@ var partitionLabels = function(s) {
     return result;
     
 };
+
+// Testing the function
+console.log(partitionLabels("abac")); // Output [3, 1]
+console.log(partitionLabels("abacdefghijklmnopqrstuvwxyz")); // Output [26]
+console.log(partitionLabels("abacdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz")); // Output [26, 26]
