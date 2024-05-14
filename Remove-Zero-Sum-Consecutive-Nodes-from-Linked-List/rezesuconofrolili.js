@@ -27,3 +27,8 @@ var removeZeroSumSublists = function(head) {
     return dummy.next;
     
 };
+
+// Testing the function
+console.log(removeZeroSumSublists(new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(-3, new ListNode(1))))))); // Output ListNode { val: 3, next: ListNode { val: 1, next: null } }
+console.log(removeZeroSumSublists(new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(-3, new ListNode(-2))))))); // Output ListNode { val: 1, next: null }
+console.log(removeZeroSumSublists(new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(-3, new ListNode(-2, new ListNode(1))))))); // Output ListNode { val: 1, next: null }
