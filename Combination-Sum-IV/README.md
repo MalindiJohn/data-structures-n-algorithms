@@ -4,7 +4,7 @@ Given an array of distinct integers nums and a target integer target, return the
 
 The test cases are generated so that the answer can fit in a 32-bit integer.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input: nums = [1,2,3], target = 4
@@ -26,20 +26,20 @@ The possible combination ways are:
 
 Note that different sequences are counted as different combinations.
 
-## Example 2:
+## Example 2
 
 ```bash
 Input: nums = [9], target = 3
 Output: 0
 ```
 
-## Constraints:
+## Constraints
 
 `1 <= nums.length <= 200`
 `1 <= nums[i] <= 1000`
 All the elements of nums are unique.
 `1 <= target <= 1000`
 
-## Follow up: 
+## Follow up
 
 What if negative numbers are allowed in the given array? How does it change the problem? What limitation we need to add to the question to allow negative numbers?
