@@ -32,6 +32,11 @@ var threeSum = function(nums) {
         }
     }
     return result;
-    
+
     
 };
+
+// Testing the function
+console.log(threeSum([-1, 0, 1, 2, -1, -4])); // Output [[-1,-1,2],[-1,0,1]]
+console.log(threeSum([])); // Output []
+console.log(threeSum([0])); // Output []
