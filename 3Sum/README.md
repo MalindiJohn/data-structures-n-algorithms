@@ -4,7 +4,7 @@ Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]]
 
 Notice that the solution set must not contain duplicate triplets.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input: nums = [-1,0,1,2,-1,-4]
@@ -22,7 +22,7 @@ The distinct triplets are [-1,0,1] and [-1,-1,2].
 
 Notice that the order of the output and the order of the triplets does not matter.
 
-## Example 2:
+## Example 2
 
 ```bash
 Input: nums = [0,1,1]
@@ -31,7 +31,7 @@ Output: []
 
 `Explanation`: The only possible triplet does not sum up to 0.
 
-## Example 3:
+## Example 3
 
 ```bash
 Input: nums = [0,0,0]
@@ -40,7 +40,7 @@ Output: [[0,0,0]]
 
 `Explanation`: The only possible triplet sums up to 0.
 
-## Constraints:
+## Constraints
 
 `3 <= nums.length <= 3000`
 `-105 <= nums[i] <= 105`
