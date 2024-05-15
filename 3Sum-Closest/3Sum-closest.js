@@ -28,3 +28,8 @@ var threeSumClosest = function(nums, target) {
     return closest;
     
 };
+
+// Testing the function
+console.log(threeSumClosest([-1, 2, 1, -4], 1)); // Output 2
+console.log(threeSumClosest([0, 0, 0], 1)); // Output 0
+console.log(threeSumClosest([0, 0, 0], 0)); // Output 0
