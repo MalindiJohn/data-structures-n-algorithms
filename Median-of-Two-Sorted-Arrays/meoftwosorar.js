@@ -34,3 +34,25 @@ var findMedianSortedArrays = function(nums1, nums2) {
 console.log(findMedianSortedArrays([1, 3], [2])); // Output 2
 console.log(findMedianSortedArrays([1, 2], [3, 4])); // Output 2.5
 console.log(findMedianSortedArrays([0, 0], [0, 0])); // Output 0
+console.log(findMedianSortedArrays([], [1])); // Output 1
+console.log(findMedianSortedArrays([2], [])); // Output 2
+console.log(findMedianSortedArrays([1, 3], [2, 4])); // Output 2.5
+console.log(findMedianSortedArrays([1, 3, 5], [2, 4, 6])); // Output 3.5
+console.log(findMedianSortedArrays([1, 3, 5, 7], [2, 4, 6])); // Output 4
+console.log(findMedianSortedArrays([1, 3, 5], [2, 4, 6, 8])); // Output 4
+console.log(findMedianSortedArrays([1, 3, 5, 7], [2, 4, 6, 8])); // Output 4.5
+console.log(findMedianSortedArrays([1, 3, 5, 7, 9], [2, 4, 6, 8])); // Output 5
+console.log(findMedianSortedArrays([1, 3, 5, 7], [2, 4, 6, 8, 10])); // Output 5
+console.log(findMedianSortedArrays([1, 3, 5, 7, 9], [2, 4, 6, 8, 10])); // Output 5.5
+console.log(findMedianSortedArrays([1, 3, 5, 7, 9, 11], [2, 4, 6, 8, 10])); // Output 6
+console.log(findMedianSortedArrays([1, 3, 5, 7, 9], [2, 4, 6, 8, 10, 12])); // Output 6
+console.log(findMedianSortedArrays([1, 3, 5, 7, 9, 11], [2, 4, 6, 8, 10, 12])); // Output 6.5
+console.log(findMedianSortedArrays([1, 3, 5, 7, 9, 11, 13], [2, 4, 6, 8, 10, 12])); // Output 7
+console.log(findMedianSortedArrays([1, 3, 5, 7, 9, 11], [2, 4, 6, 8, 10, 12, 14])); // Output 7
+console.log(findMedianSortedArrays([1, 3, 5, 7, 9, 11, 13], [2, 4, 6, 8, 10, 12, 14])); // Output 7.5
+console.log(findMedianSortedArrays([1, 3, 5, 7, 9, 11, 13, 15], [2, 4, 6, 8, 10, 12, 14])); // Output 8
+console.log(findMedianSortedArrays([1, 3, 5, 7, 9, 11, 13], [2, 4, 6, 8, 10, 12, 14, 16])); // Output 8
+console.log(findMedianSortedArrays([1, 3, 5, 7, 9, 11, 13, 15], [2, 4, 6, 8, 10, 12, 14, 16])); // Output 8.5
+console.log(findMedianSortedArrays([1, 3, 5, 7, 9, 11, 13, 15, 17], [2, 4, 6, 8, 10, 12, 14, 16])); // Output 9
+console.log(findMedianSortedArrays([1, 3, 5, 7, 9, 11, 13, 15], [2, 4, 6, 8, 10, 12, 14, 16, 18])); // Output 9
+console.log(findMedianSortedArrays([1, 3, 5, 7, 9, 11, 13, 15, 17], [2, 4, 6, 8, 10, 12, 14, 16, 18])); // Output 9.5
