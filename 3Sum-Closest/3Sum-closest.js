@@ -33,3 +33,17 @@ var threeSumClosest = function(nums, target) {
 console.log(threeSumClosest([-1, 2, 1, -4], 1)); // Output 2
 console.log(threeSumClosest([0, 0, 0], 1)); // Output 0
 console.log(threeSumClosest([0, 0, 0], 0)); // Output 0
+console.log(threeSumClosest([0, 0, 0], 2)); // Output 0
+console.log(threeSumClosest([0, 0, 0], 3)); // Output 0
+console.log(threeSumClosest([0, 0, 0], 4)); // Output 0
+console.log(threeSumClosest([0, 0, 0], 5)); // Output 0
+console.log(threeSumClosest([0, 0, 0], 6)); // Output 0
+console.log(threeSumClosest([0, 0, 0], 7)); // Output 0
+console.log(threeSumClosest([0, 0, 0], 8)); // Output 0
+console.log(threeSumClosest([0, 0, 0], 9)); // Output 0
+console.log(threeSumClosest([0, 0, 0], 10)); // Output 0
+console.log(threeSumClosest([0, 0, 0], 11)); // Output 0
+console.log(threeSumClosest([0, 0, 0], 12)); // Output 0
+console.log(threeSumClosest([0, 0, 0], 13)); // Output 0
+console.log(threeSumClosest([0, 0, 0], 14)); // Output 0
+console.log(threeSumClosest([0, 0, 0], 15)); // Output 0
