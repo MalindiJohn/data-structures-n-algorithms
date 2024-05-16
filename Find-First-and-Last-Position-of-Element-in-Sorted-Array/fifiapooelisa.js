@@ -31,5 +31,10 @@ var searchRange = function(nums, target) {
     }
     
     return result;
-    
+
 };
+
+// Testing the function
+console.log(searchRange([5, 7, 7, 8, 8, 10], 8)); // Output [3, 4]
+console.log(searchRange([5, 7, 7, 8, 8, 10], 6)); // Output [-1, -1]
+console.log(searchRange([], 0)); // Output [-1, -1]
