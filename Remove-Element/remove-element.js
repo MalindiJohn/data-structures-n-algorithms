@@ -14,5 +14,10 @@ var removeElement = function(nums, val) {
     }
     
     return i;
-    
+
 };
+
+// Testing the function
+console.log(removeElement([3, 2, 2, 3], 3)); // Output 2
+console.log(removeElement([0, 1, 2, 2, 3, 0, 4, 2], 2)); // Output 5
+console.log(removeElement([1], 1)); // Output 0
