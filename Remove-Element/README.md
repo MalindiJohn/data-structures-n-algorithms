@@ -6,10 +6,12 @@ Consider the number of elements in nums which are not equal to val be k, to get 
 
 Change the array nums such that the first k elements of nums contain the elements which are not equal to val. The remaining elements of nums are not important as well as the size of nums.
 Return k.
-Custom Judge:
+
+## Custom Judge
 
 The judge will test your solution with the following code:
 
+```bash
 int[] nums = [...]; // Input array
 int val = ...; // Value to remove
 int[] expectedNums = [...]; // The expected answer with correct length.
@@ -22,6 +24,8 @@ sort(nums, 0, k); // Sort the first k elements of nums
 for (int i = 0; i < actualLength; i++) {
     assert nums[i] == expectedNums[i];
 }
+```
+
 If all assertions pass, then your solution will be accepted.
 
 ## Example 1
