@@ -9,7 +9,7 @@ Each of the digits 1-9 must occur exactly once in each column.
 Each of the digits 1-9 must occur exactly once in each of the 9 3x3 sub-boxes of the grid.
 The '.' character indicates empty cells.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input: board = [["5","3",".",".","7",".",".",".","."],["6",".",".","1","9","5",".",".","."],[".","9","8",".",".",".",".","6","."],["8",".",".",".","6",".",".",".","3"],["4",".",".","8",".","3",".",".","1"],["7",".",".",".","2",".",".",".","6"],[".","6",".",".",".",".","2","8","."],[".",".",".","4","1","9",".",".","5"],[".",".",".",".","8",".",".","7","9"]]
@@ -18,7 +18,7 @@ Output: [["5","3","4","6","7","8","9","1","2"],["6","7","2","1","9","5","3","4",
 
 `Explanation`: The input board is shown above and the only valid solution is shown below:
 
-## Constraints:
+## Constraints
 
 `board.length == 9`
 `board[i].length == 9`
