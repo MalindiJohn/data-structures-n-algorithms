@@ -43,4 +43,3 @@ console.log(combinationSum(candidates2, target2)); // expected: []
 // Explanation: 2 is the only number that can be used to sum 1.
 // But 2 is greater than 1, so there is no result.
 // Therefore, the result is [].
-
