@@ -1,4 +1,4 @@
-## Combination Sum
+# Combination Sum
 
 Given an array of distinct integers candidates and a target integer target, return a list of all unique combinations of candidates where the chosen numbers sum to target. You may return the combinations in any order.
 
@@ -8,7 +8,7 @@ frequency
 
 The test cases are generated such that the number of unique combinations that sum up to target is less than 150 combinations for the given input.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input: candidates = [2,3,6,7], target = 7
@@ -20,21 +20,21 @@ Output: [[2,2,3],[7]]
 7 is a candidate, and 7 = 7.
 These are the only two combinations.
 
-## Example 2:
+## Example 2
 
 ```bash
 Input: candidates = [2,3,5], target = 8
 Output: [[2,2,2,2],[2,3,3],[3,5]]
 ```
 
-## Example 3:
+## Example 3
 
 ```bash
 Input: candidates = [2], target = 1
 Output: []
 ```
 
-## Constraints:
+## Constraints
 
 1 <= candidates.length <= 30
 2 <= candidates[i] <= 40
