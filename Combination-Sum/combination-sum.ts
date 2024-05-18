@@ -18,3 +18,8 @@ function combinationSum(candidates: number[], target: number): number[][] {
     return result;
 
 };
+
+// testing the function
+const candidates = [2, 3, 6, 7];
+const target = 7;
+console.log(combinationSum(candidates, target)); // expected: [[2,2,3],[7]]
