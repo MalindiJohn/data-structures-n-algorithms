@@ -44,3 +44,11 @@ var solveNQueens = function(n) {
     return result;
     
 };
+
+// Testing the function
+console.log(solveNQueens(4));
+// Output [
+//     ['.Q..','...Q','Q...','..Q.'],
+//     ['..Q.','Q...','...Q','.Q..']
+// ]
+console.log(solveNQueens(1)); // Output [['Q']]
