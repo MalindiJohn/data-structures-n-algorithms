@@ -29,3 +29,10 @@ function solveNQueens(n: number): string[][] {
     return result;
 
 };
+
+// testing the function
+console.log(solveNQueens(4));
+// expected: [
+//     [".Q..","...Q","Q...","..Q."],
+//     ["..Q.","Q...","...Q",".Q.."]
+// ]
