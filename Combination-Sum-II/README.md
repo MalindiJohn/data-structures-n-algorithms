@@ -6,7 +6,7 @@ Each number in candidates may only be used once in the combination.
 
 Note: The solution set must not contain duplicate combinations.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input: candidates = [10,1,2,7,6,1,5], target = 8
@@ -19,7 +19,7 @@ Output:
 ]
 ```
 
-## Example 2:
+## Example 2
 
 ```bash
 Input: candidates = [2,5,2,1,2], target = 5
@@ -30,7 +30,7 @@ Output:
 ]
 ```
 
-## Constraints:
+## Constraints
 
 1 <= candidates.length <= 100
 1 <= candidates[i] <= 50
