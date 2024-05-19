@@ -13,3 +13,8 @@ function firstMissingPositive(nums: number[]): number {
     return nums.length + 1;
 
 };
+
+// testing the function
+console.log(firstMissingPositive([1, 2, 0])); // expected: 3
+console.log(firstMissingPositive([3, 4, -1, 1])); // expected: 2
+console.log(firstMissingPositive([7, 8, 9, 11, 12])); // expected: 1
