@@ -27,3 +27,17 @@ var firstMissingPositive = function(nums) {
 console.log(firstMissingPositive([1, 2, 0])); // Output 3
 console.log(firstMissingPositive([3, 4, -1, 1])); // Output 2
 console.log(firstMissingPositive([7, 8, 9, 11, 12])); // Output 1
+console.log(firstMissingPositive([1])); // Output 2
+console.log(firstMissingPositive([2])); // Output 1
+console.log(firstMissingPositive([1, 2])); // Output 3
+console.log(firstMissingPositive([2, 1])); // Output 3
+console.log(firstMissingPositive([1, 3])); // Output 2
+console.log(firstMissingPositive([3, 1])); // Output 2
+console.log(firstMissingPositive([2, 3])); // Output 1
+console.log(firstMissingPositive([3, 2])); // Output 1
+console.log(firstMissingPositive([1, 2, 3])); // Output 4
+console.log(firstMissingPositive([1, 3, 2])); // Output 4
+console.log(firstMissingPositive([2, 1, 3])); // Output 4
+console.log(firstMissingPositive([2, 3, 1])); // Output 4
+console.log(firstMissingPositive([3, 1, 2])); // Output 4
+console.log(firstMissingPositive([3, 2, 1])); // Output 4
