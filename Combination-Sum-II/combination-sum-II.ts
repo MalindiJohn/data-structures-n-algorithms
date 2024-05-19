@@ -31,3 +31,18 @@ console.log(combinationSum2(candidates, target)); // expected: [[1,1,6],[1,2,5],
 // 1 + 7 = 8
 // 2 + 6 = 8
 // Therefore, the result is [[1,1,6],[1,2,5],[1,7],[2,6]].
+
+const candidates1 = [2, 5, 2, 1, 2];
+const target1 = 5;
+console.log(combinationSum2(candidates1, target1)); // expected: [[1,2,2],[5]]
+// Explanation: 1, 2, and 5 are the only numbers that can be used to sum 5.
+// 1 + 2 + 2 = 5
+// 5 = 5
+// Therefore, the result is [[1,2,2],[5]].
+
+const candidates2 = [1, 1, 1, 1, 1];
+const target2 = 3;
+console.log(combinationSum2(candidates2, target2)); // expected: [[1,1,1]]
+// Explanation: 1 is the only number that can be used to sum 3.
+// 1 + 1 + 1 = 3
+// Therefore, the result is [[1,1,1]].
