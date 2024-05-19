@@ -20,3 +20,14 @@ function combinationSum2(candidates: number[], target: number): number[][] {
     return result;
 
 };
+
+// testing the function
+const candidates = [10, 1, 2, 7, 6, 1, 5];
+const target = 8;
+console.log(combinationSum2(candidates, target)); // expected: [[1,1,6],[1,2,5],[1,7],[2,6]]
+// Explanation: 1, 2, 5, and 7 are the only numbers that can be used to sum 8.
+// 1 + 1 + 6 = 8
+// 1 + 2 + 5 = 8
+// 1 + 7 = 8
+// 2 + 6 = 8
+// Therefore, the result is [[1,1,6],[1,2,5],[1,7],[2,6]].
