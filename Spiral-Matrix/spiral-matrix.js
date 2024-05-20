@@ -45,3 +45,32 @@ console.log(spiralOrder([[1, 2, 3], [4, 5, 6], [7, 8, 9]]));
 console.log(spiralOrder([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]]));
 // Output [1,2,3,4,8,12,11,10,9,5,6,7]
 console.log(spiralOrder([[1, 2, 3, 4], [5, 6, 7, 8]]));
+// Output [1,2,3,4,8,7,6,5]
+console.log(spiralOrder([[1, 2], [3, 4], [5, 6]]));
+// Output [1,2,4,6,5,3]
+console.log(spiralOrder([[1, 2, 3]]));
+// Output [1,2,3]
+console.log(spiralOrder([[1], [2], [3]]));
+// Output [1,2,3]
+console.log(spiralOrder([[1, 2, 3, 4, 5]]));
+// Output [1,2,3,4,5]
+console.log(spiralOrder([[1], [2], [3], [4], [5]]));
+// Output [1,2,3,4,5]
+console.log(spiralOrder([[1]]));
+// Output [1]
+console.log(spiralOrder([[1, 2]]));
+// Output [1,2]
+console.log(spiralOrder([[1], [2]]));
+// Output [1,2]
+console.log(spiralOrder([[1, 2, 3], [4, 5, 6]]));
+// Output [1,2,3,6,5,4]
+console.log(spiralOrder([[1, 2], [3, 4], [5, 6], [7, 8]]));
+// Output [1,2,4,6,8,7,5,3]
+console.log(spiralOrder([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]]));
+// Output [1,2,3,4,5,10,9,8,7,6]
+console.log(spiralOrder([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10], [11, 12, 13, 14, 15]]));
+// Output [1,2,3,4,5,10,15,14,13,12,11,6,7,8,9]
+console.log(spiralOrder([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10], [11, 12, 13, 14, 15], [16, 17, 18, 19, 20]]));
+// Output [1,2,3,4,5,10,15,20,19,18,17,16,11,6,7,8,9,14,13,12]
+console.log(spiralOrder([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]]));
+// Output [1,2,3,6,9,12,11,10,7,4,5,8]
