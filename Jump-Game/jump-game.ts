@@ -17,3 +17,16 @@ function canJump(nums: number[]): boolean {
 console.log(canJump([2, 3, 1, 1, 4])); // expected true
 console.log(canJump([3, 2, 1, 0, 4])); // expected false
 console.log(canJump([0])); // expected true
+console.log(canJump([1])); // expected true
+console.log(canJump([0, 1])); // expected false
+console.log(canJump([1, 0])); // expected true
+console.log(canJump([1, 0, 1])); // expected false
+console.log(canJump([1, 0, 1, 0])); // expected false
+console.log(canJump([1, 0, 1, 0, 1])); // expected false
+console.log(canJump([1, 0, 1, 0, 1, 0])); // expected false
+console.log(canJump([1, 0, 1, 0, 1, 0, 1])); // expected false
+console.log(canJump([1, 0, 1, 0, 1, 0, 1, 0])); // expected false
+console.log(canJump([1, 0, 1, 0, 1, 0, 1, 0, 1])); // expected false
+console.log(canJump([1, 0, 1, 0, 1, 0, 1, 0, 1, 0])); // expected false
+console.log(canJump([1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1])); // expected false
+console.log(canJump([1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0])); // expected false
