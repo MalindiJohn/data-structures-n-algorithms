@@ -28,3 +28,20 @@ var permuteUnique = function(nums) {
     return result;
     
 };
+
+// Testing the function
+console.log(permuteUnique([1, 1, 2]));
+// Output [
+//     [1, 1, 2],
+//     [1, 2, 1],
+//     [2, 1, 1]
+// ]
+console.log(permuteUnique([1, 2, 3]));
+// Output [
+//     [1, 2, 3],
+//     [1, 3, 2],
+//     [2, 1, 3],
+//     [2, 3, 1],
+//     [3, 2, 1],
+//     [3, 1, 2]
+// ]
