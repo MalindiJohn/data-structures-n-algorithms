@@ -8,14 +8,14 @@ Return intervals after the insertion.
 
 Note that you don't need to modify intervals in-place. You can make a new array and return it.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input: intervals = [[1,3],[6,9]], newInterval = [2,5]
 Output: [[1,5],[6,9]]
 ```
 
-## Example 2:
+## Example 2
 
 ```bash
 Input: intervals = [[1,2],[3,5],[6,7],[8,10],[12,16]], newInterval = [4,8]
@@ -24,11 +24,11 @@ Output: [[1,2],[3,10],[12,16]]
 
 `Explanation`: Because the new interval [4,8] overlaps with [3,5],[6,7],[8,10].
 
-## Constraints:
+## Constraints
 
-0 <= intervals.length <= 104
-intervals[i].length == 2
-0 <= starti <= endi <= 105
+`0 <= intervals.length <= 104`
+`intervals[i].length == 2`
+`0 <= starti <= endi <= 105`
 intervals is sorted by starti in ascending order.
-newInterval.length == 2
-0 <= start <= end <= 105
+`newInterval.length == 2`
+`0 <= start <= end <= 105`
