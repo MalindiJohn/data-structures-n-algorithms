@@ -15,3 +15,8 @@ function jump(nums: number[]): number {
     return jumps;
 
 };
+
+// testing the function
+console.log(jump([2, 3, 1, 1, 4])); // expected 2
+console.log(jump([2, 3, 0, 1, 4])); // expected 2
+console.log(jump([1, 1, 1, 1, 1])); // expected 4
