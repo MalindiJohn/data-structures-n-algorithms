@@ -27,3 +27,8 @@ function permuteUnique(nums: number[]): number[][] {
     return result;
 
 };
+
+// testing the function
+console.log(permuteUnique([1, 1, 2])); // expected [[1,1,2],[1,2,1],[2,1,1]]
+console.log(permuteUnique([1, 2, 3])); // expected [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+console.log(permuteUnique([1, 1, 1])); // expected [[1,1,1]]
