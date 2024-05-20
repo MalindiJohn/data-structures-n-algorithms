@@ -38,3 +38,34 @@ console.log(insert([[1, 2], [3, 5], [6, 7], [8, 10], [12, 16]], [4, 8]));
 // Output [[1,2],[3,10],[12,16]]
 console.log(insert([], [5, 7]));
 // Output [[5,7]]
+console.log(insert([[1, 5]], [2, 3]));
+// Output [[1,5]]
+console.log(insert([[1, 5]], [2, 7]));
+// Output [[1,7]]
+console.log(insert([[1, 5]], [6, 8]));
+// Output [[1,5],[6,8]]
+console.log(insert([[1, 5]], [0, 0]));
+// Output [[0,0],[1,5]]
+console.log(insert([[1, 5]], [6, 6]));
+// Output [[1,5],[6,6]]
+console.log(insert([[1, 5]], [0, 6]));
+// Output [[0,6]]
+console.log(insert([[1, 5]], [0, 7]));
+// Output [[0,7]]
+console.log(insert([[1, 5]], [6, 8]));
+// Output [[1,5],[6,8]]
+console.log(insert([[1, 5]], [0, 0]));
+// Output [[0,0],[1,5]]
+console.log(insert([[1, 5]], [6, 6]));
+// Output [[1,5],[6,6]]
+console.log(insert([[1, 5]], [0, 6]));
+// Output [[0,6]]
+console.log(insert([[1, 5]], [0, 7]));
+// Output [[0,7]]
+console.log(insert([[1, 5]], [6, 8]));
+// Output [[1,5],[6,8]]
+console.log(insert([[1, 5]], [0, 0]));
+// Output [[0,0],[1,5]]
+console.log(insert([[1, 5]], [6, 6]));
+// Output [[1,5],[6,6]]
+console.log(insert([[1, 5]], [0, 6]));
