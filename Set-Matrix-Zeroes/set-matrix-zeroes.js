@@ -53,3 +53,30 @@ var setZeroes = function(matrix) {
     }
     
 };
+
+// Testing the function
+let matrix = [
+    [1, 1, 1],
+    [1, 0, 1],
+    [1, 1, 1]
+];
+setZeroes(matrix);
+console.log(matrix);
+// Output [
+//     [1,0,1],
+//     [0,0,0],
+//     [1,0,1]
+// ]
+
+matrix1 = [ 
+    [0, 1, 2, 0],
+    [3, 4, 5, 2],
+    [1, 3, 1, 5]
+];
+setZeroes(matrix1);
+console.log(matrix1);
+// Output [
+//     [0,0,0,0],
+//     [0,4,5,0],
+//     [0,3,1,0]
+// ]
