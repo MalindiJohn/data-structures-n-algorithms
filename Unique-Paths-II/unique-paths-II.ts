@@ -30,3 +30,31 @@ function uniquePathsWithObstacles(obstacleGrid: number[][]): number {
 console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 1, 0], [0, 0, 0]])); // expected output: 2
 console.log(uniquePathsWithObstacles([[0, 1], [0, 0]])); // expected output: 1
 console.log(uniquePathsWithObstacles([[1, 0]])); // expected output: 0
+console.log(uniquePathsWithObstacles([[0, 0], [1, 1], [0, 0]])); // expected output: 0
+console.log(uniquePathsWithObstacles([[0, 0], [0, 0]])); // expected output: 2
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [0, 0, 0]])); // expected output: 6
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 1], [0, 0, 0]])); // expected output: 2
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 1], [0, 1, 0]])); // expected output: 1
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [0, 1, 0]])); // expected output: 3
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [1, 0, 0]])); // expected output: 3
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [1, 0, 1]])); // expected output: 1
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [1, 1, 0]])); // expected output: 0
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [0, 1, 1]])); // expected output: 0
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [1, 1, 1]])); // expected output: 0
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [0, 0, 1]])); // expected output: 2
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [1, 0, 0]])); // expected output: 2
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [1, 1, 1]])); // expected output: 0
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [0, 0, 0]])); // expected output: 6
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [0, 0, 1]])); // expected output: 2
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [0, 1, 0]])); // expected output: 3
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [1, 0, 0]])); // expected output: 3
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [1, 0, 1]])); // expected output: 1
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [1, 1, 0]])); // expected output: 0
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [0, 1, 1]])); // expected output: 0
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [1, 1, 1]])); // expected output: 0
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [0, 0, 1]])); // expected output: 2
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [1, 0, 0]])); // expected output: 2
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [1, 1, 1]])); // expected output: 0
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [0, 0, 0]])); // expected output: 6
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [0, 0, 1]])); // expected output: 2
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 0, 0], [0, 1, 0]])); // expected output: 3
