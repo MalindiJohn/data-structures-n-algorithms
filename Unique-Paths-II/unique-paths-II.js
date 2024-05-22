@@ -35,3 +35,11 @@ var uniquePathsWithObstacles = function(obstacleGrid) {
     return dp[m - 1][n - 1];
     
 };
+
+// Testing the function
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 1, 0], [0, 0, 0]]));
+// Output 2
+console.log(uniquePathsWithObstacles([[0, 1], [0, 0]]));
+// Output 1
+console.log(uniquePathsWithObstacles([[0, 0], [1, 1], [0, 0]]));
+// Output 0
