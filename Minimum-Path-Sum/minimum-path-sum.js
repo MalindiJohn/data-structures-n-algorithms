@@ -35,3 +35,31 @@ console.log(minPathSum([[1, 2, 3], [4, 5, 6]]));
 // Output 12
 console.log(minPathSum([[1, 2, 3], [4, 5, 6], [7, 8, 9]]));
 // Output 21
+console.log(minPathSum([[1, 2, 3, 4], [5, 6, 7, 8]]));
+// Output 20
+console.log(minPathSum([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]]));
+// Output 30
+console.log(minPathSum([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]));
+// Output 36
+console.log(minPathSum([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]]));
+// Output 20
+console.log(minPathSum([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10], [11, 12, 13, 14, 15]]));
+// Output 35
+console.log(minPathSum([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10], [11, 12, 13, 14, 15], [16, 17, 18, 19, 20]]));
+// Output 50
+console.log(minPathSum([[1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11, 12]]));
+// Output 28
+console.log(minPathSum([[1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11, 12], [13, 14, 15, 16, 17, 18]]));
+// Output 51
+console.log(minPathSum([[1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11, 12], [13, 14, 15, 16, 17, 18], [19, 20, 21, 22, 23, 24]]));
+// Output 76
+console.log(minPathSum([[1, 2, 3, 4, 5, 6, 7], [8, 9, 10, 11, 12, 13, 14]]));
+// Output 36
+console.log(minPathSum([[1, 2, 3, 4, 5, 6, 7], [8, 9, 10, 11, 12, 13, 14], [15, 16, 17, 18, 19, 20, 21]]));
+// Output 63
+console.log(minPathSum([[1, 2, 3, 4, 5, 6, 7], [8, 9, 10, 11, 12, 13, 14], [15, 16, 17, 18, 19, 20, 21], [22, 23, 24, 25, 26, 27, 28]]));
+// Output 90
+console.log(minPathSum([[1, 2, 3, 4, 5, 6, 7, 8], [9, 10, 11, 12, 13, 14, 15, 16]]));
+// Output 36
+console.log(minPathSum([[1, 2, 3, 4, 5, 6, 7, 8], [9, 10, 11, 12, 13, 14, 15, 16], [17, 18, 19, 20, 21, 22, 23, 24]]));
+// Output 63
