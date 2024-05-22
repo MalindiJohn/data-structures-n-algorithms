@@ -41,3 +41,27 @@ console.log(fullJustify(["What", "must", "be", "acknowledgment", "shall", "be"],
 console.log(fullJustify(["Science", "is", "what", "we", "understand", "well", "enough", "to", "explain",
     "to", "a", "computer.", "Art", "is", "everything", "else", "we", "do"], 20));
 // expected output: ["Science  is  what we", "understand      well", "enough to explain to", "a  computer.  Art is", "everything  else  we", "do                  "]
+console.log(fullJustify(["Listen", "to", "many,", "speak", "to", "a", "few."], 6));
+// expected output: ["Listen", "to    ", "many, ", "speak ", "to   a", "few.  "]
+console.log(fullJustify(["Listen", "to", "many,", "speak", "to", "a", "few."], 7));
+// expected output: ["Listen", "to    ", "many, ", "speak ", "to   a", "few.  "]
+console.log(fullJustify(["Listen", "to", "many,", "speak", "to", "a", "few."], 8));
+// expected output: ["Listen  ", "to   many,", "speak to ", "a      few."]
+console.log(fullJustify(["Listen", "to", "many,", "speak", "to", "a", "few."], 9));
+// expected output: ["Listen   ", "to   many,", "speak  to ", "a       few."]
+console.log(fullJustify(["Listen", "to", "many,", "speak", "to", "a", "few."], 10));
+// expected output: ["Listen    ", "to   many,", "speak   to", "a       few."]
+console.log(fullJustify(["Listen", "to", "many,", "speak", "to", "a", "few."], 11));
+// expected output: ["Listen     ", "to   many,", "speak    to", "a        few."]
+console.log(fullJustify(["Listen", "to", "many,", "speak", "to", "a", "few."], 12));
+// expected output: ["Listen      ", "to   many,", "speak      ", "to    a few."]
+console.log(fullJustify(["Listen", "to", "many,", "speak", "to", "a", "few."], 13));
+// expected output: ["Listen       ", "to   many, speak", "to     a     few."]
+console.log(fullJustify(["Listen", "to", "many,", "speak", "to", "a", "few."], 14));
+// expected output: ["Listen        ", "to   many, speak", "to   a    few."]
+console.log(fullJustify(["Listen", "to", "many,", "speak", "to", "a", "few."], 15));
+// expected output: ["Listen         ", "to   many, speak", "to   a    few."]
+console.log(fullJustify(["Listen", "to", "many,", "speak", "to", "a", "few."], 16));
+// expected output: ["Listen          ", "to   many, speak", "to   a    few."]
+console.log(fullJustify(["Listen", "to", "many,", "speak", "to", "a", "few."], 17));
+// expected output: ["Listen           ", "to   many, speak", "to   a    few."]
