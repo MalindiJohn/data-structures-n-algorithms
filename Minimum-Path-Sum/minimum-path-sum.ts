@@ -24,3 +24,8 @@ function minPathSum(grid: number[][]): number {
     return dp[m - 1][n - 1];
 
 };
+
+// testing the function
+console.log(minPathSum([[1, 3, 1], [1, 5, 1], [4, 2, 1]])); // expected output: 7
+console.log(minPathSum([[1, 2, 3], [4, 5, 6]])); // expected output: 12
+console.log(minPathSum([[1, 2], [1, 1]])); // expected output: 3
