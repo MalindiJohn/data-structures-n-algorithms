@@ -32,3 +32,12 @@ function fullJustify(words: string[], maxWidth: number): string[] {
     return result;
 
 };
+
+// testing the function
+console.log(fullJustify(["This", "is", "an", "example", "of", "text", "justification."], 16));
+// expected output: ["This    is    an", "example  of text", "justification.  "]
+console.log(fullJustify(["What", "must", "be", "acknowledgment", "shall", "be"], 16));
+// expected output: ["What   must   be", "acknowledgment  ", "shall be        "]
+console.log(fullJustify(["Science", "is", "what", "we", "understand", "well", "enough", "to", "explain",
+    "to", "a", "computer.", "Art", "is", "everything", "else", "we", "do"], 20));
+// expected output: ["Science  is  what we", "understand      well", "enough to explain to", "a  computer.  Art is", "everything  else  we", "do                  "]
