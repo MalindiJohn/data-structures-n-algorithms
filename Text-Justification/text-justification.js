@@ -64,3 +64,57 @@ console.log(fullJustify(["What", "must", "be", "acknowledgment", "shall", "be"],
 //     "acknowledgment  ",
 //     "shall be        "
 // ]
+console.log(fullJustify(["Science", "is", "what", "we", "understand", "well", "enough", "to", "explain",
+    "to", "a", "computer.", "Art", "is", "everything", "else", "we", "do"
+], 20));
+// Output [
+//     "Science  is  what we",
+//     "understand      well",
+//     "enough to explain to",
+//     "a  computer.  Art is",
+//     "everything  else  we",
+//     "do                  "
+// ]
+console.log(fullJustify(["This", "is", "a", "test"], 10));
+// Output [
+//     "This is a",
+//     "test      "
+// ]
+console.log(fullJustify(["This", "is", "a", "test"], 12));
+// Output [
+//     "This    is a",
+//     "test        "
+// ]
+console.log(fullJustify(["This", "is", "a", "test"], 14));
+// Output [
+//     "This    is a",
+//     "test         "
+// ]
+console.log(fullJustify(["This", "is", "a", "test"], 16));
+// Output [
+//     "This    is a test",
+// ]
+console.log(fullJustify(["This", "is", "a", "test"], 18));
+// Output [
+//     "This    is    a test",
+// ]
+console.log(fullJustify(["This", "is", "a", "test"], 20));
+// Output [
+//     "This    is    a    test",
+// ]
+console.log(fullJustify(["This", "is", "a", "test"], 22));
+// Output [
+//     "This    is    a    test",
+// ]
+console.log(fullJustify(["This", "is", "a", "test"], 24));
+// Output [
+//     "This    is    a    test",
+// ]
+console.log(fullJustify(["This", "is", "a", "test"], 26));
+// Output [
+//     "This    is    a    test",
+// ]
+console.log(fullJustify(["This", "is", "a", "test"], 28));
+// Output [
+//     "This    is    a    test",
+// ]
