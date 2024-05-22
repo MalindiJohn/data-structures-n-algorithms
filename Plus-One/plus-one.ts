@@ -13,3 +13,8 @@ function plusOne(digits: number[]): number[] {
     return [1, ...digits];
 
 };
+
+// testing the function
+console.log(plusOne([1, 2, 3])); // expected output: [1,2,4]
+console.log(plusOne([4, 3, 2, 1])); // expected output: [4,3,2,2]
+console.log(plusOne([0])); // expected output: [1]
