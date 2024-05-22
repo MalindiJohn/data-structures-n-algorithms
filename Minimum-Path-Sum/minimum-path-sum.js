@@ -27,3 +27,11 @@ var minPathSum = function(grid) {
     return dp[m - 1][n - 1];
     
 };
+
+// Testing the function
+console.log(minPathSum([[1, 3, 1], [1, 5, 1], [4, 2, 1]]));
+// Output 7
+console.log(minPathSum([[1, 2, 3], [4, 5, 6]]));
+// Output 12
+console.log(minPathSum([[1, 2, 3], [4, 5, 6], [7, 8, 9]]));
+// Output 21
