@@ -25,3 +25,8 @@ function uniquePathsWithObstacles(obstacleGrid: number[][]): number {
     return dp[m - 1][n - 1];
 
 };
+
+// testing the function
+console.log(uniquePathsWithObstacles([[0, 0, 0], [0, 1, 0], [0, 0, 0]])); // expected output: 2
+console.log(uniquePathsWithObstacles([[0, 1], [0, 0]])); // expected output: 1
+console.log(uniquePathsWithObstacles([[1, 0]])); // expected output: 0
