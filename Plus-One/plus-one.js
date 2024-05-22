@@ -19,3 +19,11 @@ var plusOne = function(digits) {
     return digits;
     
 };
+
+// Testing the function
+console.log(plusOne([1, 2, 3]));
+// Output [1,2,4]
+console.log(plusOne([4, 3, 2, 1]));
+// Output [4,3,2,2]
+console.log(plusOne([0]));
+// Output [1]
