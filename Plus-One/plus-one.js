@@ -27,3 +27,47 @@ console.log(plusOne([4, 3, 2, 1]));
 // Output [4,3,2,2]
 console.log(plusOne([0]));
 // Output [1]
+console.log(plusOne([9]));
+// Output [1,0]
+console.log(plusOne([9, 9]));
+// Output [1,0,0]
+console.log(plusOne([9, 9, 9]));
+// Output [
+//     1, 0, 0, 0
+// ]
+console.log(plusOne([1, 0, 0, 0]));
+// Output [
+//     1, 0, 0, 1
+// ]
+console.log(plusOne([1, 0, 9, 9]));
+// Output [
+//     1, 1, 0, 0
+// ]
+console.log(plusOne([1, 9, 9, 9]));
+// Output [
+//     2, 0, 0, 0
+// ]
+console.log(plusOne([9, 9, 9, 9]));
+// Output [
+//     1, 0, 0, 0, 0
+// ]
+console.log(plusOne([1, 0, 0, 0, 0]));
+// Output [
+//     1, 0, 0, 0, 1
+// ]
+console.log(plusOne([1, 0, 0, 9, 9]));
+// Output [
+//     1, 0, 1, 0, 0
+// ]
+console.log(plusOne([1, 0, 9, 9, 9]));
+// Output [
+//     1, 1, 0, 0, 0
+// ]
+console.log(plusOne([1, 9, 9, 9, 9]));
+// Output [
+//     2, 0, 0, 0, 0
+// ]
+console.log(plusOne([9, 9, 9, 9, 9]));
+// Output [
+//     1, 0, 0, 0, 0, 0
+// ]
