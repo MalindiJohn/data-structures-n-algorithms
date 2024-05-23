@@ -36,5 +36,55 @@ let matrix = [
 ];
 let target = 3;
 console.log(searchMatrix(matrix, target)); // Output: true
-// Output: false
+
+target = 13;
+console.log(searchMatrix(matrix, target)); // Output: false
+
+target = 60;
+console.log(searchMatrix(matrix, target)); // Output: true
+
+target = 0;
+console.log(searchMatrix(matrix, target)); // Output: false
+
+target = 1;
+console.log(searchMatrix(matrix, target)); // Output: true
+
+target = 34;
+console.log(searchMatrix(matrix, target)); // Output: true
+
+target = 23;
+console.log(searchMatrix(matrix, target)); // Output: true
+
+target = 30;
+console.log(searchMatrix(matrix, target)); // Output: true
+
+target = 20;
+console.log(searchMatrix(matrix, target)); // Output: true
+
+target = 10;
+console.log(searchMatrix(matrix, target)); // Output: true
+
+target = 11;
+console.log(searchMatrix(matrix, target)); // Output: true
+
+target = 16;
+console.log(searchMatrix(matrix, target)); // Output: true
+
+target = 7;
+console.log(searchMatrix(matrix, target)); // Output: true
+
+target = 5;
+console.log(searchMatrix(matrix, target)); // Output: true
+
+target = 3;
+console.log(searchMatrix(matrix, target)); // Output: true
+
+target = 1;
+console.log(searchMatrix(matrix, target)); // Output: true
+
+target = 0;
+console.log(searchMatrix(matrix, target)); // Output: false
+
+target = 2;
+console.log(searchMatrix(matrix, target)); // Output: false
 
