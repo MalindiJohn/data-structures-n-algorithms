@@ -21,3 +21,13 @@ var subsets = function(nums) {
     return result;
     
 };
+
+// Testing the function
+let nums = [1, 2, 3];
+console.log(subsets(nums)); // Output: [[],[1],[1,2],[1,2,3],[1,3],[2],[2,3],[3]]
+
+nums = [0];
+console.log(subsets(nums)); // Output: [[],[0]]
+
+nums = [1, 2];
+console.log(subsets(nums)); // Output: [[],[1],[1,2],[2]]
