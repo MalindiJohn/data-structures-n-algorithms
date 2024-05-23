@@ -12,3 +12,8 @@ function removeDuplicates(nums: number[]): number {
     return count;
 
 };
+
+// testing the function
+console.log(removeDuplicates([1, 1, 1, 2, 2, 3])); // expected 5
+console.log(removeDuplicates([0, 0, 1, 1, 1, 1, 2, 3, 3])); // expected 7
+console.log(removeDuplicates([1, 2, 3])); // expected 3
