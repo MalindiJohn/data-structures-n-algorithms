@@ -38,3 +38,15 @@ var exist = function(board, word) {
     return false;
     
 };
+
+// Testing the function
+let board = [
+    ['A','B','C','E'],
+    ['S','F','C','S'],
+    ['A','D','E','E']
+];
+let word = 'ABCCED';
+console.log(exist(board, word)); // Output: true
+
+word = 'SEE';
+console.log(exist(board, word)); // Output: true
