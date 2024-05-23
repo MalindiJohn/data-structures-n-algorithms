@@ -15,3 +15,10 @@ var removeDuplicates = function(nums) {
     return i;
     
 };
+
+// Testing the function
+let nums = [1, 1, 1, 2, 2, 3];
+console.log(removeDuplicates(nums)); // Output: 5
+
+nums = [0, 0, 1, 1, 1, 1, 2, 3, 3];
+console.log(removeDuplicates(nums)); // Output: 7
