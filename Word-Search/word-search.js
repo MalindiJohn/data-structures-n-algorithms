@@ -50,3 +50,42 @@ console.log(exist(board, word)); // Output: true
 
 word = 'SEE';
 console.log(exist(board, word)); // Output: true
+
+word = 'ABCB';
+console.log(exist(board, word)); // Output: false
+
+word = 'ABCESEEDASFC';
+console.log(exist(board, word)); // Output: true
+
+word = 'ABCESEEDASFCB';
+console.log(exist(board, word)); // Output: false
+
+word = 'ABCESEEDASFCB';
+console.log(exist(board, word)); // Output: false
+
+word = 'ABCESEEDASFCBC';
+console.log(exist(board, word)); // Output: false
+
+word = 'ABCESEEDASFCBCD';
+console.log(exist(board, word)); // Output: false
+
+word = 'ABCESEEDASFCBCDE';
+console.log(exist(board, word)); // Output: false
+
+word = 'ABCESEEDASFCBCDEE';
+console.log(exist(board, word)); // Output: true
+
+word = 'ABCESEEDASFCBCDEES';
+console.log(exist(board, word)); // Output: false
+
+word = 'ABCESEEDASFCBCDEESF';
+console.log(exist(board, word)); // Output: false
+
+word = 'ABCESEEDASFCBCDEESFS';
+console.log(exist(board, word)); // Output: false
+
+word = 'ABCESEEDASFCBCDEESFSC';
+console.log(exist(board, word)); // Output: false
+
+word = 'ABCESEEDASFCBCDEESFSCS';
+console.log(exist(board, word)); // Output: false
