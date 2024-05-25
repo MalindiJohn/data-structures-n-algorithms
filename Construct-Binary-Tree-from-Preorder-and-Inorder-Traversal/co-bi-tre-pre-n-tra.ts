@@ -39,3 +39,16 @@ function buildTreeHelper(preorder: number[], inorder: number[], preStart: number
     return root;
 
 };
+
+// testing the function
+console.log(buildTree([3, 9, 20, 15, 7], [9, 3, 15, 20, 7]));
+// expected TreeNode {
+//     val: 3,
+//     left: TreeNode { val: 9, left: null, right: null },
+//     right: TreeNode {
+//       val: 20,
+//       left: TreeNode { val: 15, left: null, right: null },
+//       right: TreeNode { val: 7, left: null, right: null }
+//     }
+//   }
+
