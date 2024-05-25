@@ -36,3 +36,24 @@ function search(nums: number[], target: number): boolean {
 console.log(search([2, 5, 6, 0, 0, 1, 2], 0)); // expected true
 console.log(search([2, 5, 6, 0, 0, 1, 2], 3)); // expected false
 console.log(search([1], 0)); // expected false
+console.log(search([1], 1)); // expected true
+console.log(search([1, 1], 0)); // expected false
+console.log(search([1, 1], 1)); // expected true
+console.log(search([1, 1, 1], 0)); // expected false
+console.log(search([1, 1, 1], 1)); // expected true
+console.log(search([1, 1, 1, 1], 0)); // expected false
+console.log(search([1, 1, 1, 1], 1)); // expected true
+console.log(search([1, 1, 1, 1, 1], 0)); // expected false
+console.log(search([1, 1, 1, 1, 1], 1)); // expected true
+console.log(search([1, 1, 1, 1, 1, 1], 0)); // expected false
+console.log(search([1, 1, 1, 1, 1, 1], 1)); // expected true
+console.log(search([1, 1, 1, 1, 1, 1, 1], 0)); // expected false
+console.log(search([1, 1, 1, 1, 1, 1, 1], 1)); // expected true
+console.log(search([1, 1, 1, 1, 1, 1, 1, 1], 0)); // expected false
+console.log(search([1, 1, 1, 1, 1, 1, 1, 1], 1)); // expected true
+console.log(search([1, 1, 1, 1, 1, 1, 1, 1, 1], 0)); // expected false
+console.log(search([1, 1, 1, 1, 1, 1, 1, 1, 1], 1)); // expected true
+console.log(search([1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 0)); // expected false
+console.log(search([1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 1)); // expected true
+console.log(search([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 0)); // expected false
+console.log(search([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 1)); // expected true
