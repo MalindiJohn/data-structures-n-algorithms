@@ -22,3 +22,8 @@ var largestRectangleArea = function(heights) {
     return maxArea;
     
 };
+
+// testing the function
+console.log(largestRectangleArea([2,1,5,6,2,3])); // 10
+console.log(largestRectangleArea([2,4])); // 4
+console.log(largestRectangleArea([4,2])); // 4
