@@ -20,4 +20,16 @@ function sortedArrayToBST(nums: number[]): TreeNode | null {
 
 function buildBST(nums: number[], start: number, end: number): TreeNode | null {
 
+    if (start > end) {
+        return null;
+    }
+
+    let mid = Math.floor((start + end) / 2);
+    let root = new TreeNode(nums[mid]);
+
+    root.left = buildBST(nums, start, mid - 1);
+    root.right = buildBST(nums, mid + 1, end);
+
+    return root;
+
 };
