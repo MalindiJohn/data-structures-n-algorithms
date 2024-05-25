@@ -27,3 +27,16 @@ var largestRectangleArea = function(heights) {
 console.log(largestRectangleArea([2,1,5,6,2,3])); // 10
 console.log(largestRectangleArea([2,4])); // 4
 console.log(largestRectangleArea([4,2])); // 4
+console.log(largestRectangleArea([2,1,2])); // 3
+console.log(largestRectangleArea([1,2,2])); // 3
+console.log(largestRectangleArea([2,2,1])); // 4
+console.log(largestRectangleArea([2,2,2])); // 6
+console.log(largestRectangleArea([2,2,2,2])); // 8
+console.log(largestRectangleArea([2,2,2,2,2])); // 10
+console.log(largestRectangleArea([2,2,2,2,2,2])); // 12
+console.log(largestRectangleArea([2,2,2,2,2,2,2])); // 14
+console.log(largestRectangleArea([2,2,2,2,2,2,2,2])); // 16
+console.log(largestRectangleArea([2,2,2,2,2,2,2,2,2])); // 18
+console.log(largestRectangleArea([2,2,2,2,2,2,2,2,2,2])); // 20
+console.log(largestRectangleArea([2,2,2,2,2,2,2,2,2,2,2])); // 22
+console.log(largestRectangleArea([2,2,2,2,2,2,2,2,2,2,2,2])); // 24
