@@ -14,4 +14,12 @@
 
 function buildTree(preorder: number[], inorder: number[]): TreeNode | null {
 
+    let map = new Map<number, number>();
+
+    for (let i = 0; i < inorder.length; i++) {
+        map.set(inorder[i], i);
+    }
+
+    return buildTreeHelper(preorder, inorder, 0, 0, inorder.length - 1, map);
+
 };
