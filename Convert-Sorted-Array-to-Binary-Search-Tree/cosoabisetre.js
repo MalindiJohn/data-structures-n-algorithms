@@ -43,3 +43,79 @@ console.log(sortedArrayToBST([-10,-3,0,5,9]));
 
 console.log(sortedArrayToBST([1,3]));
 // TreeNode { val: 3, left: TreeNode { val: 1, left: null, right: null }, right: null }
+
+console.log(sortedArrayToBST([1]));
+// TreeNode { val: 1, left: null, right: null }
+
+console.log(sortedArrayToBST([1,2,3,4,5,6,7,8,9,10]));
+// TreeNode {
+//   val: 5,
+//   left: TreeNode {
+//     val: 2,
+//     left: TreeNode { val: 1, left: null, right: null },
+//     right: TreeNode { val: 3, left: null, right: null }
+//   },
+//   right: TreeNode {
+//     val: 8,
+//     left: TreeNode { val: 6, left: null, right: TreeNode { val: 7, left: null, right: null } },
+//     right: TreeNode { val: 9, left: null, right: TreeNode { val: 10, left: null, right: null } }
+//   }
+// }
+
+console.log(sortedArrayToBST([1,2,3,4,5,6,7,8,9,10,11]));
+// TreeNode {
+//   val: 6,
+//   left: TreeNode {
+//     val: 3,
+//     left: TreeNode {
+//       val: 2,
+//       left: TreeNode { val: 1, left: null, right: null },
+//       right: null
+//     },
+//     right: TreeNode { val: 4, left: null, right: TreeNode { val: 5, left: null, right: null } }
+//   },
+//   right: TreeNode {
+//     val: 9,
+//     left: TreeNode {
+//       val: 8,
+//       left: TreeNode { val: 7, left: null, right: null },
+//       right: null
+//     },
+//     right: TreeNode { val: 10, left: null, right: TreeNode { val: 11, left: null, right: null } }
+//   }
+// }
+
+console.log(sortedArrayToBST([1,2,3,4,5,6,7,8,9,10,11,12]));
+// TreeNode {
+//   val: 7,
+//   left: TreeNode {
+//     val: 3,
+//     left: TreeNode {
+//       val: 2,
+//       left: TreeNode { val: 1, left: null, right: null },
+//       right: null
+//     },
+//     right: TreeNode { val: 5, left: TreeNode { val: 4, left: null, right: null }, right: TreeNode { val: 6, left: null, right: null } }
+
+console.log(sortedArrayToBST([1,2,3,4,5,6,7,8,9,10,11,12,13]));
+// TreeNode {
+//   val: 7,
+//   left: TreeNode {
+//     val: 3,
+//     left: TreeNode {
+//       val: 2,
+//       left: TreeNode { val: 1, left: null, right: null },
+//       right: null
+//     },
+//     right: TreeNode { val: 5, left: TreeNode { val: 4, left: null, right: null }, right: TreeNode { val: 6, left: null, right: null } }
+//   },
+//   right: TreeNode {
+//     val: 10,
+//     left: TreeNode {
+//       val: 9,
+//       left: TreeNode { val: 8, left: null, right: null },
+//       right: null
+//     },
+//     right: TreeNode { val: 12, left: TreeNode { val: 11, left: null, right: null }, right: TreeNode { val: 13, left: null, right: null } }
+//   }
+// }
