@@ -14,4 +14,10 @@
 
 function sortedArrayToBST(nums: number[]): TreeNode | null {
 
+    return buildBST(nums, 0, nums.length - 1);
+
+};
+
+function buildBST(nums: number[], start: number, end: number): TreeNode | null {
+
 };
