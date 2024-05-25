@@ -36,3 +36,21 @@ var buildTree = function(preorder, inorder) {
     return helper(0, 0, inorder.length - 1);
     
 };
+
+// testing the function
+console.log(buildTree([3,9,20,15,7], [9,3,15,20,7])); 
+// TreeNode {
+//   val: 3,
+//   left: TreeNode { val: 9, left: null, right: null },
+//   right: TreeNode {
+//     val: 20,
+//     left: TreeNode { val: 15, left: null, right: null },
+//     right: TreeNode { val: 7, left: null, right: null }
+//   }
+
+console.log(buildTree([1,2,3], [3,2,1]));
+// TreeNode {
+//   val: 1,
+//   left: TreeNode { val: 2, left: TreeNode { val: 3, left: null, right: null }, right: null },
+//   right: null
+// }
