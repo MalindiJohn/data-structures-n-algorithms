@@ -25,3 +25,8 @@ var subsetsWithDup = function(nums) {
     return result;
     
 };
+
+// testing the function
+console.log(subsetsWithDup([1,2,2])); // [[],[1],[1,2],[1,2,2],[2],[2,2]]
+console.log(subsetsWithDup([0])); // [[],[0]]
+console.log(subsetsWithDup([1,2,3])); // [[],[1],[1,2],[1,2,3],[1,3],[2],[2,3],[3]]
