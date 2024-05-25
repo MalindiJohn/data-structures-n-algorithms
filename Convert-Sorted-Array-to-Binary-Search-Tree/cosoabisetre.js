@@ -29,3 +29,17 @@ var sortedArrayToBST = function(nums) {
     return helper(0, nums.length - 1);
     
 };
+
+// testing the function
+console.log(sortedArrayToBST([-10,-3,0,5,9]));
+// TreeNode {
+//   val: 0,
+//   left: TreeNode {
+//     val: -3,
+//     left: TreeNode { val: -10, left: null, right: null },
+//     right: null
+//   },
+//   right: TreeNode { val: 9, left: TreeNode { val: 5, left: null, right: null }, right: null }
+
+console.log(sortedArrayToBST([1,3]));
+// TreeNode { val: 3, left: TreeNode { val: 1, left: null, right: null }, right: null }
