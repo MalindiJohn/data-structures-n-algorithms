@@ -31,3 +31,8 @@ function search(nums: number[], target: number): boolean {
     return false;
 
 };
+
+// testing the function
+console.log(search([2, 5, 6, 0, 0, 1, 2], 0)); // expected true
+console.log(search([2, 5, 6, 0, 0, 1, 2], 3)); // expected false
+console.log(search([1], 0)); // expected false
