@@ -2,21 +2,21 @@
 
 Given two integer arrays preorder and inorder where preorder is the preorder traversal of a binary tree and inorder is the inorder traversal of the same tree, construct and return the binary tree.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input: preorder = [3,9,20,15,7], inorder = [9,3,15,20,7]
 Output: [3,9,20,null,null,15,7]
 ```
 
-## Example 2:
+## Example 2
 
 ```bash
 Input: preorder = [-1], inorder = [-1]
 Output: [-1]
 ```
 
-## Constraints:
+## Constraints
 
 1 <= preorder.length <= 3000
 inorder.length == preorder.length
