@@ -54,3 +54,105 @@ console.log(buildTree([1,2,3], [3,2,1]));
 //   left: TreeNode { val: 2, left: TreeNode { val: 3, left: null, right: null }, right: null },
 //   right: null
 // }
+
+console.log(buildTree([1,2,3,4,5], [3,2,4,1,5]));
+// TreeNode {
+//   val: 1,
+//   left: TreeNode {
+//     val: 2,
+//     left: TreeNode { val: 3, left: null, right: null },
+//     right: TreeNode { val: 4, left: null, right: null }
+//   },
+//   right: TreeNode { val: 5, left: null, right: null }
+// }
+
+console.log(buildTree([1,2,3,4,5,6,7], [3,2,4,1,6,5,7]));
+// TreeNode {
+//   val: 1,
+//   left: TreeNode {
+//     val: 2,
+//     left: TreeNode { val: 3, left: null, right: null },
+//     right: TreeNode { val: 4, left: null, right: null }
+//   },
+//   right: TreeNode {
+//     val: 5,
+//     left: TreeNode { val: 6, left: null, right: null },
+//     right: TreeNode { val: 7, left: null, right: null }
+//   }
+// }
+
+console.log(buildTree([1,2,3,4,5,6,7,8], [3,2,4,1,6,5,7,8]));
+// TreeNode {
+//   val: 1,
+//   left: TreeNode {
+//     val: 2,
+//     left: TreeNode { val: 3, left: null, right: null },
+//     right: TreeNode { val: 4, left: null, right: null }
+//   },
+//   right: TreeNode {
+//     val: 5,
+//     left: TreeNode { val: 6, left: null, right: null },
+//     right: TreeNode { val: 7, left: null, right: TreeNode { val: 8, left: null, right: null } }
+//   }
+// }
+
+console.log(buildTree([1,2,3,4,5,6,7,8,9], [3,2,4,1,6,5,7,8,9]));
+// TreeNode {
+//   val: 1,
+//   left: TreeNode {
+//     val: 2,
+//     left: TreeNode { val: 3, left: null, right: null },
+//     right: TreeNode { val: 4, left: null, right: null }
+//   },
+//   right: TreeNode {
+//     val: 5,
+//     left: TreeNode { val: 6, left: null, right: null },
+//     right: TreeNode { val: 7, left: null, right: TreeNode { val: 8, left: null, right: TreeNode { val: 9, left: null, right: null } } }
+//   }
+// }
+
+console.log(buildTree([1,2,3,4,5,6,7,8,9,10], [3,2,4,1,6,5,7,8,9,10]));
+// TreeNode {
+//   val: 1,
+//   left: TreeNode {
+//     val: 2,
+//     left: TreeNode { val: 3, left: null, right: null },
+//     right: TreeNode { val: 4, left: null, right: null }
+//   },
+//   right: TreeNode {
+//     val: 5,
+//     left: TreeNode { val: 6, left: null, right: null },
+//     right: TreeNode { val: 7, left: null, right: TreeNode { val: 8, left: null, right: TreeNode { val: 9, left: null, right: TreeNode { val: 10, left: null, right: null } } } }
+//   }
+// }
+
+console.log(buildTree([1,2,3,4,5,6,7,8,9,10,11], [3,2,4,1,6,5,7,8,9,10,11]));
+// TreeNode {
+//   val: 1,
+//   left: TreeNode {
+//     val: 2,
+//     left: TreeNode { val: 3, left: null, right: null },
+//     right: TreeNode { val: 4, left: null, right: null }
+//   },
+//   right: TreeNode {
+//     val: 5,
+//     left: TreeNode { val: 6, left: null, right: null },
+//     right: TreeNode { val: 7, left: null, right: TreeNode { val: 8, left: null, right: TreeNode { val: 9, left: null, right: TreeNode { val: 10, left: null, right: TreeNode { val: 11, left: null, right: null } } } } }
+//   }
+// }
+
+console.log(buildTree([1,2,3,4,5,6,7,8,9,10,11,12], [3,2,4,1,6,5,7,8,9,10,11,12]));
+// TreeNode {
+//   val: 1,
+//   left: TreeNode {
+//     val: 2,
+//     left: TreeNode { val: 3, left: null, right: null },
+//     right: TreeNode { val: 4, left: null, right: null }
+//   },
+//   right: TreeNode {
+//     val: 5,
+//     left: TreeNode { val: 6, left: null, right: null },
+//     right: TreeNode { val: 7, left: null, right: TreeNode { val: 8, left: null, right: TreeNode { val: 9, left: null, right: TreeNode { val: 10, left: null, right: TreeNode { val: 11, left: null, right: TreeNode { val: 12, left: null, right: null } } } } } }
+//   }
+// }
+
