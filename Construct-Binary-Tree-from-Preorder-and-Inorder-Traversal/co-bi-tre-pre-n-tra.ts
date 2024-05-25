@@ -23,3 +23,7 @@ function buildTree(preorder: number[], inorder: number[]): TreeNode | null {
     return buildTreeHelper(preorder, inorder, 0, 0, inorder.length - 1, map);
 
 };
+
+function buildTreeHelper(preorder: number[], inorder: number[], preStart: number, inStart: number, inEnd: number, map: Map<number, number>): TreeNode | null {
+
+};
