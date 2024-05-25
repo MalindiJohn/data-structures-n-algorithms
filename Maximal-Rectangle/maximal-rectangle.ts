@@ -35,3 +35,18 @@ function largestRectangleArea(heights: number[]): number {
     return maxArea;
 
 };
+
+// testing the function
+console.log(maximalRectangle([
+    ['1', '0', '1', '0', '0'],
+    ['1', '0', '1', '1', '1'],
+    ['1', '1', '1', '1', '1'],
+    ['1', '0', '0', '1', '0']
+])); // expected 9
+
+console.log(maximalRectangle([
+    ['1', '0', '1', '0', '0'],
+    ['1', '0', '1', '1', '1'],
+    ['1', '1', '1', '1', '1'],
+    ['1', '0', '1', '1', '0']
+])); // expected 10
