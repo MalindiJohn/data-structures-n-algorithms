@@ -56,3 +56,14 @@ console.log(sortedArrayToBST([1, 3]));
 //     left: TreeNode { val: 1, left: null, right: null },
 //     right: null
 //   }
+
+console.log(sortedArrayToBST([1]));
+// expected TreeNode {
+//     val: 1,
+//     left: null,
+//     right: null
+//   }
+
+console.log(sortedArrayToBST([]));
+// expected null
+// Time complexity: O(n)
