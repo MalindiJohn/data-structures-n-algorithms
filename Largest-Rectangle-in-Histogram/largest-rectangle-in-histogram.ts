@@ -20,3 +20,15 @@ function largestRectangleArea(heights: number[]): number {
 console.log(largestRectangleArea([2, 1, 5, 6, 2, 3])); // expected 10
 console.log(largestRectangleArea([2, 4])); // expected 4
 console.log(largestRectangleArea([4, 2])); // expected 4
+console.log(largestRectangleArea([4])); // expected 4
+console.log(largestRectangleArea([])); // expected 0
+console.log(largestRectangleArea([2, 1, 2])); // expected 3
+console.log(largestRectangleArea([2, 1, 2, 1])); // expected 3
+console.log(largestRectangleArea([2, 1, 2, 1, 2])); // expected 5
+console.log(largestRectangleArea([2, 1, 2, 1, 2, 1])); // expected 5
+console.log(largestRectangleArea([2, 1, 2, 1, 2, 1, 2])); // expected 6
+console.log(largestRectangleArea([2, 1, 2, 1, 2, 1, 2, 1])); // expected 6
+console.log(largestRectangleArea([2, 1, 2, 1, 2, 1, 2, 1, 2])); // expected 6
+console.log(largestRectangleArea([2, 1, 2, 1, 2, 1, 2, 1, 2, 1])); // expected 6
+console.log(largestRectangleArea([2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2])); // expected 10
+console.log(largestRectangleArea([2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1])); // expected 10
