@@ -26,4 +26,16 @@ function buildTree(preorder: number[], inorder: number[]): TreeNode | null {
 
 function buildTreeHelper(preorder: number[], inorder: number[], preStart: number, inStart: number, inEnd: number, map: Map<number, number>): TreeNode | null {
 
+    if (preStart > preorder.length - 1 || inStart > inEnd) {
+        return null;
+    }
+
+    let root = new TreeNode(preorder[preStart]);
+    let inIndex = map.get(root.val)!;
+
+    root.left = buildTreeHelper(preorder, inorder, preStart + 1, inStart, inIndex - 1, map);
+    root.right = buildTreeHelper(preorder, inorder, preStart + inIndex - inStart + 1, inIndex + 1, inEnd, map);
+
+    return root;
+
 };
