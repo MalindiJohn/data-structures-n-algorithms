@@ -17,3 +17,7 @@ function maximalRectangle(matrix: string[][]): number {
     return maxArea;
 
 };
+
+function largestRectangleArea(heights: number[]): number {
+
+};
