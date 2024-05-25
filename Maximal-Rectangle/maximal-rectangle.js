@@ -21,3 +21,8 @@ var maximalRectangle = function(matrix) {
     return maxArea;
     
 };
+
+// largest rectangle area function
+var largestRectangleArea = function(heights) {
+    
+};
