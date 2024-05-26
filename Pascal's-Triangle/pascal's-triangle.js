@@ -34,3 +34,27 @@ console.log(generate(1));
 // [[1]]
 
 console.log(generate(2));
+
+console.log(generate(3));
+
+console.log(generate(4));
+
+console.log(generate(6));
+
+console.log(generate(7));
+
+console.log(generate(8));
+
+console.log(generate(9));
+
+console.log(generate(10));
+
+console.log(generate(11));
+
+console.log(generate(12));
+
+console.log(generate(13));
+
+console.log(generate(14));
+
+console.log(generate(15));
