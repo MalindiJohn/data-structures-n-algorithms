@@ -11,3 +11,8 @@ function getRow(rowIndex: number): number[] {
     return result;
 
 };
+
+// testing the function
+console.log(getRow(0)); // expected [1]
+console.log(getRow(1)); // expected [1,1]
+console.log(getRow(2)); // expected [1,2,1]
