@@ -15,3 +15,8 @@ function generate(numRows: number): number[][] {
     return result;
 
 };
+
+// testing the function
+console.log(generate(5));
+console.log(generate(1));
+console.log(generate(2));
