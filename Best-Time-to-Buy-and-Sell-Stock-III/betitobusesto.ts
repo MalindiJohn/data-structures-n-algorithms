@@ -12,3 +12,8 @@ function maxProfit(prices: number[]): number {
     return maxProfit;
 
 };
+
+// testing the function
+console.log(maxProfit([7, 1, 5, 3, 6, 4])); // expected 5
+console.log(maxProfit([7, 6, 4, 3, 1])); // expected 0
+console.log(maxProfit([1, 2])); // expected 1
