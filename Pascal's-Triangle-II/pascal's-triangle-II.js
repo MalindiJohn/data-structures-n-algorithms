@@ -16,3 +16,8 @@ var getRow = function(rowIndex) {
     return result;
     
 };
+
+// testing the function
+console.log(getRow(0)); // [1]
+console.log(getRow(1)); // [1,1]
+console.log(getRow(2)); // [1,2,1]
