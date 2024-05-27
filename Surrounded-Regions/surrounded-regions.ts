@@ -31,3 +31,13 @@ function solve(board: string[][]): void {
     }
 
 };
+
+// testing the function
+let board = [
+    ['X', 'X', 'X', 'X'],
+    ['X', 'O', 'O', 'X'],
+    ['X', 'X', 'O', 'X'],
+    ['X', 'O', 'X', 'X']
+];
+solve(board);
+console.log(board); // expected [['X', 'X', 'X', 'X'], ['X', 'X', 'X', 'X'], ['X', 'X', 'X', 'X'], ['X', 'O', 'X', 'X']]
