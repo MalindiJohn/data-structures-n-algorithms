@@ -54,5 +54,21 @@ function dfs(board, i, j) {
     dfs(board, i + 1, j);
     dfs(board, i, j - 1);
     dfs(board, i, j + 1);
-    
+
 }
+
+// testing the function
+let board = [
+    ['X', 'X', 'X', 'X'],
+    ['X', 'O', 'O', 'X'],
+    ['X', 'X', 'O', 'X'],
+    ['X', 'O', 'X', 'X']
+];
+solve(board);
+console.log(board);
+// [
+//     ['X', 'X', 'X', 'X'],
+//     ['X', 'X', 'X', 'X'],
+//     ['X', 'X', 'X', 'X'],
+//     ['X', 'O', 'X', 'X']
+// ]
