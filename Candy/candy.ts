@@ -17,3 +17,8 @@ function candy(ratings: number[]): number {
     return candies.reduce((acc, curr) => acc + curr, 0);
 
 };
+
+// testing the function
+console.log(candy([1, 0, 2])); // expected 5
+console.log(candy([1, 2, 2])); // expected 4
+console.log(candy([1, 2, 3])); // expected 6
