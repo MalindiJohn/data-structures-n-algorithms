@@ -41,3 +41,6 @@ var solve = function(board) {
     }
     
 };
+
+function dfs(board, i, j) {
+}
