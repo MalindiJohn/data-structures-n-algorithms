@@ -15,3 +15,8 @@ function wordBreak(s: string, wordDict: string[]): boolean {
     return dp[s.length];
 
 };
+
+// testing the function
+console.log(wordBreak("leetcode", ["leet", "code"])); // expected true
+console.log(wordBreak("applepenapple", ["apple", "pen"])); // expected true
+console.log(wordBreak("catsandog", ["cats", "dog", "sand", "and", "cat"])); // expected false
