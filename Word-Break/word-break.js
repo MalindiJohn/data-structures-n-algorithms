@@ -20,3 +20,8 @@ var wordBreak = function(s, wordDict) {
     return dp[s.length];
     
 };
+
+// testing the function
+console.log(wordBreak("leetcode", ["leet", "code"])); // true
+console.log(wordBreak("applepenapple", ["apple", "pen"])); // true
+console.log(wordBreak("catsandog", ["cats", "dog", "sand", "and", "cat"])); // false
