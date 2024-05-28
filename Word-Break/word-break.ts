@@ -20,3 +20,16 @@ function wordBreak(s: string, wordDict: string[]): boolean {
 console.log(wordBreak("leetcode", ["leet", "code"])); // expected true
 console.log(wordBreak("applepenapple", ["apple", "pen"])); // expected true
 console.log(wordBreak("catsandog", ["cats", "dog", "sand", "and", "cat"])); // expected false
+console.log(wordBreak("cars", ["car", "ca", "rs"])); // expected true
+console.log(wordBreak("cats", ["cat", "cats"])); // expected true
+console.log(wordBreak("catsandog", ["cats", "dog", "sand", "and", "cat"])); // expected false
+console.log(wordBreak("catsandog", ["cats", "dog", "sand", "and", "cat"])); // expected false
+console.log(wordBreak("catsandog", ["cats", "dog", "sand", "and", "cat"])); // expected false
+console.log(wordBreak("catsandog", ["cats", "dog", "sand", "and", "cat"])); // expected false
+console.log(wordBreak("catsandog", ["cats", "dog", "sand", "and", "cat"])); // expected false
+console.log(wordBreak("catsandog", ["cats", "dog", "sand", "and", "cat"])); // expected false
+console.log(wordBreak("catsandog", ["cats", "dog", "sand", "and", "cat"])); // expected false
+console.log(wordBreak("catsandog", ["cats", "dog", "sand", "and", "cat"])); // expected false
+console.log(wordBreak("catsandog", ["cats", "dog", "sand", "and", "cat"])); // expected false
+console.log(wordBreak("catsandog", ["cats", "dog", "sand", "and", "cat"])); // expected false
+console.log(wordBreak("catsandog", ["cats", "dog", "sand", "and", "cat"])); // expected false
