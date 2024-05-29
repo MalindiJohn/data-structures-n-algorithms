@@ -35,3 +35,6 @@ var maxPoints = function(points) {
     return max;
     
 };
+
+function getGCD(a, b) {
+}
