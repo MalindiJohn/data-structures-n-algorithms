@@ -33,3 +33,28 @@ var evalRPN = function(tokens) {
 console.log(evalRPN(["2", "1", "+", "3", "*"])); // 9
 console.log(evalRPN(["4", "13", "5", "/", "+"])); // 6
 console.log(evalRPN(["10", "6", "9", "3", "/", "-11", "*", "+", "*", "17", "+", "5", "+"])); // 22
+console.log(evalRPN(["18"])); // 18
+console.log(evalRPN(["18", "1", "+"])); // 19
+console.log(evalRPN(["18", "1", "-"])); // 17
+console.log(evalRPN(["18", "1", "*"])); // 18
+console.log(evalRPN(["18", "1", "/"])); // 18
+console.log(evalRPN(["18", "1", "2", "+", "*"])); // 54
+console.log(evalRPN(["18", "1", "2", "-", "*"])); // 34
+console.log(evalRPN(["18", "1", "2", "*", "/"])); // 9
+console.log(evalRPN(["18", "1", "2", "/", "*"])); // 36
+console.log(evalRPN(["18", "1", "2", "+", "3", "*", "+"])); // 25
+console.log(evalRPN(["18", "1", "2", "-", "3", "+"])); //
+console.log(evalRPN(["18", "1", "2", "*", "3", "/"])); //
+console.log(evalRPN(["18", "1", "2", "/", "3", "*"])); //
+console.log(evalRPN(["18", "1", "2", "+", "3", "*", "4", "+"])); //
+console.log(evalRPN(["18", "1", "2", "-", "3", "+", "4", "-"])); //
+console.log(evalRPN(["18", "1", "2", "*", "3", "/", "4", "*"])); //
+console.log(evalRPN(["18", "1", "2", "/", "3", "*", "4", "/"])); //
+console.log(evalRPN(["18", "1", "2", "+", "3", "*", "4", "+", "5", "+"])); //
+console.log(evalRPN(["18", "1", "2", "-", "3", "+", "4", "-", "5", "-"])); //
+console.log(evalRPN(["18", "1", "2", "*", "3", "/", "4", "*", "5", "*"])); //
+console.log(evalRPN(["18", "1", "2", "/", "3", "*", "4", "/", "5", "/"])); //
+console.log(evalRPN(["18", "1", "2", "+", "3", "*", "4", "+", "5", "+", "6", "+"])); //
+console.log(evalRPN(["18", "1", "2", "-", "3", "+", "4", "-", "5", "-", "6", "-"])); //
+console.log(evalRPN(["18", "1", "2", "*", "3", "/", "4", "*", "5", "*", "6", "*"])); //
+console.log(evalRPN(["18", "1", "2", "/", "3", "*", "4", "/", "5", "/", "6", "/"])); //
