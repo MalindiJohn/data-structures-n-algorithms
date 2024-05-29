@@ -45,3 +45,7 @@ function getSlope(p1: number[], p2: number[]): string {
     return (dy / gcd) + '/' + (dx / gcd);
 
 }
+
+function getGCD(a: number, b: number): number {
+
+}
