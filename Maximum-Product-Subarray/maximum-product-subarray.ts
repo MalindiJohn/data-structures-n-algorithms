@@ -22,3 +22,19 @@ function maxProduct(nums: number[]): number {
 console.log(maxProduct([2, 3, -2, 4])); // expected output : 6
 console.log(maxProduct([-2, 0, -1])); // expected output : 0
 console.log(maxProduct([-2])); // expected output : -2
+console.log(maxProduct([0])); // expected output : 0
+console.log(maxProduct([1])); // expected output : 1
+console.log(maxProduct([-1])); // expected output : -1
+console.log(maxProduct([1, 2, 3, 4, 5, 6, 7, 8, 9])); // expected output : 362880
+console.log(maxProduct([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])); // expected output : 3628800
+console.log(maxProduct([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11])); // expected output : 39916800
+console.log(maxProduct([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])); // expected output : 479001600
+console.log(maxProduct([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13])); // expected output : 6227020800
+console.log(maxProduct([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14])); // expected output : 87178291200
+console.log(maxProduct([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])); // expected output : 1307674368000
+console.log(maxProduct([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16])); // expected output : 20922789888000
+console.log(maxProduct([2, 3, -2, 4, 5, 6, 7, 8, 9])); // expected output : 362880
+console.log(maxProduct([2, 3, -2, 4, 5, 6, 7, 8, 9, 10])); // expected output : 3628800
+console.log(maxProduct([2, 3, -2, 4, 5, 6, 7, 8, 9, 10, 11])); // expected output : 39916800
+console.log(maxProduct([2, 3, -2, 4, 5, 6, 7, 8, 9, 10, 11, 12])); // expected output : 479001600
+console.log(maxProduct([2, 3, -2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13])); // expected output : 6227020800
