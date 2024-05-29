@@ -60,3 +60,21 @@ function getGCD(a: number, b: number): number {
 console.log(maxPoints([[1, 1], [2, 2], [3, 3]])); // expected output : 3
 console.log(maxPoints([[1, 1], [3, 2], [5, 3], [4, 1], [2, 3], [1, 4]])); // expected output : 4
 console.log(maxPoints([[1, 1], [2, 2], [3, 3], [1, 1], [1, 1]])); // expected output : 5
+console.log(maxPoints([[1, 1], [1, 1], [1, 1]])); // expected output : 3
+console.log(maxPoints([[1, 1], [2, 2]])); // expected output : 2
+console.log(maxPoints([[1, 1], [2, 2], [3, 3], [4, 4]])); // expected output : 4
+console.log(maxPoints([[1, 1], [2, 2], [3, 3], [4, 4], [5, 5]])); // expected output : 5
+console.log(maxPoints([[1, 1], [2, 2], [3, 3], [4, 4], [5, 5], [6, 6]])); // expected output : 6
+console.log(maxPoints([[1, 1], [2, 2], [3, 3], [4, 4], [5, 5], [6, 6], [7, 7]])); // expected output : 7
+console.log(maxPoints([[1, 1], [2, 2], [3, 3], [4, 4], [5, 5], [6, 6], [7, 7], [8, 8]])); // expected output : 8
+console.log(maxPoints([[1, 1], [2, 2], [3, 3], [4, 4], [5, 5], [6, 6], [7, 7], [8, 8], [9, 9]])); // expected output : 9
+console.log(maxPoints([[1, 1], [2, 2], [3, 3], [4, 4], [5, 5], [6, 6], [7, 7], [8, 8], [9, 9], [10, 10]])); // expected output : 10
+console.log(maxPoints([[1, 1], [2, 2], [3, 3], [4, 4], [5, 5], [6, 6], [7, 7], [8, 8], [9, 9], [10, 10], [11, 11]])); // expected output : 11
+console.log(maxPoints([[1, 1], [2, 2], [3, 3], [4, 4], [5, 5], [6, 6], [7, 7], [8, 8], [9, 9], [10, 10], [11, 11], [12, 12]])); // expected output : 12
+console.log(maxPoints([[1, 1], [2, 2], [3, 3], [4, 4], [5, 5], [6, 6], [7, 7], [8, 8], [9, 9], [10, 10], [11, 11], [12, 12], [13, 13]])); // expected output : 13
+console.log(maxPoints([[1, 1], [2, 2], [3, 3], [4, 4], [5, 5], [6, 6], [7, 7], [8, 8], [9, 9], [10, 10], [11, 11], [12, 12], [13, 13], [14, 14]])); // expected output : 14
+console.log(maxPoints([[1, 1], [2, 2], [3, 3], [4, 4], [5, 5], [6, 6], [7, 7], [8, 8], [9, 9], [10, 10], [11, 11], [12, 12], [13, 13], [14, 14], [15, 15]])); // expected output : 15
+console.log(maxPoints([[1, 1], [2, 2], [3, 3], [4, 4], [5, 5], [6, 6], [7, 7], [8, 8], [9, 9], [10, 10], [11, 11], [12, 12], [13, 13], [14, 14], [15, 15], [16, 16]])); // expected output : 16
+console.log(maxPoints([[1, 1], [2, 2], [3, 3], [4, 4], [5, 5], [6, 6], [7, 7], [8, 8], [9, 9], [10, 10], [11, 11], [12, 12], [13, 13], [14, 14], [15, 15], [16, 16], [17, 17]])); // expected output : 17
+console.log(maxPoints([[1, 1], [2, 2], [3, 3], [4, 4], [5, 5], [6, 6], [7, 7], [8, 8], [9, 9], [10, 10], [11, 11], [12, 12], [13, 13], [14, 14], [15, 15], [16, 16], [17, 17], [18, 18]])); // expected output : 18
+console.log(maxPoints([[1, 1], [2, 2], [3, 3], [4, 4], [5, 5], [6, 6], [7, 7], [8, 8], [9, 9], [10, 10], [11, 11], [12, 12], [13, 13], [14, 14], [15, 15], [16, 16], [17, 17], [18, 18], [19, 19]])); // expected output : 19
