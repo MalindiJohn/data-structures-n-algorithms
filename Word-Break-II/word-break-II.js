@@ -37,3 +37,8 @@ var wordBreak = function(s, wordDict) {
     return result;
     
 };
+
+// testing the function
+console.log(wordBreak("catsanddog", ["cat", "cats", "and", "sand", "dog"])); // ["cats and dog", "cat sand dog"]
+console.log(wordBreak("catsanddog", ["cats", "dog", "sand", "and", "cat"])); // ["cats and dog", "cat sand dog"]
+console.log(wordBreak("catsanddog", ["cats", "dog", "sand", "and", "cat", "sanddog"])); // ["cats and dog", "cat sand dog"]
