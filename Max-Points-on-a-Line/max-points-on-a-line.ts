@@ -31,3 +31,7 @@ function maxPoints(points: number[][]): number {
     return max;
 
 };
+
+function getSlope(p1: number[], p2: number[]): string {
+
+}
