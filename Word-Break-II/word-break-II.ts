@@ -9,7 +9,9 @@ function wordBreak(s: string, wordDict: string[]): string[] {
 function dfs(start: number, s: string, wordSet: Set<string>, memo: Map<number, string[]>): string[] {
 
     if (memo.has(start)) {
+
         return memo.get(start);
+
     }
 
     let result: string[] = [];
@@ -31,3 +33,8 @@ function dfs(start: number, s: string, wordSet: Set<string>, memo: Map<number, s
     return result;
 
 }
+
+// testing the function
+console.log(wordBreak("catsanddog", ["cat", "cats", "and", "sand", "dog"])); // expected output : ["cat sand dog", "cats and dog"]
+console.log(wordBreak("pineapplepenapple", ["apple", "pen", "applepen", "pine", "pineapple"])); // expected output : ["pine apple pen apple", "pine applepen apple", "pineapple pen apple"]
+console.log(wordBreak("catsandog", ["cats", "dog", "sand", "and", "cat"])); // expected output : []
