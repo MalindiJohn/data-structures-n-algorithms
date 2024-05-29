@@ -37,4 +37,10 @@ var maxPoints = function(points) {
 };
 
 function getGCD(a, b) {
+
+    if (b === 0) {
+        return a;
+    }
+    return getGCD(b, a % b);
+    
 }
