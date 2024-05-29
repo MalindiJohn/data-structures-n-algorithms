@@ -42,5 +42,10 @@ function getGCD(a, b) {
         return a;
     }
     return getGCD(b, a % b);
-    
+
 }
+
+// testing the function
+console.log(maxPoints([[1,1],[2,2],[3,3]])); // 3
+console.log(maxPoints([[1,1],[3,2],[5,3],[4,1],[2,3],[1,4]])); // 4
+console.log(maxPoints([[1,1],[2,2],[1,1],[2,2]])); // 4
