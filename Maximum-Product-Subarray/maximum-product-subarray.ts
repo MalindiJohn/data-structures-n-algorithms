@@ -17,3 +17,8 @@ function maxProduct(nums: number[]): number {
     return result;
 
 };
+
+// testing the function
+console.log(maxProduct([2, 3, -2, 4])); // expected output : 6
+console.log(maxProduct([-2, 0, -1])); // expected output : 0
+console.log(maxProduct([-2])); // expected output : -2
