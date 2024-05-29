@@ -10,21 +10,21 @@ Given the sorted rotated array nums that may contain duplicates, return the mini
 
 You must decrease the overall operation steps as much as possible.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input: nums = [1,3,5]
 Output: 1
 ```
 
-## Example 2:
+## Example 2
 
 ```bash
 Input: nums = [2,2,2,0,1]
 Output: 0
 ```
 
-## Constraints:
+## Constraints
 
 n == nums.length
 1 <= n <= 5000
