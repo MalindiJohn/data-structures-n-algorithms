@@ -34,4 +34,14 @@ function maxPoints(points: number[][]): number {
 
 function getSlope(p1: number[], p2: number[]): string {
 
+    let dx = p2[0] - p1[0];
+    let dy = p2[1] - p1[1];
+
+    if (dx === 0) {
+        return 'Infinity';
+    }
+
+    let gcd = getGCD(dx, dy);
+    return (dy / gcd) + '/' + (dx / gcd);
+
 }
