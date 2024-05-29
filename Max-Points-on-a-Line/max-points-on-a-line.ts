@@ -55,3 +55,8 @@ function getGCD(a: number, b: number): number {
     return getGCD(b, a % b);
 
 }
+
+// testing the function
+console.log(maxPoints([[1, 1], [2, 2], [3, 3]])); // expected output : 3
+console.log(maxPoints([[1, 1], [3, 2], [5, 3], [4, 1], [2, 3], [1, 4]])); // expected output : 4
+console.log(maxPoints([[1, 1], [2, 2], [3, 3], [1, 1], [1, 1]])); // expected output : 5
