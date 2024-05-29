@@ -48,4 +48,10 @@ function getSlope(p1: number[], p2: number[]): string {
 
 function getGCD(a: number, b: number): number {
 
+    if (b === 0) {
+        return a;
+    }
+
+    return getGCD(b, a % b);
+
 }
