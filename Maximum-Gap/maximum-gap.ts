@@ -28,3 +28,18 @@ function maximumGap(nums: number[]): number {
     return maxGap;
 
 };
+
+// testing the function
+console.log(maximumGap([3, 6, 9, 1])); // 3
+console.log(maximumGap([10])); // 0
+console.log(maximumGap([1, 10000000])); // 9999999
+console.log(maximumGap([1, 3, 100])); // 97
+console.log(maximumGap([1, 3, 100, 200])); // 97
+console.log(maximumGap([1, 3, 100, 200, 300])); // 97
+console.log(maximumGap([1, 3, 100, 200, 300, 400])); // 97
+console.log(maximumGap([1, 3, 100, 200, 300, 400, 500])); // 97
+console.log(maximumGap([1, 3, 100, 200, 300, 400, 500, 600])); // 97
+console.log(maximumGap([1, 3, 100, 200, 300, 400, 500, 600, 700])); // 97
+console.log(maximumGap([1, 3, 100, 200, 300, 400, 500, 600, 700, 800])); // 97
+console.log(maximumGap([1, 3, 100, 200, 300, 400, 500, 600, 700, 800, 900])); // 97
+console.log(maximumGap([1, 3, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000])); // 97
