@@ -18,3 +18,18 @@ function calculateMinimumHP(dungeon: number[][]): number {
     return dp[0][0];
 
 };
+
+// testing the function
+console.log(calculateMinimumHP([[-2, -3, 3], [-5, -10, 1], [10, 30, -5]])); // 7
+console.log(calculateMinimumHP([[0]])); // 1
+console.log(calculateMinimumHP([[100]])); // 1
+console.log(calculateMinimumHP([[0, 0, 0], [0, 0, 0], [0, 0, 0]])); // 1
+console.log(calculateMinimumHP([[0, 0, 0], [0, 0, 0], [0, 0, 1]])); // 1
+console.log(calculateMinimumHP([[0, 0, 0], [0, 0, 0], [0, 0, -1]])); // 2
+console.log(calculateMinimumHP([[0, 0, 0], [0, 0, 0], [0, 0, -2]])); // 3
+console.log(calculateMinimumHP([[0, 0, 0], [0, 0, 0], [0, 0, -3]])); // 4
+console.log(calculateMinimumHP([[0, 0, 0], [0, 0, 0], [0, 0, -4]])); // 5
+console.log(calculateMinimumHP([[0, 0, 0], [0, 0, 0], [0, 0, -5]])); // 6
+console.log(calculateMinimumHP([[0, 0, 0], [0, 0, 0], [0, 0, -6]])); // 7
+console.log(calculateMinimumHP([[0, 0, 0], [0, 0, 0], [0, 0, -7]])); // 8
+console.log(calculateMinimumHP([[0, 0, 0], [0, 0, 0], [0, 0, -8]])); // 9
