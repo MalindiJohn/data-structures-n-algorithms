@@ -24,3 +24,33 @@ var findWords = function(board, words) {
     return result;
     
 };
+
+var dfs = function(board, i, j, node, result) {
+    
+    if (i < 0 || i >= board.length || j < 0 || j >= board[0].length) {
+        return;
+    }
+    
+    let c = board[i][j];
+    
+    if (c === '#' || !node.children.has(c)) {
+        return;
+    }
+    
+    node = node.children.get(c);
+    
+    if (node.word) {
+        result.push(node.word);
+        node.word = null;
+    }
+    
+    board[i][j] = '#';
+    
+    dfs(board, i+1, j, node, result);
+    dfs(board, i-1, j, node, result);
+    dfs(board, i, j+1, node, result);
+    dfs(board, i, j-1, node, result);
+    
+    board[i][j] = c;
+    
+};
