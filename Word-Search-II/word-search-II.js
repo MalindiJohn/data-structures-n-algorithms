@@ -82,3 +82,19 @@ class Trie {
     }
     
 }
+
+// testing the function
+console.log(findWords([['o','a','a','n'],['e','t','a','e'],['i','h','k','r'],['i','f','l','v']], ['oath','pea','eat','rain'])); // ["eat","oath"]
+console.log(findWords([['a','b'],['c','d']], ['abcb'])); // []
+console.log(findWords([['a','b'],['c','d']], ['abcd'])); // ["abcd"]
+console.log(findWords([['a','b'],['c','d']], ['ab','cd'])); // ["ab","cd"]
+console.log(findWords([['a','b'],['c','d']], ['ab','dc'])); // ["ab"]
+console.log(findWords([['a','b'],['c','d']], ['ab','dc','ad'])); // ["ab","ad"]
+console.log(findWords([['a','b'],['c','d']], ['ab','dc','ad','bc'])); // ["ab","ad","bc"]
+console.log(findWords([['a','b'],['c','d']], ['ab','dc','ad','bc','cd'])); // ["ab","ad","bc","cd"]
+console.log(findWords([['a','b'],['c','d']], ['ab','dc','ad','bc','cd','cb'])); // ["ab","ad","bc","cd","cb"]
+console.log(findWords([['a','b'],['c','d']], ['ab','dc','ad','bc','cd','cb','ba'])); // ["ab","ad","bc","cd","cb","ba"]
+console.log(findWords([['a','b'],['c','d']], ['ab','dc','ad','bc','cd','cb','ba','ac'])); // ["ab","ad","bc","cd","cb","ba","ac"]
+console.log(findWords([['a','b'],['c','d']], ['ab','dc','ad','bc','cd','cb','ba','ac','bd'])); // ["ab","ad","bc","cd","cb","ba","ac","bd"]
+console.log(findWords([['a','b'],['c','d']], ['ab','dc','ad','bc','cd','cb','ba','ac','bd','ca'])); // ["ab","ad","bc","cd","cb","ba","ac","bd","ca"]
+console.log(findWords([['a','b'],['c','d']], ['ab','dc','ad','bc','cd','cb','ba','ac','bd','ca','db'])); // ["ab","ad","bc","cd","cb","ba","ac","bd","ca","db"]
