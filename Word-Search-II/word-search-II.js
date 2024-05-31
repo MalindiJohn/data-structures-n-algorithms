@@ -63,3 +63,22 @@ class TrieNode {
     }
     
 }
+
+class Trie {
+    
+    constructor() {
+        this.root = new TrieNode();
+    }
+    
+    insert(word) {
+        let node = this.root;
+        for (let c of word) {
+            if (!node.children.has(c)) {
+                node.children.set(c, new TrieNode());
+            }
+            node = node.children.get(c);
+        }
+        node.word = word;
+    }
+    
+}
