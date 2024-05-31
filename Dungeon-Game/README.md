@@ -12,7 +12,7 @@ Return the knight's minimum initial health so that he can rescue the princess.
 
 Note that any room can contain threats or power-ups, even the first room the knight enters and the bottom-right room where the princess is imprisoned.
 
-## Example 1:
+## Example 1
 
 ```bash
 Input: dungeon = [[-2,-3,3],[-5,-10,1],[10,30,-5]]
@@ -21,16 +21,16 @@ Output: 7
 
 **Explanation**: The initial health of the knight must be at least 7 if he follows the optimal path: RIGHT-> RIGHT -> DOWN -> DOWN.
 
-## Example 2:
+## Example 2
 
 ```bash
 Input: dungeon = [[0]]
 Output: 1
 ```
 
-## Constraints:
+## Constraints
 
-m == dungeon.length
-n == dungeon[i].length
-1 <= m, n <= 200
--1000 <= dungeon[i][j] <= 1000
+- `m == dungeon.length`
+- `n == dungeon[i].length`
+- `1 <= m, n <= 200`
+- `-1000 <= dungeon[i][j] <= 1000`
