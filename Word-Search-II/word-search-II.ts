@@ -61,3 +61,66 @@ class Trie {
         node.word = word;
     }
 }
+
+// testing the function
+console.log(findWords(
+    [
+        ['o', 'a', 'a', 'n'],
+        ['e', 't', 'a', 'e'],
+        ['i', 'h', 'k', 'r'],
+        ['i', 'f', 'l', 'v']
+    ],
+    ['oath', 'pea', 'eat', 'rain']
+)); // ["oath", "eat"]
+console.log(findWords(
+    [
+        ['a', 'b'],
+        ['c', 'd']
+    ],
+    ['abcb']
+)); // []
+console.log(findWords(
+    [
+        ['a', 'a']
+    ],
+    ['a']
+)); // ["a"]
+console.log(findWords(
+    [
+        ['a', 'b'],
+        ['a', 'a']
+    ],
+    ['aba', 'baa', 'bab', 'aaab', 'aaa', 'aaaa', 'aaba']
+)); // ["aba","baa","aaab","aaa","aaba"]
+console.log(findWords(
+    [
+        ['a', 'b', 'c'],
+        ['a', 'e', 'd'],
+        ['a', 'f', 'g']
+    ],
+    ['abcdefg', 'gfedcbaaa', 'eaabcdgfa', 'befa', 'dgc', 'ade']
+)); // ["abcdefg","eaabcdgfa","befa","ade"]
+console.log(findWords(
+    [
+        ['a', 'b', 'c', 'e'],
+        ['s', 'f', 'c', 's'],
+        ['a', 'd', 'e', 'e']
+    ],
+    ['abceseeefs']
+)); // ["abceseeefs"]
+console.log(findWords(
+    [
+        ['a', 'b', 'c', 'e'],
+        ['s', 'f', 'e', 's'],
+        ['a', 'd', 'e', 'e']
+    ],
+    ['abceseeefs']
+)); // ["abceseeefs"]
+console.log(findWords(
+    [
+        ['a', 'b', 'c', 'e'],
+        ['s', 'f', 'e', 's'],
+        ['a', 'd', 'e', 'e']
+    ],
+    ['abceseeefs', 'see']
+)); // ["abceseeefs","see"]
