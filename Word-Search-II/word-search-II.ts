@@ -35,3 +35,12 @@ function findWords(board: string[][], words: string[]): string[] {
     return result;
 
 };
+
+class TrieNode {
+    children: Map<string, TrieNode>;
+    word: string;
+    constructor() {
+        this.children = new Map();
+        this.word = null;
+    }
+}
