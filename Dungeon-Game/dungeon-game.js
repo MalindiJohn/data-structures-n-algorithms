@@ -20,3 +20,16 @@ var calculateMinimumHP = function(dungeon) {
     return dp[0][0];
     
 };
+
+// testing the function
+console.log(calculateMinimumHP([[-2,-3,3],[-5,-10,1],[10,30,-5]])); // 7
+console.log(calculateMinimumHP([[0]])); // 1
+console.log(calculateMinimumHP([[100]])); // 1
+console.log(calculateMinimumHP([[100,100,100]])); // 1
+console.log(calculateMinimumHP([[100],[100],[100]])); // 1
+console.log(calculateMinimumHP([[100,100],[100,100]])); // 1
+console.log(calculateMinimumHP([[100,100],[100,100],[100,100]])); // 1
+console.log(calculateMinimumHP([[100,100,100],[100,100,100]])); // 1
+console.log(calculateMinimumHP([[100,100,100],[100,100,100],[100,100,100]])); // 1
+console.log(calculateMinimumHP([[100,100,100],[100,100,100],[100,100,100],[100,100,100]])); // 1
+console.log(calculateMinimumHP([[100,100,100],[100,100,100],[100,100,100],[100,100,100],[100,100,100]])); // 1
