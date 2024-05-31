@@ -54,3 +54,12 @@ var dfs = function(board, i, j, node, result) {
     board[i][j] = c;
     
 };
+
+class TrieNode {
+    
+    constructor() {
+        this.children = new Map();
+        this.word = null;
+    }
+    
+}
