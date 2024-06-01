@@ -33,3 +33,26 @@ var getSkyline = function(buildings) {
     return result;
     
 };
+
+class PriorityQueue {
+    
+    constructor(compare) {
+        this.compare = compare;
+        this.values = [];
+    }
+    
+    push(val) {
+        this.values.push(val);
+        this.values.sort(this.compare);
+    }
+    
+    delete(val) {
+        let index = this.values.indexOf(val);
+        this.values.splice(index, 1);
+    }
+    
+    peek() {
+        return this.values[0];
+    }
+    
+}
