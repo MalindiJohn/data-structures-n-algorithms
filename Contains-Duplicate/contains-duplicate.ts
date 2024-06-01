@@ -12,3 +12,19 @@ function containsDuplicate(nums: number[]): boolean {
     return false;
 
 };
+
+// testing the function
+console.log(containsDuplicate([1, 2, 3, 1])); // true
+console.log(containsDuplicate([1, 2, 3, 4])); // false
+console.log(containsDuplicate([1, 1, 1, 3, 3, 4, 3, 2, 4, 2])); // true
+console.log(containsDuplicate([1])); // false
+console.log(containsDuplicate([])); // false
+console.log(containsDuplicate([1, 2])); // false
+console.log(containsDuplicate([1, 1])); // true
+console.log(containsDuplicate([1, 2, 1])); // true
+console.log(containsDuplicate([1, 2, 2])); // true
+console.log(containsDuplicate([1, 1, 2])); // true
+console.log(containsDuplicate([1, 2, 3])); // false
+console.log(containsDuplicate([1, 2, 3, 1])); // true
+console.log(containsDuplicate([1, 2, 3, 4])); // false
+console.log(containsDuplicate([1, 1, 1, 3, 3, 4, 3, 2, 4, 2])); // true
