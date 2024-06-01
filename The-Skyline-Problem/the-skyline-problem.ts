@@ -32,6 +32,86 @@ function getSkyline(buildings: number[][]): number[][] {
 
 };
 
+// PriorityQueue function
+class PriorityQueue<T> {
+
+    private heap: T[];
+    private compare: (a: T, b: T) => number;
+
+    constructor(compare: (a: T, b: T) => number) {
+        this.heap = [];
+        this.compare = compare;
+    }
+
+    private swap(i: number, j: number): void {
+        [this.heap[i], this.heap[j]] = [this.heap[j], this.heap[i]];
+    }
+
+    private shiftUp(): void {
+        let i = this.size() - 1;
+        while (i > 0) {
+            let parent = (i - 1) >> 1;
+            if (this.compare(this.heap[i], this.heap[parent]) < 0) {
+                break;
+            }
+            this.swap(i, parent);
+            i = parent;
+        }
+    }
+
+    private shiftDown(): void {
+        let i = 0;
+        while (i * 2 + 1 < this.size()) {
+            let left = i * 2 + 1;
+            let right = i * 2 + 2;
+            let j = left;
+            if (right < this.size() && this.compare(this.heap[right], this.heap[left]) > 0) {
+                j = right;
+            }
+            if (this.compare(this.heap[i], this.heap[j]) > 0) {
+                break;
+            }
+            this.swap(i, j);
+            i = j;
+        }
+    }
+
+    size(): number {
+        return this.heap.length;
+    }
+
+    isEmpty(): boolean {
+        return this.size() === 0;
+    }
+
+    peek(): T {
+        return this.heap[0];
+    }
+
+    push(value: T): void {
+        this.heap.push(value);
+        this.shiftUp();
+    }
+
+    pop(): T {
+        let result = this.heap[0];
+        this.swap(0, this.size() - 1);
+        this.heap.pop();
+        this.shiftDown();
+        return result;
+    }
+
+    delete(value: T): void {
+        let index = this.heap.indexOf(value);
+        if (index !== -1) {
+            this.swap(index, this.size() - 1);
+            this.heap.pop();
+            this.shiftDown();
+        }
+    }
+
+};
+
 // testing the function
 console.log(getSkyline([[2, 9, 10], [3, 7, 15], [5, 12, 12], [15, 20, 10], [19, 24, 8]]));
 // [
