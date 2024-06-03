@@ -1,7 +1,5 @@
-Summary Ranges
-Easy
-Topics
-Companies
+# Summary Ranges
+
 You are given a sorted unique integer array nums.
 
 A range [a,b] is the set of all integers from a to b (inclusive).
@@ -12,28 +10,33 @@ Each range [a,b] in the list should be output as:
 
 "a->b" if a != b
 "a" if a == b
- 
 
-Example 1:
+## Example 1:
 
+```bash
 Input: nums = [0,1,2,4,5,7]
 Output: ["0->2","4->5","7"]
-Explanation: The ranges are:
+```
+
+**Explanation**: The ranges are:
 [0,2] --> "0->2"
 [4,5] --> "4->5"
 [7,7] --> "7"
-Example 2:
 
+## Example 2:
+
+```bash
 Input: nums = [0,2,3,4,6,8,9]
 Output: ["0","2->4","6","8->9"]
-Explanation: The ranges are:
+```
+
+**Explanation**: The ranges are:
 [0,0] --> "0"
 [2,4] --> "2->4"
 [6,6] --> "6"
 [8,9] --> "8->9"
- 
 
-Constraints:
+## Constraints:
 
 0 <= nums.length <= 20
 -231 <= nums[i] <= 231 - 1
