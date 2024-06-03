@@ -15,3 +15,86 @@ function maximalSquare(matrix: string[][]): number {
     return max * max;
 
 };
+
+// testing the function
+console.log(maximalSquare([
+    ["1", "0", "1", "0", "0"],
+    ["1", "0", "1", "1", "1"],
+    ["1", "1", "1", "1", "1"],
+    ["1", "0", "0", "1", "0"]
+])); // expected 4
+
+console.log(maximalSquare([
+    ["0", "1"],
+    ["1", "0"]
+])); // expected 1
+
+console.log(maximalSquare([
+    ["0"]
+])); // expected 0
+
+console.log(maximalSquare([
+    ["1"]
+])); // expected 1
+
+console.log(maximalSquare([
+    ["1", "1"],
+    ["1", "1"]
+])); // expected 4
+
+console.log(maximalSquare([
+    ["1", "1"],
+    ["1", "0"]
+])); // expected 1
+
+console.log(maximalSquare([
+    ["1", "1"],
+    ["1", "1"],
+    ["1", "1"]
+])); // expected 9
+
+console.log(maximalSquare([
+    ["1", "1"],
+    ["1", "1"],
+    ["1", "0"]
+])); // expected 4
+
+console.log(maximalSquare([
+    ["1", "1"],
+    ["1", "1"],
+    ["0", "1"]
+])); // expected 1
+
+console.log(maximalSquare([
+    ["1", "1"],
+    ["1", "0"],
+    ["1", "1"]
+])); // expected 1
+
+console.log(maximalSquare([
+    ["1", "1"],
+    ["0", "1"],
+    ["1", "1"]
+])); // expected 1
+
+console.log(maximalSquare([
+    ["1", "0"],
+    ["1", "1"],
+    ["1", "1"]
+])); // expected 1
+
+console.log(maximalSquare([
+    ["0", "1"],
+    ["1", "1"],
+    ["1", "1"]
+])); // expected 1
+
+console.log(maximalSquare([
+    ["0", "0"],
+    ["0", "0"]
+])); // expected 0
+
+console.log(maximalSquare([
+    ["1", "0"],
+    ["0", "0"]
+])); // expected 1
