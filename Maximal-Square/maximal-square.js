@@ -25,3 +25,59 @@ var maximalSquare = function(matrix) {
     return max * max;
     
 };
+
+// testing the function
+let matrix = [
+    ['1', '0', '1', '0', '0'],
+    ['1', '0', '1', '1', '1'],
+    ['1', '1', '1', '1', '1'],
+    ['1', '0', '0', '1', '0']
+];
+console.log(maximalSquare(matrix)); // 4
+
+matrix = [
+    ['0', '1'],
+    ['1', '0']
+];
+console.log(maximalSquare(matrix)); // 1
+
+matrix = [
+    ['0']
+];
+console.log(maximalSquare(matrix)); // 0
+
+matrix = [
+    ['1']
+];
+console.log(maximalSquare(matrix)); // 1
+
+matrix = [
+    ['1', '1'],
+    ['1', '1']
+];
+console.log(maximalSquare(matrix)); // 4
+
+matrix = [
+    ['0', '0'],
+    ['0', '0']
+];
+console.log(maximalSquare(matrix)); // 0
+
+matrix = [
+    ['1', '1'],
+    ['1', '0']
+];
+console.log(maximalSquare(matrix)); // 1
+
+matrix = [
+    ['1', '1'],
+    ['1', '1']
+];
+console.log(maximalSquare(matrix)); // 4
+
+matrix = [
+    ['1', '1', '1'],
+    ['1', '1', '1'],
+    ['1', '1', '1']
+];
+console.log(maximalSquare(matrix)); // 9
