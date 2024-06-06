@@ -13,3 +13,28 @@ var hIndex = function(citations) {
     return h;
     
 };
+
+// testing the function
+let citations = [3, 0, 6, 1, 5];
+console.log(hIndex(citations)); // 3
+
+citations = [1, 3, 1];
+console.log(hIndex(citations)); // 1
+
+citations = [1, 3, 1, 1];
+console.log(hIndex(citations)); // 1
+
+citations = [1, 3, 1, 1, 1];
+console.log(hIndex(citations)); // 1
+
+citations = [1, 3, 1, 1, 1, 1];
+console.log(hIndex(citations)); // 1
+
+citations = [1, 3, 1, 1, 1, 1, 1];
+console.log(hIndex(citations)); // 1
+
+citations = [1, 3, 1, 1, 1, 1, 1, 1];
+console.log(hIndex(citations)); // 1
+
+citations = [1, 3, 1, 1, 1, 1, 1, 1, 1];
+console.log(hIndex(citations)); // 1
