@@ -3,8 +3,7 @@
 Given an integer array `nums`, handle multiple queries of the following type:
 
 1. Calculate the sum of the elements of `nums` between indices `left` and `right` inclusive where `left <= right`.
-2. 
-Implement the `NumArray` class:
+2. Implement the `NumArray` class:
 
 - `NumArray(int[] nums)` Initializes the object with the integer array `nums`.
 - `int sumRange(int left, int right)` Returns the sum of the elements of `nums` between indices `left` and `right` inclusive (i.e. `nums[left] + nums[left + 1] + ... + nums[right]`).
