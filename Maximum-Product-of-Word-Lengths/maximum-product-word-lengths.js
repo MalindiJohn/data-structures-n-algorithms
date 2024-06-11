@@ -40,3 +40,18 @@ console.log(maxProduct(words4)); // 0
 
 const words5 = ["a","ab","abc","abcd","abcde","abcdef","abcdefg","abcdefgh","abcdefghi","abcdefghij","abcdefghijk","abcdefghijkl","abcdefghijklm","abcdefghijklmn","abcdefghijklmno","abcdefghijklmnop","abcdefghijklmnopq","abcdefghijklmnopqr","abcdefghijklmnopqrs","abcdefghijklmnopqrst","abcdefghijklmnopqrstu","abcdefghijklmnopqrstuv","abcdefghijklmnopqrstuvw","abcdefghijklmnopqrstuvwx","abcdefghijklmnopqrstuvwxy","abcdefghijklmnopqrstuvwxyz","zyxwvutsrqponmlkjihgfedcba","yxwvutsrqponmlkjihgfedcba","xwvutsrqponmlkjihgfedcba","wvutsrqponmlkjihgfedcba","vutsrqponmlkjihgfedcba","utsrqponmlkjihgfedcba","tsrqponmlkjihgfedcba","srqponmlkjihgfedcba","rqponmlkjihgfedcba","qponmlkjihgfedcba","ponmlkjihgfedcba","onmlkjihgfedcba","nmlkjihgfedcba","mlkjihgfedcba","lkjihgfedcba","kjihgfedcba","jihgfedcba","ihgfedcba","hgfedcba","gfedcba","fedcba","edcba","dcba","cba","ba","a"];
 console.log(maxProduct(words5)); // 0
+
+const words6 = ["a","ab","abc","abcd","abcde","abcdef","abcdefg","abcdefgh","abcdefghi","abcdefghij","abcdefghijk","abcdefghijkl",
+    "abcdefghijklm","abcdefghijklmn","abcdefghijklmno","abcdefghijklmnop","abcdefghijklmnopq","abcdefghijklmnopqr",
+    "abcdefghijklmnopqrs","abcdefghijklmnopqrst","abcdefghijklmnopqrstu","abcdefghijklmnopqrstuv","abcdefghijklmnopqrstuvw",
+    "abcdefghijklmnopqrstuvwx","abcdefghijklmnopqrstuvwxy","abcdefghijklmnopqrstuvwxyz","zyxwvutsrqponmlkjihgfedcba","yxwvutsrqponmlkjihgfedcba",
+    "xwvutsrqponmlkjihgfedcba","wvutsrqponmlkjihgfedcba","vutsrqponmlkjihgfedcba","utsrqponmlkjihgfedcba","tsrqponmlkjihgfedcba","srqponmlkjihgfedcba",
+    "rqponmlkjihgfedcba","qponmlkjihgfedcba","ponmlkjihgfedcba","onmlkjihgfedcba","nmlkjihgfedcba","mlkjihgfedcba","lkjihgfedcba","kjihgfedcba",
+    "jihgfedcba","ihgfedcba","hgfedcba","gfedcba","fedcba","edcba","dcba","cba","ba","a","a","ab","abc","abcd","abcde","abcdef","abcdefg",
+    "abcdefgh","abcdefghi","abcdefghij","abcdefghijk","abcdefghijkl","abcdefghijklm","abcdefghijklmn","abcdefghijklmno","abcdefghijklmnop",
+    "abcdefghijklmnopq","abcdefghijklmnopqr","abcdefghijklmnopqrs","abcdefghijklmnopqrst","abcdefghijklmnopqrstu","abcdefghijklmnopqrstuv",
+    "abcdefghijklmnopqrstuvw","abcdefghijklmnopqrstuvwx","abcdefghijklmnopqrstuvwxy","abcdefghijklmnopqrstuvwxyz","zyxwvutsrqponmlkjihgfedcba",
+    "yxwvutsrqponmlkjihgfedcba","xwvutsrqponmlkjihgfedcba","wvutsrqponmlkjihgfedcba","vutsrqponmlkjihgfedcba","utsrqponmlkjihgfedcba",
+    "tsrqponmlkjihgfedcba","srqponmlkjihgfedcba","rqponmlkjihgfedcba","qponmlkjihgfedcba","ponmlkjihgfedcba","onmlkjihgfedcba","nmlkjihgfedcba",
+    "mlkjihgfedcba","lkjihgfedcba"]
+console.log(maxProduct(words6)); // 0
