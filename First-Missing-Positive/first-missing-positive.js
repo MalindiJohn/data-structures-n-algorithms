@@ -2,23 +2,26 @@
  * @param {number[]} nums
  * @return {number}
  */
-var firstMissingPositive = function(nums) {
+var firstMissingPositive = function(A) {
 
-    let n = nums.length;
+    // handle scenario where there duplicate numbers i.e 1 in this array [1, 3, 6, 4, 1, 2]
+
+    let n = A.length;
+
     for (let i = 0; i < n; i++) {
-        while (nums[i] > 0 && nums[i] <= n && nums[nums[i] - 1] !== nums[i]) {
-            let temp = nums[nums[i] - 1];
-            nums[nums[i] - 1] = nums[i];
-            nums[i] = temp;
+        while (A[i] > 0 && A[i] <= n && A[A[i] - 1] !== A[i]) {
+            let temp = A[A[i] - 1];
+            A[A[i] - 1] = A[i];
+            A[i] = temp;
         }
     }
-    
+
     for (let i = 0; i < n; i++) {
-        if (nums[i] !== i + 1) {
+        if (A[i] !== i + 1) {
             return i + 1;
         }
     }
-    
+
     return n + 1;
     
 };
